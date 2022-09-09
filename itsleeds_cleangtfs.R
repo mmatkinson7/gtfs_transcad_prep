@@ -81,20 +81,6 @@ gtfs_read2 <- function(path){
     message("Unable to find conditionally required file: calendar_dates.txt")
   }
   
-  if(checkmate::test_file_exists(file.path(tmp_folder,"fare_attributes.txt"))){
-    gtfs$fare_attributes <- readr::read_csv(file.path(tmp_folder,"fare_attributes.txt"),
-                                            lazy = FALSE)
-  } else {
-    message_log <- c(message_log, "fare_attributes.txt")
-  }
-  
-  if(checkmate::test_file_exists(file.path(tmp_folder,"fare_rules.txt"))){
-    gtfs$fare_rules <- readr::read_csv(file.path(tmp_folder,"fare_rules.txt"),
-                                       lazy = FALSE)
-  } else {
-    message_log <- c(message_log, "fare_rules.txt")
-  }
-  
   if(checkmate::test_file_exists(file.path(tmp_folder,"shapes.txt"))){
     gtfs$shapes <- readr::read_csv(file.path(tmp_folder,"shapes.txt"),
                                    lazy = FALSE)
@@ -110,10 +96,59 @@ gtfs_read2 <- function(path){
   }
   
   if(checkmate::test_file_exists(file.path(tmp_folder,"levels.txt"))){
-    gtfs$transfers <- readr::read_csv(file.path(tmp_folder,"levels.txt"),
+    gtfs$levels <- readr::read_csv(file.path(tmp_folder,"levels.txt"),
                                       lazy = FALSE)
   } else {
-    message_log <- c(message_log, "Unable to find conditionally required file: levels.txt")
+    message_log <- c(message_log, "levels.txt")
+  }
+  
+  if(checkmate::test_file_exists(file.path(tmp_folder,"facilities.txt"))){
+    gtfs$facilities <- readr::read_csv(file.path(tmp_folder,"facilities.txt"),
+                                   lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "facilities.txt")
+  }
+  if(checkmate::test_file_exists(file.path(tmp_folder,"facilities_properties.txt"))){
+    gtfs$facilities_properties <- readr::read_csv(file.path(tmp_folder,"facilities_properties.txt"),
+                                       lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "facilities_properties.txt")
+  }
+  if(checkmate::test_file_exists(file.path(tmp_folder,"lines.txt"))){
+    gtfs$lines <- readr::read_csv(file.path(tmp_folder,"lines.txt"),
+                                                  lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "lines.txt")
+  }
+  if(checkmate::test_file_exists(file.path(tmp_folder,"multi_route_trips.txt"))){
+    gtfs$multi_route_trips <- readr::read_csv(file.path(tmp_folder,"multi_route_trips.txt"),
+                                  lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "multi_route_trips.txt")
+  }
+  if(checkmate::test_file_exists(file.path(tmp_folder,"pathways.txt"))){
+    gtfs$pathways <- readr::read_csv(file.path(tmp_folder,"pathways.txt"),
+                                              lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "pathways.txt")
+  }
+  if(checkmate::test_file_exists(file.path(tmp_folder,"route_patterns.txt"))){
+    gtfs$route_patterns <- readr::read_csv(file.path(tmp_folder,"route_patterns.txt"),
+                                     lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "route_patterns.txt")
+  }
+  if(checkmate::test_file_exists(file.path(tmp_folder,"calendar_attributes.txt"))){
+    gtfs$calendar_attributes <- readr::read_csv(file.path(tmp_folder,"calendar_attributes.txt"),
+                                                lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "calendar_attributes.txt")
+  }
+  if(checkmate::test_file_exists(file.path(tmp_folder,"directions.txt"))){
+    gtfs$directions <- readr::read_csv(file.path(tmp_folder,"directions.txt"),
+                                       lazy = FALSE)
+  } else {
+    message_log <- c(message_log, "directions.txt")
   }
   
   unlink(tmp_folder, recursive = TRUE)
@@ -127,7 +162,7 @@ gtfs_read2 <- function(path){
 }
 
 
-mbta18 <- gtfs_read("J:\\My Drive\\gtfs_to_transcad\\GTFS_Recap_-_Fall_2018.zip")
+mbta18 <- gtfs_read2("J:\\My Drive\\gtfs_to_transcad\\GTFS_Recap_-_Fall_2018.zip")
 problems(mbta18$stops)
 
 gtfs_clean2 <- function(gtfs) {
@@ -143,19 +178,6 @@ gtfs_clean2 <- function(gtfs) {
   gtfs$routes$agency_id[gtfs$routes$agency_id == ""] <- "MISSINGAGENCY"
   gtfs$agency$agency_name[gtfs$agency$agency_name == ""] <- "MISSINGAGENCY"
   
-  # Replace dates and times with GTFS approved format (the GTFS importer transforms the data formats)
-  gtfs$stop_times <- transform(gtfs$stop_times, 
-                                arrival_time = hms::as_hms(period_to_seconds(arrival_time)),
-                                departure_time = hms::as_hms(period_to_seconds(departure_time))
-  )
-  
-  gtfs$calendar <- transform(gtfs$calendar, 
-                              end_date = as.numeric(strftime(end_date,'%Y%m%d')),
-                              start_date = as.numeric(strftime(start_date,'%Y%m%d'))
-  )
-  gtfs$calendar_dates <- transform(gtfs$calendar_dates, 
-                                    date = as.numeric(strftime(date,'%Y%m%d'))
-  )
   
   # filter out problematic stops from multiple files
   gtfs$stops$parent_station <-unlist(lapply(gtfs$stops$parent_station, 
@@ -164,7 +186,12 @@ gtfs_clean2 <- function(gtfs) {
                                                function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
   gtfs$transfers$to_stop_id <-unlist(lapply(gtfs$transfers$to_stop_id, 
                                              function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
+  gtfs$pathways$from_stop_id <-unlist(lapply(gtfs$pathways$from_stop_id, 
+                                              function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
+  gtfs$pathways$to_stop_id <-unlist(lapply(gtfs$pathways$to_stop_id, 
+                                            function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
   gtfs$transfers <- gtfs$transfers %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
+  gtfs$pathways <- gtfs$pathways %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
   
   # if duplicate distance in same trip, remove
   gtfs$stop_times <- gtfs$stop_times %>%
@@ -175,10 +202,7 @@ gtfs_clean2 <- function(gtfs) {
   return(gtfs)
 }
 
-
-
 mbta18_clean <- gtfs_clean2(mbta18)
-
 
 
 write.table(mbta18_clean$stop_times, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/stop_times.txt",na="",sep=",",row.names = FALSE)
@@ -191,4 +215,21 @@ write.table(mbta18_clean$calendar_dates, file="J:/My Drive/gtfs_to_transcad/mbta
 write.table(mbta18_clean$shapes, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/shapes.txt",na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$transfers, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/transfers.txt",na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$levels, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/levels.txt",na="",sep=",",row.names = FALSE)
+
+write.table(mbta18_clean$facilities_properties, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/facilities_properties.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$lines, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/lines.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$multi_route_trips, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/multi_route_trips.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$pathways, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/pathways.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$route_patterns, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/route_patterns.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$facilities, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/facilities.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$directions, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/directions.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$calendar_attributes, 
+            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/calendar_attributes.txt",na="",sep=",",row.names = FALSE)
 
