@@ -7,6 +7,7 @@ library(readr)
 
 #https://github.com/ITSLeeds/UK2GTFS/tree/0ecf4243a211aaa0520c948716612592867e03f5
 setwd("J:/My Drive/gtfs_to_transcad")
+out_folder <- "J:/My Drive/gtfs_to_transcad/mbta2018_its_clean"
 
 
 gtfs_read2 <- function(path){
@@ -162,7 +163,7 @@ gtfs_read2 <- function(path){
 }
 
 
-mbta18 <- gtfs_read2("J:\\My Drive\\gtfs_to_transcad\\GTFS_Recap_-_Fall_2018.zip")
+mbta18 <- gtfs_read2(paste0(getwd(),"/GTFS_Recap_-_Fall_2018.zip"))
 problems(mbta18$stops)
 
 gtfs_clean2 <- function(gtfs) {
@@ -193,11 +194,16 @@ gtfs_clean2 <- function(gtfs) {
   gtfs$transfers <- gtfs$transfers %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
   gtfs$pathways <- gtfs$pathways %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
   
-  # if duplicate distance in same trip, remove
-  gtfs$stop_times <- gtfs$stop_times %>%
-    group_by(trip_id, shape_dist_traveled) %>%
-    filter(stop_sequence == min(stop_sequence)) %>%
-    distinct
+  # remove shape_dist_traveled field - inconsistent, incorrect, and causes error. Not needed.
+  gtfs$stop_times <- gtfs$stop_times %>% select(-shape_dist_traveled)
+  
+  # choose only weekday schedules in all three calendar tables
+  gtfs$calendar_attributes <- gtfs$calendar_attributes %>% 
+    filter(service_description == "Weekday schedule" &
+             service_schedule_name == "Weekday" &
+             service_schedule_type == "Weekday")
+  
+  gtfs$calendar <- gtfs$calendar %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
   
   return(gtfs)
 }
@@ -205,31 +211,31 @@ gtfs_clean2 <- function(gtfs) {
 mbta18_clean <- gtfs_clean2(mbta18)
 
 
-write.table(mbta18_clean$stop_times, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/stop_times.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$stops, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/stops.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$agency, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/agency.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$routes, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/routes.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$trips, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/trips.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$calendar, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/calendar.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$calendar_dates, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/calendar_dates.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$shapes, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/shapes.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$transfers, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/transfers.txt",na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$levels, file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/levels.txt",na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$stop_times, file=paste0(out_folder,"/stop_times.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$stops, file=paste0(out_folder,"/stops.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$agency, file=paste0(out_folder,"/agency.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$routes, file=paste0(out_folder,"/routes.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$trips, file=paste0(out_folder,"/trips.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$calendar, file=paste0(out_folder,"/calendar.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$calendar_dates, file=paste0(out_folder,"/calendar_dates.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$shapes, file=paste0(out_folder,"/shapes.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$transfers, file=paste0(out_folder,"/transfers.txt"),na="",sep=",",row.names = FALSE)
+write.table(mbta18_clean$levels, file=paste0(out_folder,"/levels.txt"),na="",sep=",",row.names = FALSE)
 
 write.table(mbta18_clean$facilities_properties, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/facilities_properties.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/facilities_properties.txt"),na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$lines, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/lines.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/lines.txt"),na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$multi_route_trips, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/multi_route_trips.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/multi_route_trips.txt"),na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$pathways, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/pathways.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/pathways.txt"),na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$route_patterns, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/route_patterns.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/route_patterns.txt"),na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$facilities, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/facilities.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/facilities.txt"),na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$directions, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/directions.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/directions.txt"),na="",sep=",",row.names = FALSE)
 write.table(mbta18_clean$calendar_attributes, 
-            file="J:/My Drive/gtfs_to_transcad/mbta2018_its_clean/calendar_attributes.txt",na="",sep=",",row.names = FALSE)
+            file=paste0(out_folder,"/calendar_attributes.txt"),na="",sep=",",row.names = FALSE)
 
