@@ -8,6 +8,7 @@ library(readr)
 #https://github.com/ITSLeeds/UK2GTFS/tree/0ecf4243a211aaa0520c948716612592867e03f5
 setwd("J:/My Drive/gtfs_to_transcad")
 out_folder <- "J:/My Drive/gtfs_to_transcad/mbta2018_its_clean"
+dates <- c("20181022","20181023","20181024","20181025","20181026")
 
 
 gtfs_read2 <- function(path){
@@ -204,7 +205,13 @@ gtfs_clean2 <- function(gtfs) {
              service_schedule_type == "Weekday")
   
   gtfs$calendar <- gtfs$calendar %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
+  gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
   
+  # if want to filter out dates too: 
+  gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(date %in% dates)
+  
+  #filter out trips for cleanliness
+  gtfs$trips <- gtfs$trips %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
   return(gtfs)
 }
 
