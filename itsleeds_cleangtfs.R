@@ -7,8 +7,8 @@ library(readr)
 
 #https://github.com/ITSLeeds/UK2GTFS/tree/0ecf4243a211aaa0520c948716612592867e03f5
 setwd("J:/My Drive/gtfs_to_transcad")
-out_folder <- "J:/My Drive/gtfs_to_transcad/mbta2018_its_clean"
-dates <- c("20181022","20181023","20181024","20181025","20181026")
+out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\mbta2018_102418"
+dates <- c("20181024")
 
 
 gtfs_read2 <- function(path){
@@ -212,6 +212,7 @@ gtfs_clean2 <- function(gtfs) {
   
   #filter out trips for cleanliness
   gtfs$trips <- gtfs$trips %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
+  gtfs$stop_times <- gtfs$stop_times %>% filter(trip_id %in% gtfs$trips$trip_id)
   return(gtfs)
 }
 
