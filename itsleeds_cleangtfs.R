@@ -7,7 +7,7 @@ library(readr)
 
 #https://github.com/ITSLeeds/UK2GTFS/tree/0ecf4243a211aaa0520c948716612592867e03f5
 setwd("J:/My Drive/gtfs_to_transcad")
-out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\mbta2018_102418"
+out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\Nov11_Sandbox\\mbta2018_102418_20221108"
 dates <- c("20181024")
 
 
@@ -207,11 +207,24 @@ gtfs_clean2 <- function(gtfs) {
   gtfs$calendar <- gtfs$calendar %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
   gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
   
+
   # if want to filter out dates too: 
   gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(date %in% dates)
+  drops <- gtfs$calendar_dates %>% 
+    filter(exception_type == 2) %>% 
+    select(service_id)
+  
+  if (length(dates) == 1){
+    gtfs$calendar <- gtfs$calendar %>% 
+      filter(!((start_date > dates | end_date < dates) & (grepl("BUS",service_id)))) %>%
+      filter(!(service_id %in% drops))
+      
+    gtfs$calendar$start_date <- dates
+    gtfs$calendar$end_date <- dates
+  }
   
   #filter out trips for cleanliness
-  gtfs$trips <- gtfs$trips %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
+  gtfs$trips <- gtfs$trips %>% filter(service_id %in% gtfs$calendar$service_id)
   gtfs$stop_times <- gtfs$stop_times %>% filter(trip_id %in% gtfs$trips$trip_id)
   return(gtfs)
 }

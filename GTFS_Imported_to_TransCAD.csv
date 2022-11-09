@@ -1,0 +1,1261 @@
+Route_ID,Route_Name,Route,Short Name,Long Name,Description,Mode,Trip,Sign,Service,Length,Direction
+1,170-F-1,170,170,Waltham - Dudley,Commuter Bus,3,38173968,Waltham Central Square (Express),BUS42018-hba48011-Weekday-02,20.8165,F
+2,170-R-1,170,170,Waltham - Dudley,Commuter Bus,3,38174309,Dudley (Express),BUS42018-hba48011-Weekday-02,20.4348,R
+3,23-R-1,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38175312_1,Watertown Yard via Dudley,BUS42018-hba48011-Weekday-02,0.965417,R
+4,4-F-1,4,4,North Station - Tide Street,Commuter Bus,3,38174928,North Station,BUS42018-hba48011-Weekday-02,2.31999,F
+5,4-F-2,4,4,North Station - Tide Street,Commuter Bus,3,38174920,North Station via South Station,BUS42018-hba48011-Weekday-02,3.02948,F
+6,4-R-1,4,4,North Station - Tide Street,Commuter Bus,3,38174936,Tide St,BUS42018-hba48011-Weekday-02,2.59074,R
+7,4-R-2,4,4,North Station - Tide Street,Commuter Bus,3,38174944,Tide St via South Station,BUS42018-hba48011-Weekday-02,3.26423,R
+8,44-F-1,44,44,Jackson Square - Ruggles,Local Bus,3,38174867,Jackson Square,BUS42018-hba48011-Weekday-02,1.66533,F
+9,501-F-1,501,501,Brighton - Downtown Boston,Commuter Bus,3,38174477,Brighton Center (Express),BUS42018-hba48011-Weekday-02,6.47022,F
+10,501-F-2,501,501,Brighton - Downtown Boston,Commuter Bus,3,38174505,Brighton Center (Express),BUS42018-hba48011-Weekday-02,9.93512,F
+11,501-R-1,501,501,Brighton - Downtown Boston,Commuter Bus,3,38174498,Downtown (Express),BUS42018-hba48011-Weekday-02,6.23997,R
+12,501-R-2,501,501,Brighton - Downtown Boston,Commuter Bus,3,38174169,Downtown (Express),BUS42018-hba48011-Weekday-02,9.52173,R
+13,502-F-1,502,502,Watertown Yard - Copley,Commuter Bus,3,38173955,Watertown (Express),BUS42018-hba48011-Weekday-02,6.83902,F
+14,502-R-1,502,502,Watertown Yard - Copley,Commuter Bus,3,38174170,Copley (Express),BUS42018-hba48011-Weekday-02,7.05395,R
+15,503-F-1,503,503,Brighton - Copley,Commuter Bus,3,38174240,Brighton Center via Cambridge St (Express),BUS42018-hba48011-Weekday-02,4.94626,F
+16,503-F-2,503,503,Brighton - Copley,Commuter Bus,3,38174296,Brighton Center (Express),BUS42018-hba48011-Weekday-02,8.41117,F
+17,503-R-1,503,503,Brighton - Copley,Commuter Bus,3,38174302,Copley (Express),BUS42018-hba48011-Weekday-02,4.884,R
+18,503-R-2,503,503,Brighton - Copley,Commuter Bus,3,38174232,Copley (Express),BUS42018-hba48011-Weekday-02,8.16575,R
+19,504-F-1,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38174223,Watertown (Express),BUS42018-hba48011-Weekday-02,8.36298,F
+20,504-F-2,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38174494,Watertown via Copley (Express),BUS42018-hba48011-Weekday-02,8.3459,F
+21,504-R-1,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38174483,Downtown (Express),BUS42018-hba48011-Weekday-02,8.40992,R
+22,504-R-2,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38174484,Downtown via Copley (Express),BUS42018-hba48011-Weekday-02,8.39316,R
+23,505-F-1,505,505,Waltham Center - Downtown Boston,Commuter Bus,3,38173992,Waltham Central Square (Express),BUS42018-hba48011-Weekday-02,13.3486,F
+24,505-F-2,505,505,Waltham Center - Downtown Boston,Commuter Bus,3,38173974,Waltham Central Square (Express),BUS42018-hba48011-Weekday-02,13.8808,F
+25,505-R-1,505,505,Waltham Center - Downtown Boston,Commuter Bus,3,38173975,Downtown (Express),BUS42018-hba48011-Weekday-02,13.3736,R
+26,505-R-2,505,505,Waltham Center - Downtown Boston,Commuter Bus,3,38173991,Downtown (Express),BUS42018-hba48011-Weekday-02,13.9057,R
+27,553-F-1,553,553,Roberts - Downtown Boston,Local Bus,3,38174229,Waltham via Copley (Express),BUS42018-hba48011-Weekday-02,12.3443,F
+28,553-F-2,553,553,Roberts - Downtown Boston,Local Bus,3,38173971,Roberts (Express),BUS42018-hba48011-Weekday-02,15.0465,F
+29,553-R-1,553,553,Roberts - Downtown Boston,Local Bus,3,38173953,Downtown via Copley (Express),BUS42018-hba48011-Weekday-02,13.0086,R
+30,553-R-2,553,553,Roberts - Downtown Boston,Local Bus,3,38174010,Newton Corner,BUS42018-hba48011-Weekday-02,7.55479,R
+31,553-R-3,553,553,Roberts - Downtown Boston,Local Bus,3,38174023,Downtown (Express),BUS42018-hba48011-Weekday-02,15.4396,R
+32,554-F-1,554,554,Waverley Square - Downtown Boston,Local Bus,3,38173969,Waverley (Express),BUS42018-hba48011-Weekday-02,16.5191,F
+33,554-F-2,554,554,Waverley Square - Downtown Boston,Local Bus,3,38174054,Waverley via Trapelo Rd (Express),BUS42018-hba48011-Weekday-02,18.8578,F
+34,554-R-1,554,554,Waverley Square - Downtown Boston,Local Bus,3,38174043,Downtown (Express),BUS42018-hba48011-Weekday-02,17.1427,R
+35,554-R-2,554,554,Waverley Square - Downtown Boston,Local Bus,3,38173970,Downtown via Trapelo Rd (Express),BUS42018-hba48011-Weekday-02,19.4814,R
+36,556-F-1,556,556,Waltham Highlands - Downtown Boston,Commuter Bus,3,38174040,Waltham Highlands,BUS42018-hba48011-Weekday-02,5.28931,F
+37,556-F-2,556,556,Waltham Highlands - Downtown Boston,Commuter Bus,3,38173972,Waltham Highlands (Express),BUS42018-hba48011-Weekday-02,13.2818,F
+38,556-R-1,556,556,Waltham Highlands - Downtown Boston,Commuter Bus,3,38174039,Newton Corner,BUS42018-hba48011-Weekday-02,5.35051,R
+39,556-R-2,556,556,Waltham Highlands - Downtown Boston,Commuter Bus,3,38173973,Downtown (Express),BUS42018-hba48011-Weekday-02,13.2353,R
+40,558-F-1,558,558,Riverside - Downtown Boston,Commuter Bus,3,38174107,Riverside,BUS42018-hba48011-Weekday-02,8.33581,F
+41,558-F-2,558,558,Riverside - Downtown Boston,Commuter Bus,3,38174032,Riverside (Express),BUS42018-hba48011-Weekday-02,16.3283,F
+42,558-R-1,558,558,Riverside - Downtown Boston,Commuter Bus,3,38174106,Newton Corner,BUS42018-hba48011-Weekday-02,8.11605,R
+43,558-R-2,558,558,Riverside - Downtown Boston,Commuter Bus,3,38174112,Downtown (Express),BUS42018-hba48011-Weekday-02,16.0009,R
+44,57-F-1,57,57,Watertown Yard - Kenmore,Key Bus,3,38175312_3,Watertown Yard,BUS42018-hba48011-Weekday-02,3.13766,F
+45,57-F-2,57,57,Watertown Yard - Kenmore,Key Bus,3,38174178,Watertown Yard,BUS42018-hba48011-Weekday-02,5.87034,F
+46,57-F-3,57,57,Watertown Yard - Kenmore,Key Bus,3,38174685,Watertown Yard,BUS42018-hba48011-Weekday-02,5.41287,F
+47,57-F-4,57,57,Watertown Yard - Kenmore,Key Bus,3,38174684,Watertown via Kenmore,BUS42018-hba48011-Weekday-02,8.34529,F
+48,57-R-1,57,57,Watertown Yard - Kenmore,Key Bus,3,38174216,Kenmore,BUS42018-hba48011-Weekday-02,2.60209,R
+49,57-R-2,57,57,Watertown Yard - Kenmore,Key Bus,3,38173946,Kenmore,BUS42018-hba48011-Weekday-02,5.71015,R
+50,57-R-3,57,57,Watertown Yard - Kenmore,Key Bus,3,38174782,Haymarket via Kenmore,BUS42018-hba48011-Weekday-02,8.52812,R
+51,57A-F-1,57A,57A,Oak Square - Kenmore,Local Bus,3,38174695,Oak Square,BUS42018-hba48011-Weekday-02,3.87235,F
+52,57A-R-1,57A,57A,Oak Square - Kenmore,Local Bus,3,38174763,Kenmore,BUS42018-hba48011-Weekday-02,3.79307,R
+53,59-F-1,59,59,Needham Junction - Watertown Square,Local Bus,3,38174829,Needham Junction via Needham St,BUS42018-hba48011-Weekday-02,8.88449,F
+54,59-F-2,59,59,Needham Junction - Watertown Square,Local Bus,3,38174820,Needham Junction,BUS42018-hba48011-Weekday-02,8.88118,F
+55,59-R-1,59,59,Needham Junction - Watertown Square,Local Bus,3,38174821,Watertown Square via Needham St,BUS42018-hba48011-Weekday-02,8.88449,R
+56,59-R-2,59,59,Needham Junction - Watertown Square,Local Bus,3,38174823,Watertown Square,BUS42018-hba48011-Weekday-02,8.88118,R
+57,60-F-1,60,60,Chestnut Hill - Kenmore,Local Bus,3,38174340,Chestnut Hill Mall,BUS42018-hba48011-Weekday-02,5.53108,F
+58,60-F-2,60,60,Chestnut Hill - Kenmore,Local Bus,3,38174343,Chestnut Hill Mall,BUS42018-hba48011-Weekday-02,5.71798,F
+59,60-F-3,60,60,Chestnut Hill - Kenmore,Local Bus,3,38174409,Chestnut Hill Mall,BUS42018-hba48011-Weekday-02,7.06562,F
+60,60-R-1,60,60,Chestnut Hill - Kenmore,Local Bus,3,38174404,Kenmore,BUS42018-hba48011-Weekday-02,4.87127,R
+61,60-R-2,60,60,Chestnut Hill - Kenmore,Local Bus,3,38174341,Kenmore,BUS42018-hba48011-Weekday-02,6.2189,R
+62,65-F-1,65,65,Brighton - Kenmore,Local Bus,3,38174350,Brighton Center,BUS42018-hba48011-Weekday-02,4.27089,F
+63,65-R-1,65,65,Brighton - Kenmore,Local Bus,3,38174356,Kenmore,BUS42018-hba48011-Weekday-02,4.1018,R
+64,66-F-1,66,66,Harvard - Dudley via Allston,Key Bus,3,38175312_2,Watertown Yard via Union Square Allston,BUS42018-hba48011-Weekday-02,3.93225,F
+65,66-F-2,66,66,Harvard - Dudley via Allston,Key Bus,3,38174175,Brighton Center via Brookline,BUS42018-hba48011-Weekday-02,4.85075,F
+66,701-F-1,701,CT1,"Central Square, Cambridge - Boston Medical Center",Local Bus,3,38174120,Central Square (Limited Stops),BUS42018-hba48011-Weekday-02,3.27629,F
+67,701-R-1,701,CT1,"Central Square, Cambridge - Boston Medical Center",Local Bus,3,38174273,Boston Medical Center (Limited Stops),BUS42018-hba48011-Weekday-02,3.46001,R
+68,701-R-2,701,CT1,"Central Square, Cambridge - Boston Medical Center",Local Bus,3,38174121,Boston Medical Center (Limited Stops),BUS42018-hba48011-Weekday-02,3.12398,R
+69,708-F-1,708,CT3,Beth Israel Deaconess or Boston Medical Center - Andrew,Local Bus,3,38174633,Boston Medical Center (Limited Stops),BUS42018-hba48011-Weekday-02,1.17769,F
+70,708-F-2,708,CT3,Beth Israel Deaconess or Boston Medical Center - Andrew,Local Bus,3,38174142,Beth Israel (Limited Stops),BUS42018-hba48011-Weekday-02,4.16993,F
+71,708-F-3,708,CT3,Beth Israel Deaconess or Boston Medical Center - Andrew,Local Bus,3,38174152,Beth Israel (Limited Stops),BUS42018-hba48011-Weekday-02,4.10501,F
+72,708-R-1,708,CT3,Beth Israel Deaconess or Boston Medical Center - Andrew,Local Bus,3,38174641,Andrew (Limited Stops),BUS42018-hba48011-Weekday-02,1.44611,R
+73,708-R-2,708,CT3,Beth Israel Deaconess or Boston Medical Center - Andrew,Local Bus,3,38174146,Andrew (Limited Stops),BUS42018-hba48011-Weekday-02,4.31747,R
+74,708-R-3,708,CT3,Beth Israel Deaconess or Boston Medical Center - Andrew,Local Bus,3,38174145,Andrew (Limited Stops),BUS42018-hba48011-Weekday-02,4.47931,R
+75,747-F-1,747,CT2,Sullivan - Ruggles,Local Bus,3,38174179,Sullivan (Limited Stops),BUS42018-hba48011-Weekday-02,6.36722,F
+76,747-R-1,747,CT2,Sullivan - Ruggles,Local Bus,3,38174180,Ruggles (Limited Stops),BUS42018-hba48011-Weekday-02,6.75557,R
+77,8-F-1,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38174868,Dudley,BUS42018-hba48011-Weekday-02,3.36714,F
+78,14-F-1,14,14,Roslindale Square - Heath Street,Local Bus,3,38486976,Dudley,BUS42018-hbb48011-Weekday-02,2.0314,F
+79,14-F-2,14,14,Roslindale Square - Heath Street,Local Bus,3,38487010,Roslindale Square,BUS42018-hbb48011-Weekday-02,6.3728,F
+80,14-F-3,14,14,Roslindale Square - Heath Street,Local Bus,3,38486977,Roslindale Square,BUS42018-hbb48011-Weekday-02,8.4042,F
+81,14-R-1,14,14,Roslindale Square - Heath Street,Local Bus,3,38486978,Heath St,BUS42018-hbb48011-Weekday-02,8.4084,R
+82,15-F-1,15,15,Kane Square - Ruggles,Key Bus,3,38486669,Mattapan via Dudley & Fields Corner,BUS42018-hbb48011-Weekday-02,9.72736,F
+83,15-R-1,15,15,Kane Square - Ruggles,Key Bus,3,38486668,Haymarket via Dudley & Fields Corner,BUS42018-hbb48011-Weekday-02,9.4123,R
+84,195-R-1,195,195,Shattuck Hospital - Downtown Boston,Supplemental Bus,3,38487244,Downtown via Park St,BUS42018-hbb48011-Weekday-02,6.08688,R
+85,21-F-1,21,21,Ashmont - Forest Hills,Local Bus,3,38487309,Ashmont,BUS42018-hbb48011-Weekday-02,3.62534,F
+86,21-R-1,21,21,Ashmont - Forest Hills,Local Bus,3,38487950_1,Avenue Louis Pasteur via Forest Hills,BUS42018-hbb48011-Weekday-02,3.77992,R
+87,21-R-2,21,21,Ashmont - Forest Hills,Local Bus,3,38487575,Forest Hills,BUS42018-hbb48011-Weekday-02,3.64017,R
+88,24-F-1,24,24,Wakefield Avenue & Truman Parkway - Mattapan or Ashmont,Local Bus,3,38486140,Wakefield Ave,BUS42018-hbb48011-Weekday-02,2.28809,F
+89,24-F-2,24,24,Wakefield Avenue & Truman Parkway - Mattapan or Ashmont,Local Bus,3,38485763,Wakefield Ave,BUS42018-hbb48011-Weekday-02,4.0773,F
+90,24-R-1,24,24,Wakefield Avenue & Truman Parkway - Mattapan or Ashmont,Local Bus,3,38486670,Mattapan,BUS42018-hbb48011-Weekday-02,1.98827,R
+91,24-R-2,24,24,Wakefield Avenue & Truman Parkway - Mattapan or Ashmont,Local Bus,3,38485764,Mattapan,BUS42018-hbb48011-Weekday-02,3.10217,R
+92,2427-F-1,2427,24/27,Wakefield Avenue & Truman Parkway - Ashmont,Local Bus,3,38486684,Wakefield Ave,BUS42018-hbb48011-Weekday-02,6.31394,F
+93,2427-R-1,2427,24/27,Wakefield Avenue & Truman Parkway - Ashmont,Local Bus,3,38486683,Ashmont,BUS42018-hbb48011-Weekday-02,5.33881,R
+94,26-F-1,26,26,Ashmont - Gallivan Boulevard,Local Bus,3,38486297,Ashmont via Washington St,BUS42018-hbb48011-Weekday-02,1.89889,F
+95,26-F-2,26,26,Ashmont - Gallivan Boulevard,Local Bus,3,38486249,Ashmont via Norfolk St,BUS42018-hbb48011-Weekday-02,2.59519,F
+96,26-R-1,26,26,Ashmont - Gallivan Boulevard,Local Bus,3,38486248,Gallivan Blvd via Washington St,BUS42018-hbb48011-Weekday-02,1.40599,R
+97,26-R-2,26,26,Ashmont - Gallivan Boulevard,Local Bus,3,38486296,Gallivan Blvd via Norfolk St,BUS42018-hbb48011-Weekday-02,2.11037,R
+98,27-F-1,27,27,Mattapan - Ashmont,Local Bus,3,38487012,Mattapan,BUS42018-hbb48011-Weekday-02,2.23664,F
+99,27-R-1,27,27,Mattapan - Ashmont,Local Bus,3,38487011,Ashmont,BUS42018-hbb48011-Weekday-02,2.23664,R
+100,28-F-1,28,28,Mattapan - Ruggles,Key Bus,3,38486137,Mattapan,BUS42018-hbb48011-Weekday-02,7.13615,F
+101,29-F-1,29,29,Mattapan - Jackson Square,Local Bus,3,38485766,Mattapan,BUS42018-hbb48011-Weekday-02,4.55919,F
+102,29-F-2,29,29,Mattapan - Jackson Square,Local Bus,3,38485775,Mattapan via Franklin Field,BUS42018-hbb48011-Weekday-02,5.09918,F
+103,29-F-3,29,29,Mattapan - Jackson Square,Local Bus,3,38485797,Mattapan,BUS42018-hbb48011-Weekday-02,5.74357,F
+104,29-R-1,29,29,Mattapan - Jackson Square,Local Bus,3,38485765,Jackson,BUS42018-hbb48011-Weekday-02,4.33193,R
+105,29-R-2,29,29,Mattapan - Jackson Square,Local Bus,3,38485771,Jackson via Franklin Field,BUS42018-hbb48011-Weekday-02,4.84406,R
+106,29-R-3,29,29,Mattapan - Jackson Square,Local Bus,3,38485803,Ruggles,BUS42018-hbb48011-Weekday-02,5.66692,R
+107,30-F-1,30,30,Mattapan - Forest Hills via Roslindale Square,Local Bus,3,38487952_2,Ashmont via Mattapan,BUS42018-hbb48011-Weekday-02,2.75959,F
+108,30-F-2,30,30,Mattapan - Forest Hills via Roslindale Square,Local Bus,3,38485822,Mattapan,BUS42018-hbb48011-Weekday-02,4.09511,F
+109,30-R-1,30,30,Mattapan - Forest Hills via Roslindale Square,Local Bus,3,38487953_2,Millennium Park via Roslindale Square,BUS42018-hbb48011-Weekday-02,2.35206,R
+110,30-R-2,30,30,Mattapan - Forest Hills via Roslindale Square,Local Bus,3,38485823,Forest Hills,BUS42018-hbb48011-Weekday-02,3.55379,R
+111,31-F-1,31,31,Mattapan - Forest Hills via Morton Street,Local Bus,3,38487306,Mattapan,BUS42018-hbb48011-Weekday-02,3.28516,F
+112,31-R-1,31,31,Mattapan - Forest Hills via Morton Street,Local Bus,3,38487304,Forest Hills,BUS42018-hbb48011-Weekday-02,3.05988,R
+113,32-F-1,32,32,Wolcott Square - Forest Hills,Key Bus,3,38485856,Cleary Square,BUS42018-hbb48011-Weekday-02,3.25309,F
+114,32-F-2,32,32,Wolcott Square - Forest Hills,Key Bus,3,38485973,Wolcott Square,BUS42018-hbb48011-Weekday-02,4.57545,F
+115,32-F-3,32,32,Wolcott Square - Forest Hills,Key Bus,3,38487932,Wolcott Square,BUS42018-hbb48011-Weekday-02,5.2643,F
+116,32-F-4,32,32,Wolcott Square - Forest Hills,Key Bus,3,38486234,Wolcott Square,BUS42018-hbb48011-Weekday-02,7.5111,F
+117,32-R-1,32,32,Wolcott Square - Forest Hills,Key Bus,3,38485855,Forest Hills,BUS42018-hbb48011-Weekday-02,3.25293,R
+118,32-R-2,32,32,Wolcott Square - Forest Hills,Key Bus,3,38485960_1,Avenue Louis Pasteur via Forest Hills,BUS42018-hbb48011-Weekday-02,4.58242,R
+119,32-R-3,32,32,Wolcott Square - Forest Hills,Key Bus,3,38485974,Forest Hills,BUS42018-hbb48011-Weekday-02,4.57528,R
+120,32-R-4,32,32,Wolcott Square - Forest Hills,Key Bus,3,38487933,Forest Hills,BUS42018-hbb48011-Weekday-02,5.39304,R
+121,32-R-5,32,32,Wolcott Square - Forest Hills,Key Bus,3,38486695,Townsend & Humboldt,BUS42018-hbb48011-Weekday-02,7.59418,R
+122,3233-F-1,3233,32/33,"River Street & Milton Street, Dedham - Forest Hills",Supplemental Bus,3,38485858,River & Milton via Cleary Sq,BUS42018-hbb48011-Weekday-02,5.54969,F
+123,33-F-1,33,33,"River Street & Milton Street, Dedham - Mattapan",Local Bus,3,38485874,River St & Milton St,BUS42018-hbb48011-Weekday-02,5.15837,F
+124,33-F-2,33,33,"River Street & Milton Street, Dedham - Mattapan",Local Bus,3,38485860,River St & Milton St,BUS42018-hbb48011-Weekday-02,5.77614,F
+125,33-F-3,33,33,"River Street & Milton Street, Dedham - Mattapan",Local Bus,3,38485887,River St & Milton St,BUS42018-hbb48011-Weekday-02,6.00031,F
+126,33-R-1,33,33,"River Street & Milton Street, Dedham - Mattapan",Local Bus,3,38485884,Forest Hills,BUS42018-hbb48011-Weekday-02,5.53652,R
+127,33-R-2,33,33,"River Street & Milton Street, Dedham - Mattapan",Local Bus,3,38485859,Mattapan,BUS42018-hbb48011-Weekday-02,5.31824,R
+128,33-R-3,33,33,"River Street & Milton Street, Dedham - Mattapan",Local Bus,3,38485875,Mattapan,BUS42018-hbb48011-Weekday-02,5.96219,R
+129,33-R-4,33,33,"River Street & Milton Street, Dedham - Mattapan",Local Bus,3,38487931,Mattapan,BUS42018-hbb48011-Weekday-02,6.18637,R
+130,34-F-1,34,34,Dedham Line - Forest Hills,Local Bus,3,38486835,Dedham Line,BUS42018-hbb48011-Weekday-02,4.45734,F
+131,34-F-2,34,34,Dedham Line - Forest Hills,Local Bus,3,38486236,Dedham Line,BUS42018-hbb48011-Weekday-02,7.53274,F
+132,34-R-1,34,34,Dedham Line - Forest Hills,Local Bus,3,38486123,Forest Hills,BUS42018-hbb48011-Weekday-02,4.54968,R
+133,34-R-2,34,34,Dedham Line - Forest Hills,Local Bus,3,38486671,Townsend & Humboldt,BUS42018-hbb48011-Weekday-02,7.66939,R
+134,34E-F-1,34E,34E,Walpole - Forest Hills,Local Bus,3,38485920,Walpole Center via Dedham Mall,BUS42018-hbb48011-Weekday-02,14.589,F
+135,34E-F-2,34E,34E,Walpole - Forest Hills,Local Bus,3,38485914,Walpole Center via Walpole St,BUS42018-hbb48011-Weekday-02,13.1407,F
+136,34E-F-3,34E,34E,Walpole - Forest Hills,Local Bus,3,38485948,Walpole Center via Walpole St,BUS42018-hbb48011-Weekday-02,14.2171,F
+137,34E-F-4,34E,34E,Walpole - Forest Hills,Local Bus,3,38486745,East Walpole via Dedham Mall,BUS42018-hbb48011-Weekday-02,12.944,F
+138,34E-F-5,34E,34E,Walpole - Forest Hills,Local Bus,3,38486406,East Walpole,BUS42018-hbb48011-Weekday-02,11.4957,F
+139,34E-F-6,34E,34E,Walpole - Forest Hills,Local Bus,3,38485900,Walpole Center via Dedham Mall,BUS42018-hbb48011-Weekday-02,15.2129,F
+140,34E-F-7,34E,34E,Walpole - Forest Hills,Local Bus,3,38485853,Walpole Center (Express to LaGrange St),BUS42018-hbb48011-Weekday-02,13.7646,F
+141,34E-F-8,34E,34E,Walpole - Forest Hills,Local Bus,3,38485902,Walpole Center via Dedham Mall,BUS42018-hbb48011-Weekday-02,16.2894,F
+142,34E-F-9,34E,34E,Walpole - Forest Hills,Local Bus,3,38485944,Walpole Center,BUS42018-hbb48011-Weekday-02,14.5451,F
+143,34E-R-1,34E,34E,Walpole - Forest Hills,Local Bus,3,38485854,Forest Hills via Dedham Mall & Walpole St,BUS42018-hbb48011-Weekday-02,14.6247,R
+144,34E-R-2,34E,34E,Walpole - Forest Hills,Local Bus,3,38486407,Forest Hills,BUS42018-hbb48011-Weekday-02,11.4985,R
+145,34E-R-3,34E,34E,Walpole - Forest Hills,Local Bus,3,38486970,Forest Hills via Dedham Mall,BUS42018-hbb48011-Weekday-02,13.0367,R
+146,34E-R-4,34E,34E,Walpole - Forest Hills,Local Bus,3,38486738,Forest Hills via Dedham Mall,BUS42018-hbb48011-Weekday-02,14.1132,R
+147,34E-R-5,34E,34E,Walpole - Forest Hills,Local Bus,3,38485897,Forest Hills,BUS42018-hbb48011-Weekday-02,13.7104,R
+148,34E-R-6,34E,34E,Walpole - Forest Hills,Local Bus,3,38485899,Forest Hills via Dedham Mall,BUS42018-hbb48011-Weekday-02,15.2486,R
+149,34E-R-7,34E,34E,Walpole - Forest Hills,Local Bus,3,38485931,Forest Hills via Dedham Mall,BUS42018-hbb48011-Weekday-02,16.325,R
+150,35-F-1,35,35,Dedham Mall - Forest Hills,Local Bus,3,38487181,Stimson St,BUS42018-hbb48011-Weekday-02,4.6561,F
+151,35-F-2,35,35,Dedham Mall - Forest Hills,Local Bus,3,38487109,Dedham Mall,BUS42018-hbb48011-Weekday-02,6.37494,F
+152,35-F-3,35,35,Dedham Mall - Forest Hills,Local Bus,3,38487133,Dedham Mall,BUS42018-hbb48011-Weekday-02,9.10442,F
+153,35-R-1,35,35,Dedham Mall - Forest Hills,Local Bus,3,38487179,Forest Hills,BUS42018-hbb48011-Weekday-02,4.7642,R
+154,35-R-2,35,35,Dedham Mall - Forest Hills,Local Bus,3,38487114,Forest Hills,BUS42018-hbb48011-Weekday-02,6.45241,R
+155,35-R-3,35,35,Dedham Mall - Forest Hills,Local Bus,3,38487135,Avenue Louis Pasteur,BUS42018-hbb48011-Weekday-02,7.55761,R
+156,36-F-1,36,36,Charles River Loop - Forest Hills,Local Bus,3,38487953_3,Millennium Park via VA Hospital,BUS42018-hbb48011-Weekday-02,3.71382,F
+157,36-F-2,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485963,VA Hospital,BUS42018-hbb48011-Weekday-02,4.32001,F
+158,36-F-3,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485907,Charles River Loop,BUS42018-hbb48011-Weekday-02,4.06413,F
+159,36-F-4,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485971,Rivermoor Industrial Park via VA Hospital,BUS42018-hbb48011-Weekday-02,4.89326,F
+160,36-F-5,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485961,Millennium Park via VA Hospital,BUS42018-hbb48011-Weekday-02,4.89326,F
+161,36-F-6,36,36,Charles River Loop - Forest Hills,Local Bus,3,38486233,Charles River Loop,BUS42018-hbb48011-Weekday-02,7.13954,F
+162,36-R-1,36,36,Charles River Loop - Forest Hills,Local Bus,3,38487952_1,Ashmont via Roslindale Square,BUS42018-hbb48011-Weekday-02,2.4805,R
+163,36-R-2,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485908,Forest Hills,BUS42018-hbb48011-Weekday-02,4.11075,R
+164,36-R-3,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485964,Forest Hills,BUS42018-hbb48011-Weekday-02,4.79069,R
+165,36-R-4,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485962,Forest Hills,BUS42018-hbb48011-Weekday-02,4.81509,R
+166,36-R-5,36,36,Charles River Loop - Forest Hills,Local Bus,3,38485972,Forest Hills,BUS42018-hbb48011-Weekday-02,4.94076,R
+167,36-R-6,36,36,Charles River Loop - Forest Hills,Local Bus,3,38486231,Townsend & Humboldt,BUS42018-hbb48011-Weekday-02,7.23047,R
+168,37-F-1,37,37,Baker Street & Vermont Street - Forest Hills,Local Bus,3,38486004,Baker & Vermont St,BUS42018-hbb48011-Weekday-02,4.00717,F
+169,37-F-2,37,37,Baker Street & Vermont Street - Forest Hills,Local Bus,3,38486023,LaGrange St & Corey St,BUS42018-hbb48011-Weekday-02,5.36056,F
+170,37-R-1,37,37,Baker Street & Vermont Street - Forest Hills,Local Bus,3,38486005,Forest Hills,BUS42018-hbb48011-Weekday-02,4.29751,R
+171,37-R-2,37,37,Baker Street & Vermont Street - Forest Hills,Local Bus,3,38486024,Forest Hills,BUS42018-hbb48011-Weekday-02,5.8426,R
+172,38-F-1,38,38,Wren Street - Forest Hills,Local Bus,3,38487247,Wren St,BUS42018-hbb48011-Weekday-02,3.92603,F
+173,38-F-2,38,38,Wren Street - Forest Hills,Local Bus,3,38486232,Wren St,BUS42018-hbb48011-Weekday-02,7.00143,F
+174,38-R-1,38,38,Wren Street - Forest Hills,Local Bus,3,38486181_1,Avenue Louis Pasteur via JP Center,BUS42018-hbb48011-Weekday-02,2.1678,R
+175,38-R-2,38,38,Wren Street - Forest Hills,Local Bus,3,38486172_1,Avenue Louis Pasteur via JP Center,BUS42018-hbb48011-Weekday-02,3.28114,R
+176,38-R-3,38,38,Wren Street - Forest Hills,Local Bus,3,38487246,Forest Hills,BUS42018-hbb48011-Weekday-02,4.00937,R
+177,39-F-1,39,39,Forest Hills - Back Bay Station,Key Bus,3,38487956_1,Dedham Line via Forest Hills,BUS42018-hbb48011-Weekday-02,3.15264,F
+178,39-F-2,39,39,Forest Hills - Back Bay Station,Key Bus,3,38487951_1,Ashmont Via Forest Hills,BUS42018-hbb48011-Weekday-02,3.22724,F
+179,39-F-3,39,39,Forest Hills - Back Bay Station,Key Bus,3,38485913,Forest Hills,BUS42018-hbb48011-Weekday-02,4.97467,F
+180,39-F-4,39,39,Forest Hills - Back Bay Station,Key Bus,3,38486080,Forest Hills,BUS42018-hbb48011-Weekday-02,6.32139,F
+181,39-R-1,39,39,Forest Hills - Back Bay Station,Key Bus,3,38486172_2,Avenue Louis Pasteur,BUS42018-hbb48011-Weekday-02,2.78921,R
+182,39-R-2,39,39,Forest Hills - Back Bay Station,Key Bus,3,38485960_2,Avenue Louis Pasteur,BUS42018-hbb48011-Weekday-02,3.3188,R
+183,39-R-3,39,39,Forest Hills - Back Bay Station,Key Bus,3,38487065,Back Bay,BUS42018-hbb48011-Weekday-02,5.18261,R
+184,39-R-4,39,39,Forest Hills - Back Bay Station,Key Bus,3,38486079,Haymarket via Forest Hills,BUS42018-hbb48011-Weekday-02,9.8594,R
+185,40-F-1,40,40,Georgetowne - Forest Hills,Local Bus,3,38487881,Georgetowne,BUS42018-hbb48011-Weekday-02,4.16731,F
+186,40-F-2,40,40,Georgetowne - Forest Hills,Local Bus,3,38487889,Georgetowne,BUS42018-hbb48011-Weekday-02,5.26372,F
+187,40-R-1,40,40,Georgetowne - Forest Hills,Local Bus,3,38487891,Forest Hills,BUS42018-hbb48011-Weekday-02,4.26722,R
+188,40-R-2,40,40,Georgetowne - Forest Hills,Local Bus,3,38487880,Forest Hills,BUS42018-hbb48011-Weekday-02,5.42679,R
+189,4050-F-1,4050,40/50,Cleary Square - Forest Hills,Local Bus,3,38487901,Cleary Square,BUS42018-hbb48011-Weekday-02,5.25475,F
+190,4050-R-1,4050,40/50,Cleary Square - Forest Hills,Local Bus,3,38487882,Forest Hills,BUS42018-hbb48011-Weekday-02,4.05221,R
+191,41-F-1,41,41,Centre Street & Eliot Street - JFK/UMass Station,Local Bus,3,38487221,Centre St & Eliot St,BUS42018-hbb48011-Weekday-02,2.53801,F
+192,41-F-2,41,41,Centre Street & Eliot Street - JFK/UMass Station,Local Bus,3,38487220,Centre St & Eliot St,BUS42018-hbb48011-Weekday-02,5.01987,F
+193,41-R-1,41,41,Centre Street & Eliot Street - JFK/UMass Station,Local Bus,3,38487218,JFK/UMass,BUS42018-hbb48011-Weekday-02,5.09946,R
+194,42-F-1,42,42,Forest Hills - Dudley,Local Bus,3,38487636,Forest Hills,BUS42018-hbb48011-Weekday-02,2.52426,F
+195,42-R-1,42,42,Forest Hills - Dudley,Local Bus,3,38487359,Dudley,BUS42018-hbb48011-Weekday-02,2.54399,R
+196,50-F-1,50,50,Cleary Square - Forest Hills,Local Bus,3,38486722,Cleary Square,BUS42018-hbb48011-Weekday-02,4.01391,F
+197,50-R-1,50,50,Cleary Square - Forest Hills,Local Bus,3,38486719,Forest Hills,BUS42018-hbb48011-Weekday-02,4.05221,R
+198,51-F-1,51,51,Reservoir - Forest Hills,Local Bus,3,38486717,Reservoir,BUS42018-hbb48011-Weekday-02,7.71936,F
+199,51-F-2,51,51,Reservoir - Forest Hills,Local Bus,3,38486133,Union Square Allston,BUS42018-hbb48011-Weekday-02,9.78026,F
+200,51-R-1,51,51,Reservoir - Forest Hills,Local Bus,3,38486242,Forest Hills,BUS42018-hbb48011-Weekday-02,7.66422,R
+201,51-R-2,51,51,Reservoir - Forest Hills,Local Bus,3,38486235,Forest Hills,BUS42018-hbb48011-Weekday-02,10.4508,R
+202,51-R-3,51,51,Reservoir - Forest Hills,Local Bus,3,38486134,Forest Hills,BUS42018-hbb48011-Weekday-02,10.0006,R
+203,52-F-1,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486089,Charles River Loop via Winchester St,BUS42018-hbb48011-Weekday-02,9.69297,F
+204,52-F-2,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486097,Dedham Mall via Winchester St,BUS42018-hbb48011-Weekday-02,11.9311,F
+205,52-F-3,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38485906,Charles River Loop,BUS42018-hbb48011-Weekday-02,8.70412,F
+206,52-F-4,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486093,Dedham Mall,BUS42018-hbb48011-Weekday-02,10.9422,F
+207,52-F-5,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486109,Charles River Loop,BUS42018-hbb48011-Weekday-02,8.59427,F
+208,52-F-6,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486095,Dedham Mall,BUS42018-hbb48011-Weekday-02,10.8324,F
+209,52-R-1,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486096,Watertown Yard via Winchester St,BUS42018-hbb48011-Weekday-02,11.7288,R
+210,52-R-2,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486088,Watertown Yard,BUS42018-hbb48011-Weekday-02,8.59932,R
+211,52-R-3,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486100,Watertown Yard,BUS42018-hbb48011-Weekday-02,10.7399,R
+212,52-R-4,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486086,Watertown Yard,BUS42018-hbb48011-Weekday-02,8.48946,R
+213,52-R-5,52,52,Dedham Mall - Watertown Yard,Local Bus,3,38486094,Watertown Yard,BUS42018-hbb48011-Weekday-02,10.6301,R
+214,1-F-1,1,1,Harvard - Dudley via Massachusetts Avenue,Key Bus,3,38222961,Harvard,BUS42018-hbc48fr1-Weekday-02,4.46768,F
+215,1-R-1,1,1,Harvard - Dudley via Massachusetts Avenue,Key Bus,3,38222960,Dudley,BUS42018-hbc48fr1-Weekday-02,5.05102,R
+216,10-F-1,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224332,Andrew via South Bay Center,BUS42018-hbc48fr1-Weekday-02,3.25797,F
+217,10-F-2,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224992_2,City Point,BUS42018-hbc48fr1-Weekday-02,2.35299,F
+218,10-F-3,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224321,City Point,BUS42018-hbc48fr1-Weekday-02,5.31736,F
+219,10-F-4,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224323,City Point via South Bay Center,BUS42018-hbc48fr1-Weekday-02,5.61096,F
+220,10-F-5,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224204,City Point,BUS42018-hbc48fr1-Weekday-02,5.61279,F
+221,10-F-6,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224319,City Point,BUS42018-hbc48fr1-Weekday-02,6.46578,F
+222,10-R-1,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224990,Townsend & Humboldt,BUS42018-hbc48fr1-Weekday-02,5.53638,R
+223,10-R-2,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224205,Copley,BUS42018-hbc48fr1-Weekday-02,4.98021,R
+224,10-R-3,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38224212,Copley via South Bay Center,BUS42018-hbc48fr1-Weekday-02,5.28935,R
+225,11-F-1,11,11,City Point - Downtown Boston,Local Bus,3,38224141,Bayview,BUS42018-hbc48fr1-Weekday-02,4.59295,F
+226,11-R-1,11,11,City Point - Downtown Boston,Local Bus,3,38224206,Downtown,BUS42018-hbc48fr1-Weekday-02,4.35241,R
+227,15-F-2,15,15,Kane Square - Ruggles,Key Bus,3,38222631,Kane Square,BUS42018-hbc48fr1-Weekday-02,1.99233,F
+228,15-F-3,15,15,Kane Square - Ruggles,Key Bus,3,38221955,Kane Square,BUS42018-hbc48fr1-Weekday-02,3.08095,F
+229,15-F-4,15,15,Kane Square - Ruggles,Key Bus,3,38222298,St Peter's Square,BUS42018-hbc48fr1-Weekday-02,3.28294,F
+230,15-F-5,15,15,Kane Square - Ruggles,Key Bus,3,38222111,Fields Corner,BUS42018-hbc48fr1-Weekday-02,3.73776,F
+231,15-F-6,15,15,Kane Square - Ruggles,Key Bus,3,38222669,Fields Corner,BUS42018-hbc48fr1-Weekday-02,4.33315,F
+232,15-R-2,15,15,Kane Square - Ruggles,Key Bus,3,38222632,Dudley,BUS42018-hbc48fr1-Weekday-02,1.90859,R
+233,15-R-3,15,15,Kane Square - Ruggles,Key Bus,3,38221813,Ruggles,BUS42018-hbc48fr1-Weekday-02,3.10644,R
+234,15-R-4,15,15,Kane Square - Ruggles,Key Bus,3,38222766,Ruggles,BUS42018-hbc48fr1-Weekday-02,3.39127,R
+235,15-R-5,15,15,Kane Square - Ruggles,Key Bus,3,38222656,Ruggles,BUS42018-hbc48fr1-Weekday-02,4.44148,R
+236,15-R-6,15,15,Kane Square - Ruggles,Key Bus,3,38222053,Dudley via Fields Corner,BUS42018-hbc48fr1-Weekday-02,4.4621,R
+237,16-F-1,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222648,Forest Hills,BUS42018-hbc48fr1-Weekday-02,4.19932,F
+238,16-F-2,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222683,Forest Hills via South Bay Center,BUS42018-hbc48fr1-Weekday-02,4.73289,F
+239,16-F-3,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222653,Forest Hills,BUS42018-hbc48fr1-Weekday-02,6.24616,F
+240,16-F-4,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222652,Forest Hills via South Bay Center,BUS42018-hbc48fr1-Weekday-02,6.77973,F
+241,16-R-1,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38224992_1,City Point via Andrew,BUS42018-hbc48fr1-Weekday-02,2.55663,R
+242,16-R-2,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222638,Andrew,BUS42018-hbc48fr1-Weekday-02,4.25474,R
+243,16-R-3,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222660,Andrew via South Bay Center,BUS42018-hbc48fr1-Weekday-02,4.78901,R
+244,16-R-4,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222639,UMass via South Bay Center,BUS42018-hbc48fr1-Weekday-02,6.79162,R
+245,16-R-5,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38222637,UMass,BUS42018-hbc48fr1-Weekday-02,6.25735,R
+246,17-F-1,17,17,Fields Corner - Andrew via Uphams Corner,Local Bus,3,38221814,Fields Corner,BUS42018-hbc48fr1-Weekday-02,2.83084,F
+247,17-R-1,17,17,Fields Corner - Andrew via Uphams Corner,Local Bus,3,38221815,Andrew,BUS42018-hbc48fr1-Weekday-02,2.82059,R
+248,171-F-1,171,171,Logan Airport - Dudley,Supplemental Bus,3,38222147,Logan Airport via Andrew,BUS42018-hbc48fr1-Weekday-02,8.57403,F
+249,18-F-1,18,18,Ashmont - Andrew,Local Bus,3,38221826,Ashmont,BUS42018-hbc48fr1-Weekday-02,3.77658,F
+250,18-R-1,18,18,Ashmont - Andrew,Local Bus,3,38221827,Andrew,BUS42018-hbc48fr1-Weekday-02,3.96762,R
+251,19-F-1,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38222103_1,Adams & Gallivan via Fields Corner,BUS42018-hbc48fr1-Weekday-02,1.94173,F
+252,19-F-2,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38222112,Fields Corner,BUS42018-hbc48fr1-Weekday-02,3.20786,F
+253,19-F-3,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38221852,Fields Corner,BUS42018-hbc48fr1-Weekday-02,3.75344,F
+254,19-F-4,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38222107_1,Adams & Gallivan via Fields Corner,BUS42018-hbc48fr1-Weekday-02,5.31173,F
+255,19-F-5,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38222184,Fields Corner,BUS42018-hbc48fr1-Weekday-02,6.3301,F
+256,19-R-1,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38221853,Ruggles,BUS42018-hbc48fr1-Weekday-02,3.81938,R
+257,19-R-2,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38222115_2,Avenue Louis Pasteur,BUS42018-hbc48fr1-Weekday-02,4.32121,R
+258,19-R-3,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38222182,Kenmore,BUS42018-hbc48fr1-Weekday-02,6.13011,R
+259,201-R-1,201,201,Fields Corner Loop via Neponset Ave,Local Bus,3,38222115_1,Avenue Louis Pasteur via Fields Corner,BUS42018-hbc48fr1-Weekday-02,1.693,R
+260,202-F-1,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38222103_2,Adams & Gallivan,BUS42018-hbc48fr1-Weekday-02,1.63138,F
+261,202-F-2,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38222107_2,Adams & Gallivan,BUS42018-hbc48fr1-Weekday-02,1.6976,F
+262,22-F-1,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38222104,Ashmont,BUS42018-hbc48fr1-Weekday-02,3.01998,F
+263,22-F-2,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38222110,Ashmont,BUS42018-hbc48fr1-Weekday-02,4.82614,F
+264,22-F-3,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38221867,Ashmont,BUS42018-hbc48fr1-Weekday-02,4.9974,F
+265,22-F-4,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38222106,Ashmont,BUS42018-hbc48fr1-Weekday-02,5.73662,F
+266,22-R-1,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38221866,Ruggles,BUS42018-hbc48fr1-Weekday-02,5.15875,R
+267,23-F-1,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38222105,Ashmont,BUS42018-hbc48fr1-Weekday-02,2.62898,F
+268,23-F-2,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38222109,Ashmont,BUS42018-hbc48fr1-Weekday-02,4.12404,F
+269,23-F-3,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38222047,Ashmont,BUS42018-hbc48fr1-Weekday-02,4.71942,F
+270,23-R-2,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38224997_3,Franklin Park,BUS42018-hbc48fr1-Weekday-02,2.04499,R
+271,23-R-3,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38224394,Dudley,BUS42018-hbc48fr1-Weekday-02,3.58707,R
+272,23-R-4,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38222048,Ruggles,BUS42018-hbc48fr1-Weekday-02,4.78493,R
+273,28-F-2,28,28,Mattapan - Ruggles,Key Bus,3,38222151,Mattapan,BUS42018-hbc48fr1-Weekday-02,3.78554,F
+274,28-F-3,28,28,Mattapan - Ruggles,Key Bus,3,38222152,Mattapan,BUS42018-hbc48fr1-Weekday-02,5.1824,F
+275,28-R-1,28,28,Mattapan - Ruggles,Key Bus,3,38222150,Ruggles,BUS42018-hbc48fr1-Weekday-02,2.16327,R
+276,28-R-2,28,28,Mattapan - Ruggles,Key Bus,3,38222051,Dudley,BUS42018-hbc48fr1-Weekday-02,4.50419,R
+277,43-F-1,43,43,Ruggles - Downtown Boston,Local Bus,3,38223298,Ruggles,BUS42018-hbc48fr1-Weekday-02,2.28441,F
+278,43-R-1,43,43,Ruggles - Downtown Boston,Local Bus,3,38223295,Park St & Tremont St,BUS42018-hbc48fr1-Weekday-02,2.78981,R
+279,44-F-2,44,44,Jackson Square - Ruggles,Local Bus,3,38221899,Jackson Square,BUS42018-hbc48fr1-Weekday-02,3.75531,F
+280,44-F-3,44,44,Jackson Square - Ruggles,Local Bus,3,38221903,Jackson Square,BUS42018-hbc48fr1-Weekday-02,4.10246,F
+281,44-R-1,44,44,Jackson Square - Ruggles,Local Bus,3,38221892,Ruggles,BUS42018-hbc48fr1-Weekday-02,3.84746,R
+282,45-F-1,45,45,Franklin Park - Ruggles,Local Bus,3,38221897,Franklin Park,BUS42018-hbc48fr1-Weekday-02,3.44767,F
+283,45-F-2,45,45,Franklin Park - Ruggles,Local Bus,3,38221901,Franklin Park,BUS42018-hbc48fr1-Weekday-02,3.79482,F
+284,45-F-3,45,45,Franklin Park - Ruggles,Local Bus,3,38221889,Ashmont,BUS42018-hbc48fr1-Weekday-02,5.44389,F
+285,45-R-1,45,45,Franklin Park - Ruggles,Local Bus,3,38222102,Malcolm X Blvd,BUS42018-hbc48fr1-Weekday-02,2.36751,R
+286,45-R-2,45,45,Franklin Park - Ruggles,Local Bus,3,38221895,Ruggles,BUS42018-hbc48fr1-Weekday-02,3.56537,R
+287,47-F-1,47,47,"Central Square, Cambridge - Broadway Station",Local Bus,3,38222634,Central Square,BUS42018-hbc48fr1-Weekday-02,6.83844,F
+288,47-R-1,47,47,"Central Square, Cambridge - Broadway Station",Local Bus,3,38222635,Broadway,BUS42018-hbc48fr1-Weekday-02,6.94829,R
+289,5-F-1,5,5,City Point - McCormack Housing,Community Bus,3,38224056,City Point,BUS42018-hbc48fr1-Weekday-02,3.74662,F
+290,5-R-1,5,5,City Point - McCormack Housing,Community Bus,3,38223926,McCormack,BUS42018-hbc48fr1-Weekday-02,2.45288,R
+291,504-F-3,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38222015,Watertown (Express),BUS42018-hbc48fr1-Weekday-02,8.36298,F
+292,504-R-3,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38222149,Downtown (Express),BUS42018-hbc48fr1-Weekday-02,8.40992,R
+293,55-F-1,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38221971,Queensberry St,BUS42018-hbc48fr1-Weekday-02,1.81291,F
+294,55-F-2,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38221963,Queensberry St,BUS42018-hbc48fr1-Weekday-02,2.84109,F
+295,55-R-1,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38221970,Copley,BUS42018-hbc48fr1-Weekday-02,1.66613,R
+296,55-R-2,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38221962,Park St via Copley,BUS42018-hbc48fr1-Weekday-02,2.67656,R
+297,553-F-3,553,553,Roberts - Downtown Boston,Local Bus,3,38222045,Waltham via Copley (Express),BUS42018-hbc48fr1-Weekday-02,12.3443,F
+298,553-R-4,553,553,Roberts - Downtown Boston,Local Bus,3,38222629,Downtown via Copley (Express),BUS42018-hbc48fr1-Weekday-02,13.0086,R
+299,57-F-5,57,57,Watertown Yard - Kenmore,Key Bus,3,38222017,Watertown Yard,BUS42018-hbc48fr1-Weekday-02,5.41287,F
+300,57-R-4,57,57,Watertown Yard - Kenmore,Key Bus,3,38224997_1,Franklin Park via Union Square Allston,BUS42018-hbc48fr1-Weekday-02,1.67057,R
+301,57-R-5,57,57,Watertown Yard - Kenmore,Key Bus,3,38224996_1,Ruggles via Kenmore,BUS42018-hbc48fr1-Weekday-02,3.79307,R
+302,57-R-6,57,57,Watertown Yard - Kenmore,Key Bus,3,38222018,Kenmore,BUS42018-hbc48fr1-Weekday-02,5.71015,R
+303,60-F-4,60,60,Chestnut Hill - Kenmore,Local Bus,3,38222037,Chestnut Hill Mall,BUS42018-hbc48fr1-Weekday-02,5.71798,F
+304,60-R-3,60,60,Chestnut Hill - Kenmore,Local Bus,3,38222044,Brookline Village,BUS42018-hbc48fr1-Weekday-02,4.57616,R
+305,60-R-4,60,60,Chestnut Hill - Kenmore,Local Bus,3,38222038,Kenmore,BUS42018-hbc48fr1-Weekday-02,6.2189,R
+306,65-F-2,65,65,Brighton - Kenmore,Local Bus,3,38221959,Brighton Center,BUS42018-hbc48fr1-Weekday-02,4.27089,F
+307,65-R-2,65,65,Brighton - Kenmore,Local Bus,3,38221958,Kenmore,BUS42018-hbc48fr1-Weekday-02,4.1018,R
+308,66-F-3,66,66,Harvard - Dudley via Allston,Key Bus,3,38223178,Harvard via Allston,BUS42018-hbc48fr1-Weekday-02,6.16873,F
+309,66-R-1,66,66,Harvard - Dudley via Allston,Key Bus,3,38224997_2,Franklin Park via Dudley,BUS42018-hbc48fr1-Weekday-02,3.926,R
+310,66-R-2,66,66,Harvard - Dudley via Allston,Key Bus,3,38224395,Dudley via Allston,BUS42018-hbc48fr1-Weekday-02,4.33541,R
+311,66-R-3,66,66,Harvard - Dudley via Allston,Key Bus,3,38223177,Dudley via Allston,BUS42018-hbc48fr1-Weekday-02,6.03405,R
+312,7-F-1,7,7,City Point - Downtown Boston,Local Bus,3,38224063,City Point via East First St,BUS42018-hbc48fr1-Weekday-02,1.90112,F
+313,7-F-2,7,7,City Point - Downtown Boston,Local Bus,3,38223743,City Point via East First St,BUS42018-hbc48fr1-Weekday-02,2.00921,F
+314,7-F-3,7,7,City Point - Downtown Boston,Local Bus,3,38224062,City Point,BUS42018-hbc48fr1-Weekday-02,2.9733,F
+315,7-R-1,7,7,City Point - Downtown Boston,Local Bus,3,38223987,Otis & Summer,BUS42018-hbc48fr1-Weekday-02,2.1044,R
+316,7-R-2,7,7,City Point - Downtown Boston,Local Bus,3,38223865,Congress & Atlantic,BUS42018-hbc48fr1-Weekday-02,2.54684,R
+317,7-R-3,7,7,City Point - Downtown Boston,Local Bus,3,38223846,Otis & Summer,BUS42018-hbc48fr1-Weekday-02,2.95955,R
+318,741-R-1,741,SL1,Logan Airport - South Station,Key Bus,3,38224983,South Station,BUS42018-hbc48fr1-Weekday-02,4.49701,R
+319,751-F-1,751,SL4,Dudley - South Station,Key Bus,3,38225002,Dudley,BUS42018-hbc48fr1-Weekday-02,2.60093,F
+320,8-F-2,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38224996_2,Ruggles,BUS42018-hbc48fr1-Weekday-02,2.38973,F
+321,8-F-3,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38222198,Harbor Point,BUS42018-hbc48fr1-Weekday-02,8.26346,F
+322,8-F-4,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38221949,Harbor Point via South Bay Center,BUS42018-hbc48fr1-Weekday-02,9.1418,F
+323,8-R-1,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38224993_2,Kenmore,BUS42018-hbc48fr1-Weekday-02,2.09165,R
+324,8-R-2,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38221951,Kenmore,BUS42018-hbc48fr1-Weekday-02,7.80551,R
+325,8-R-3,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38221812,Kenmore via South Bay Center,BUS42018-hbc48fr1-Weekday-02,8.66817,R
+326,9-F-1,9,9,City Point - Copley via Broadway Station,Local Bus,3,38223752,City Point,BUS42018-hbc48fr1-Weekday-02,3.14939,F
+327,9-F-2,9,9,City Point - Copley via Broadway Station,Local Bus,3,38223772,City Point,BUS42018-hbc48fr1-Weekday-02,3.87536,F
+328,9-F-3,9,9,City Point - Copley via Broadway Station,Local Bus,3,38224055,City Point via Andrew,BUS42018-hbc48fr1-Weekday-02,6.99631,F
+329,9-R-1,9,9,City Point - Copley via Broadway Station,Local Bus,3,38223878,Copley,BUS42018-hbc48fr1-Weekday-02,3.61339,R
+330,9-R-2,9,9,City Point - Copley via Broadway Station,Local Bus,3,38223845,Copley,BUS42018-hbc48fr1-Weekday-02,4.12012,R
+331,9-R-3,9,9,City Point - Copley via Broadway Station,Local Bus,3,38223858,Kenmore via Boston Latin,BUS42018-hbc48fr1-Weekday-02,6.57204,R
+332,1-F-2,1,1,Harvard - Dudley via Massachusetts Avenue,Key Bus,3,38230147,Harvard,BUS42018-hbc48wk1-Weekday-02,4.46768,F
+333,1-R-2,1,1,Harvard - Dudley via Massachusetts Avenue,Key Bus,3,38230146,Dudley,BUS42018-hbc48wk1-Weekday-02,5.05102,R
+334,10-F-7,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38231518,Andrew via South Bay Center,BUS42018-hbc48wk1-Weekday-02,3.25797,F
+335,10-F-8,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38232168_2,City Point,BUS42018-hbc48wk1-Weekday-02,2.35299,F
+336,10-F-9,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38231507,City Point,BUS42018-hbc48wk1-Weekday-02,5.31736,F
+337,10-F-10,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38231509,City Point via South Bay Center,BUS42018-hbc48wk1-Weekday-02,5.61096,F
+338,10-F-11,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38231390,City Point,BUS42018-hbc48wk1-Weekday-02,5.61279,F
+339,10-F-12,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38231505,City Point,BUS42018-hbc48wk1-Weekday-02,6.46578,F
+340,10-R-4,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38232166,Townsend & Humboldt,BUS42018-hbc48wk1-Weekday-02,5.53638,R
+341,10-R-5,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38231391,Copley,BUS42018-hbc48wk1-Weekday-02,4.98021,R
+342,10-R-6,10,10,City Point - Copley via Boston Medical Center,Local Bus,3,38231398,Copley via South Bay Center,BUS42018-hbc48wk1-Weekday-02,5.28935,R
+343,11-F-2,11,11,City Point - Downtown Boston,Local Bus,3,38231327,Bayview,BUS42018-hbc48wk1-Weekday-02,4.59295,F
+344,11-R-2,11,11,City Point - Downtown Boston,Local Bus,3,38231392,Downtown,BUS42018-hbc48wk1-Weekday-02,4.35241,R
+345,15-F-7,15,15,Kane Square - Ruggles,Key Bus,3,38229817,Kane Square,BUS42018-hbc48wk1-Weekday-02,1.99233,F
+346,15-F-8,15,15,Kane Square - Ruggles,Key Bus,3,38229141,Kane Square,BUS42018-hbc48wk1-Weekday-02,3.08095,F
+347,15-F-9,15,15,Kane Square - Ruggles,Key Bus,3,38229484,St Peter's Square,BUS42018-hbc48wk1-Weekday-02,3.28294,F
+348,15-F-10,15,15,Kane Square - Ruggles,Key Bus,3,38229297,Fields Corner,BUS42018-hbc48wk1-Weekday-02,3.73776,F
+349,15-F-11,15,15,Kane Square - Ruggles,Key Bus,3,38229855,Fields Corner,BUS42018-hbc48wk1-Weekday-02,4.33315,F
+350,15-R-7,15,15,Kane Square - Ruggles,Key Bus,3,38229818,Dudley,BUS42018-hbc48wk1-Weekday-02,1.90859,R
+351,15-R-8,15,15,Kane Square - Ruggles,Key Bus,3,38228999,Ruggles,BUS42018-hbc48wk1-Weekday-02,3.10644,R
+352,15-R-9,15,15,Kane Square - Ruggles,Key Bus,3,38229952,Ruggles,BUS42018-hbc48wk1-Weekday-02,3.39127,R
+353,15-R-10,15,15,Kane Square - Ruggles,Key Bus,3,38229842,Ruggles,BUS42018-hbc48wk1-Weekday-02,4.44148,R
+354,15-R-11,15,15,Kane Square - Ruggles,Key Bus,3,38229239,Dudley via Fields Corner,BUS42018-hbc48wk1-Weekday-02,4.4621,R
+355,16-F-5,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229834,Forest Hills,BUS42018-hbc48wk1-Weekday-02,4.19932,F
+356,16-F-6,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229869,Forest Hills via South Bay Center,BUS42018-hbc48wk1-Weekday-02,4.73289,F
+357,16-F-7,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229839,Forest Hills,BUS42018-hbc48wk1-Weekday-02,6.24616,F
+358,16-F-8,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229838,Forest Hills via South Bay Center,BUS42018-hbc48wk1-Weekday-02,6.77973,F
+359,16-R-6,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38232168_1,City Point via Andrew,BUS42018-hbc48wk1-Weekday-02,2.55663,R
+360,16-R-7,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229824,Andrew,BUS42018-hbc48wk1-Weekday-02,4.25474,R
+361,16-R-8,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229846,Andrew via South Bay Center,BUS42018-hbc48wk1-Weekday-02,4.78901,R
+362,16-R-9,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229825,UMass via South Bay Center,BUS42018-hbc48wk1-Weekday-02,6.79162,R
+363,16-R-10,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38229823,UMass,BUS42018-hbc48wk1-Weekday-02,6.25735,R
+364,17-F-2,17,17,Fields Corner - Andrew via Uphams Corner,Local Bus,3,38229000,Fields Corner,BUS42018-hbc48wk1-Weekday-02,2.83084,F
+365,17-R-2,17,17,Fields Corner - Andrew via Uphams Corner,Local Bus,3,38229001,Andrew,BUS42018-hbc48wk1-Weekday-02,2.82059,R
+366,171-F-2,171,171,Logan Airport - Dudley,Supplemental Bus,3,38229333,Logan Airport via Andrew,BUS42018-hbc48wk1-Weekday-02,8.57403,F
+367,18-F-2,18,18,Ashmont - Andrew,Local Bus,3,38229012,Ashmont,BUS42018-hbc48wk1-Weekday-02,3.77658,F
+368,18-R-2,18,18,Ashmont - Andrew,Local Bus,3,38229013,Andrew,BUS42018-hbc48wk1-Weekday-02,3.96762,R
+369,19-F-6,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229289_1,Adams & Gallivan via Fields Corner,BUS42018-hbc48wk1-Weekday-02,1.94173,F
+370,19-F-7,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229298,Fields Corner,BUS42018-hbc48wk1-Weekday-02,3.20786,F
+371,19-F-8,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229038,Fields Corner,BUS42018-hbc48wk1-Weekday-02,3.75344,F
+372,19-F-9,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229293_1,Adams & Gallivan via Fields Corner,BUS42018-hbc48wk1-Weekday-02,5.31173,F
+373,19-F-10,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229370,Fields Corner,BUS42018-hbc48wk1-Weekday-02,6.3301,F
+374,19-R-4,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229039,Ruggles,BUS42018-hbc48wk1-Weekday-02,3.81938,R
+375,19-R-5,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229301_2,Avenue Louis Pasteur,BUS42018-hbc48wk1-Weekday-02,4.32121,R
+376,19-R-6,19,19,Fields Corner - Kenmore or Ruggles,Local Bus,3,38229368,Kenmore,BUS42018-hbc48wk1-Weekday-02,6.13011,R
+377,201-R-2,201,201,Fields Corner Loop via Neponset Ave,Local Bus,3,38229301_1,Avenue Louis Pasteur via Fields Corner,BUS42018-hbc48wk1-Weekday-02,1.693,R
+378,202-F-3,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38229289_2,Adams & Gallivan,BUS42018-hbc48wk1-Weekday-02,1.63138,F
+379,202-F-4,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38229293_2,Adams & Gallivan,BUS42018-hbc48wk1-Weekday-02,1.6976,F
+380,22-F-5,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38229290,Ashmont,BUS42018-hbc48wk1-Weekday-02,3.01998,F
+381,22-F-6,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38229296,Ashmont,BUS42018-hbc48wk1-Weekday-02,4.82614,F
+382,22-F-7,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38229053,Ashmont,BUS42018-hbc48wk1-Weekday-02,4.9974,F
+383,22-F-8,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38229292,Ashmont,BUS42018-hbc48wk1-Weekday-02,5.73662,F
+384,22-R-2,22,22,Ashmont - Ruggles via Jackson Square,Key Bus,3,38229052,Ruggles,BUS42018-hbc48wk1-Weekday-02,5.15875,R
+385,23-F-4,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38229291,Ashmont,BUS42018-hbc48wk1-Weekday-02,2.62898,F
+386,23-F-5,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38229295,Ashmont,BUS42018-hbc48wk1-Weekday-02,4.12404,F
+387,23-F-6,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38229233,Ashmont,BUS42018-hbc48wk1-Weekday-02,4.71942,F
+388,23-R-5,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38232173_3,Franklin Park,BUS42018-hbc48wk1-Weekday-02,2.04499,R
+389,23-R-6,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38231580,Dudley,BUS42018-hbc48wk1-Weekday-02,3.58707,R
+390,23-R-7,23,23,Ashmont - Ruggles via Washington Street,Key Bus,3,38229234,Ruggles,BUS42018-hbc48wk1-Weekday-02,4.78493,R
+391,28-F-4,28,28,Mattapan - Ruggles,Key Bus,3,38229337,Mattapan,BUS42018-hbc48wk1-Weekday-02,3.78554,F
+392,28-F-5,28,28,Mattapan - Ruggles,Key Bus,3,38229338,Mattapan,BUS42018-hbc48wk1-Weekday-02,5.1824,F
+393,28-R-3,28,28,Mattapan - Ruggles,Key Bus,3,38229336,Ruggles,BUS42018-hbc48wk1-Weekday-02,2.16327,R
+394,28-R-4,28,28,Mattapan - Ruggles,Key Bus,3,38229237,Dudley,BUS42018-hbc48wk1-Weekday-02,4.50419,R
+395,43-F-2,43,43,Ruggles - Downtown Boston,Local Bus,3,38230484,Ruggles,BUS42018-hbc48wk1-Weekday-02,2.28441,F
+396,43-R-2,43,43,Ruggles - Downtown Boston,Local Bus,3,38230481,Park St & Tremont St,BUS42018-hbc48wk1-Weekday-02,2.78981,R
+397,44-F-4,44,44,Jackson Square - Ruggles,Local Bus,3,38229085,Jackson Square,BUS42018-hbc48wk1-Weekday-02,3.75531,F
+398,44-F-5,44,44,Jackson Square - Ruggles,Local Bus,3,38229089,Jackson Square,BUS42018-hbc48wk1-Weekday-02,4.10246,F
+399,44-R-2,44,44,Jackson Square - Ruggles,Local Bus,3,38229078,Ruggles,BUS42018-hbc48wk1-Weekday-02,3.84746,R
+400,45-F-4,45,45,Franklin Park - Ruggles,Local Bus,3,38229083,Franklin Park,BUS42018-hbc48wk1-Weekday-02,3.44767,F
+401,45-F-5,45,45,Franklin Park - Ruggles,Local Bus,3,38229087,Franklin Park,BUS42018-hbc48wk1-Weekday-02,3.79482,F
+402,45-F-6,45,45,Franklin Park - Ruggles,Local Bus,3,38229075,Ashmont,BUS42018-hbc48wk1-Weekday-02,5.44389,F
+403,45-R-3,45,45,Franklin Park - Ruggles,Local Bus,3,38229288,Malcolm X Blvd,BUS42018-hbc48wk1-Weekday-02,2.36751,R
+404,45-R-4,45,45,Franklin Park - Ruggles,Local Bus,3,38229081,Ruggles,BUS42018-hbc48wk1-Weekday-02,3.56537,R
+405,47-F-2,47,47,"Central Square, Cambridge - Broadway Station",Local Bus,3,38229820,Central Square,BUS42018-hbc48wk1-Weekday-02,6.83844,F
+406,47-R-2,47,47,"Central Square, Cambridge - Broadway Station",Local Bus,3,38229821,Broadway,BUS42018-hbc48wk1-Weekday-02,6.94829,R
+407,5-F-2,5,5,City Point - McCormack Housing,Community Bus,3,38231242,City Point,BUS42018-hbc48wk1-Weekday-02,3.74662,F
+408,5-R-2,5,5,City Point - McCormack Housing,Community Bus,3,38231112,McCormack,BUS42018-hbc48wk1-Weekday-02,2.45288,R
+409,504-F-4,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38229201,Watertown (Express),BUS42018-hbc48wk1-Weekday-02,8.36298,F
+410,504-R-4,504,504,Watertown Yard - Downtown Boston,Commuter Bus,3,38229335,Downtown (Express),BUS42018-hbc48wk1-Weekday-02,8.40992,R
+411,55-F-3,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38229157,Queensberry St,BUS42018-hbc48wk1-Weekday-02,1.81291,F
+412,55-F-4,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38229149,Queensberry St,BUS42018-hbc48wk1-Weekday-02,2.84109,F
+413,55-R-3,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38229156,Copley,BUS42018-hbc48wk1-Weekday-02,1.66613,R
+414,55-R-4,55,55,Jersey Street & Queensberry Street - Downtown Boston,Local Bus,3,38229148,Park St via Copley,BUS42018-hbc48wk1-Weekday-02,2.67656,R
+415,553-F-4,553,553,Roberts - Downtown Boston,Local Bus,3,38229231,Waltham via Copley (Express),BUS42018-hbc48wk1-Weekday-02,12.3443,F
+416,553-R-5,553,553,Roberts - Downtown Boston,Local Bus,3,38229815,Downtown via Copley (Express),BUS42018-hbc48wk1-Weekday-02,13.0086,R
+417,57-F-6,57,57,Watertown Yard - Kenmore,Key Bus,3,38229203,Watertown Yard,BUS42018-hbc48wk1-Weekday-02,5.41287,F
+418,57-R-7,57,57,Watertown Yard - Kenmore,Key Bus,3,38232173_1,Franklin Park via Union Square Allston,BUS42018-hbc48wk1-Weekday-02,1.67057,R
+419,57-R-8,57,57,Watertown Yard - Kenmore,Key Bus,3,38232172_1,Ruggles via Kenmore,BUS42018-hbc48wk1-Weekday-02,3.79307,R
+420,57-R-9,57,57,Watertown Yard - Kenmore,Key Bus,3,38229204,Kenmore,BUS42018-hbc48wk1-Weekday-02,5.71015,R
+421,60-F-5,60,60,Chestnut Hill - Kenmore,Local Bus,3,38229223,Chestnut Hill Mall,BUS42018-hbc48wk1-Weekday-02,5.71798,F
+422,60-R-5,60,60,Chestnut Hill - Kenmore,Local Bus,3,38229230,Brookline Village,BUS42018-hbc48wk1-Weekday-02,4.57616,R
+423,60-R-6,60,60,Chestnut Hill - Kenmore,Local Bus,3,38229224,Kenmore,BUS42018-hbc48wk1-Weekday-02,6.2189,R
+424,65-F-3,65,65,Brighton - Kenmore,Local Bus,3,38229145,Brighton Center,BUS42018-hbc48wk1-Weekday-02,4.27089,F
+425,65-R-3,65,65,Brighton - Kenmore,Local Bus,3,38229144,Kenmore,BUS42018-hbc48wk1-Weekday-02,4.1018,R
+426,66-F-4,66,66,Harvard - Dudley via Allston,Key Bus,3,38230364,Harvard via Allston,BUS42018-hbc48wk1-Weekday-02,6.16873,F
+427,66-R-4,66,66,Harvard - Dudley via Allston,Key Bus,3,38232173_2,Franklin Park via Dudley,BUS42018-hbc48wk1-Weekday-02,3.926,R
+428,66-R-5,66,66,Harvard - Dudley via Allston,Key Bus,3,38231581,Dudley via Allston,BUS42018-hbc48wk1-Weekday-02,4.33541,R
+429,66-R-6,66,66,Harvard - Dudley via Allston,Key Bus,3,38230363,Dudley via Allston,BUS42018-hbc48wk1-Weekday-02,6.03405,R
+430,7-F-4,7,7,City Point - Downtown Boston,Local Bus,3,38231249,City Point via East First St,BUS42018-hbc48wk1-Weekday-02,1.90112,F
+431,7-F-5,7,7,City Point - Downtown Boston,Local Bus,3,38230929,City Point via East First St,BUS42018-hbc48wk1-Weekday-02,2.00921,F
+432,7-F-6,7,7,City Point - Downtown Boston,Local Bus,3,38231248,City Point,BUS42018-hbc48wk1-Weekday-02,2.9733,F
+433,7-R-4,7,7,City Point - Downtown Boston,Local Bus,3,38231173,Otis & Summer,BUS42018-hbc48wk1-Weekday-02,2.1044,R
+434,7-R-5,7,7,City Point - Downtown Boston,Local Bus,3,38231051,Congress & Atlantic,BUS42018-hbc48wk1-Weekday-02,2.54684,R
+435,7-R-6,7,7,City Point - Downtown Boston,Local Bus,3,38231032,Otis & Summer,BUS42018-hbc48wk1-Weekday-02,2.95955,R
+436,741-R-2,741,SL1,Logan Airport - South Station,Key Bus,3,38232159,South Station,BUS42018-hbc48wk1-Weekday-02,4.49701,R
+437,751-F-2,751,SL4,Dudley - South Station,Key Bus,3,38232178,Dudley,BUS42018-hbc48wk1-Weekday-02,2.60093,F
+438,8-F-5,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38232172_2,Ruggles,BUS42018-hbc48wk1-Weekday-02,2.38973,F
+439,8-F-6,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38229384,Harbor Point,BUS42018-hbc48wk1-Weekday-02,8.26346,F
+440,8-F-7,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38229135,Harbor Point via South Bay Center,BUS42018-hbc48wk1-Weekday-02,9.1418,F
+441,8-R-4,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38232169_2,Kenmore,BUS42018-hbc48wk1-Weekday-02,2.09165,R
+442,8-R-5,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38229137,Kenmore,BUS42018-hbc48wk1-Weekday-02,7.80551,R
+443,8-R-6,8,8,Harbor Point/UMass - Kenmore,Local Bus,3,38228998,Kenmore via South Bay Center,BUS42018-hbc48wk1-Weekday-02,8.66817,R
+444,9-F-4,9,9,City Point - Copley via Broadway Station,Local Bus,3,38230938,City Point,BUS42018-hbc48wk1-Weekday-02,3.14939,F
+445,9-F-5,9,9,City Point - Copley via Broadway Station,Local Bus,3,38230958,City Point,BUS42018-hbc48wk1-Weekday-02,3.87536,F
+446,9-F-6,9,9,City Point - Copley via Broadway Station,Local Bus,3,38231241,City Point via Andrew,BUS42018-hbc48wk1-Weekday-02,6.99631,F
+447,9-R-4,9,9,City Point - Copley via Broadway Station,Local Bus,3,38231064,Copley,BUS42018-hbc48wk1-Weekday-02,3.61339,R
+448,9-R-5,9,9,City Point - Copley via Broadway Station,Local Bus,3,38231031,Copley,BUS42018-hbc48wk1-Weekday-02,4.12012,R
+449,9-R-6,9,9,City Point - Copley via Broadway Station,Local Bus,3,38231044,Kenmore via Boston Latin,BUS42018-hbc48wk1-Weekday-02,6.57204,R
+450,100-F-1,100,100,Elm Street - Wellington,Local Bus,3,38428394,Elm St,BUS42018-hbf48011-Weekday-02,3.54186,F
+451,100-R-1,100,100,Elm Street - Wellington,Local Bus,3,38428429,Fellsway Garage via Fellsway,BUS42018-hbf48011-Weekday-02,1.57096,R
+452,100-R-2,100,100,Elm Street - Wellington,Local Bus,3,38428393,Wellington,BUS42018-hbf48011-Weekday-02,3.55167,R
+453,101-F-1,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38428607,Malden,BUS42018-hbf48011-Weekday-02,5.76775,F
+454,101-R-1,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38428642,Sullivan,BUS42018-hbf48011-Weekday-02,3.39354,R
+455,101-R-2,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38428613,Sullivan,BUS42018-hbf48011-Weekday-02,5.23445,R
+456,105-F-1,105,105,Malden Center - Sullivan via Newland Street Housing,Local Bus,3,38428848,Malden,BUS42018-hbf48011-Weekday-02,7.25021,F
+457,105-R-1,105,105,Malden Center - Sullivan via Newland Street Housing,Local Bus,3,38428847,Sullivan,BUS42018-hbf48011-Weekday-02,5.90234,R
+458,106-F-1,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428901,Linwood & Lynde,BUS42018-hbf48011-Weekday-02,3.3831,F
+459,106-F-2,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428880,Franklin Square via Lebanon Loop,BUS42018-hbf48011-Weekday-02,4.65975,F
+460,106-F-3,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428878,Lebanon Loop,BUS42018-hbf48011-Weekday-02,5.36533,F
+461,106-F-4,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428909,Linwood & Lynde,BUS42018-hbf48011-Weekday-02,6.43175,F
+462,106-F-5,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428889,Franklin Square,BUS42018-hbf48011-Weekday-02,7.82024,F
+463,106-R-1,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428915,Malden,BUS42018-hbf48011-Weekday-02,2.29849,R
+464,106-R-2,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428877,Malden,BUS42018-hbf48011-Weekday-02,3.31285,R
+465,106-R-3,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428917,Wellington,BUS42018-hbf48011-Weekday-02,5.24962,R
+466,106-R-4,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428884,Wellington,BUS42018-hbf48011-Weekday-02,6.04169,R
+467,106-R-5,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38428883,Wellington,BUS42018-hbf48011-Weekday-02,7.70453,R
+468,108-F-1,108,108,Linden Square - Wellington,Local Bus,3,38428733,Linden Square,BUS42018-hbf48011-Weekday-02,2.75236,F
+469,108-F-2,108,108,Linden Square - Wellington,Local Bus,3,38428747,Linden Square,BUS42018-hbf48011-Weekday-02,3.36299,F
+470,108-F-3,108,108,Linden Square - Wellington,Local Bus,3,38428746,Linden Square,BUS42018-hbf48011-Weekday-02,6.28663,F
+471,108-F-4,108,108,Linden Square - Wellington,Local Bus,3,38428975,Linden Square via Pearl St,BUS42018-hbf48011-Weekday-02,6.63796,F
+472,108-R-1,108,108,Linden Square - Wellington,Local Bus,3,38428304,Malden,BUS42018-hbf48011-Weekday-02,2.80307,R
+473,108-R-2,108,108,Linden Square - Wellington,Local Bus,3,38428745,Wellington,BUS42018-hbf48011-Weekday-02,5.57155,R
+474,108-R-3,108,108,Linden Square - Wellington,Local Bus,3,38428947,Wellington via Pearl St,BUS42018-hbf48011-Weekday-02,6.20616,R
+475,131-F-1,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428475,Melrose Highlands,BUS42018-hbf48011-Weekday-02,3.2611,F
+476,131-F-2,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428473,Melrose Highlands,BUS42018-hbf48011-Weekday-02,4.34336,F
+477,131-F-3,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428484,Melrose Highlands via East Side,BUS42018-hbf48011-Weekday-02,5.27961,F
+478,131-F-4,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428476,Melrose Highlands,BUS42018-hbf48011-Weekday-02,7.54276,F
+479,131-R-1,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428483,Oak Grove,BUS42018-hbf48011-Weekday-02,2.94141,R
+480,131-R-2,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428667,Malden,BUS42018-hbf48011-Weekday-02,3.97896,R
+481,131-R-3,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428474,Oak Grove via East Side,BUS42018-hbf48011-Weekday-02,4.66345,R
+482,131-R-4,131,131,Melrose Highlands - Oak Grove,Commuter Bus,3,38428477,Malden,BUS42018-hbf48011-Weekday-02,5.701,R
+483,132-F-1,132,132,Redstone Shopping Center - Malden Center,Local Bus,3,38428449,Redstone,BUS42018-hbf48011-Weekday-02,7.21358,F
+484,132-R-1,132,132,Redstone Shopping Center - Malden Center,Local Bus,3,38428445,Malden,BUS42018-hbf48011-Weekday-02,5.99112,R
+485,134-F-1,134,134,North Woburn - Wellington,Local Bus,3,38428701,Winthrop St & Brooks St,BUS42018-hbf48011-Weekday-02,3.01312,F
+486,134-F-2,134,134,North Woburn - Wellington,Local Bus,3,38428514,Winthrop St,BUS42018-hbf48011-Weekday-02,5.04461,F
+487,134-F-3,134,134,North Woburn - Wellington,Local Bus,3,38428512,Winthrop St,BUS42018-hbf48011-Weekday-02,4.75553,F
+488,134-F-4,134,134,North Woburn - Wellington,Local Bus,3,38428493,North Woburn,BUS42018-hbf48011-Weekday-02,11.889,F
+489,134-F-5,134,134,North Woburn - Wellington,Local Bus,3,38428487,North Woburn,BUS42018-hbf48011-Weekday-02,14.6644,F
+490,134-F-6,134,134,North Woburn - Wellington,Local Bus,3,38428489,North Woburn via Veterans Senior Center,BUS42018-hbf48011-Weekday-02,16.1379,F
+491,134-R-1,134,134,North Woburn - Wellington,Local Bus,3,38428686,Wellington,BUS42018-hbf48011-Weekday-02,2.92627,R
+492,134-R-2,134,134,North Woburn - Wellington,Local Bus,3,38428702,Middlesex Ave & Second St,BUS42018-hbf48011-Weekday-02,2.9407,R
+493,134-R-3,134,134,North Woburn - Wellington,Local Bus,3,38428511,Wellington,BUS42018-hbf48011-Weekday-02,4.57616,R
+494,134-R-4,134,134,North Woburn - Wellington,Local Bus,3,38428517,Wellington,BUS42018-hbf48011-Weekday-02,5.26112,R
+495,134-R-5,134,134,North Woburn - Wellington,Local Bus,3,38428496,Wellington,BUS42018-hbf48011-Weekday-02,11.9983,R
+496,134-R-6,134,134,North Woburn - Wellington,Local Bus,3,38428492,Wellington via Veterans Senior Center,BUS42018-hbf48011-Weekday-02,13.4718,R
+497,134-R-7,134,134,North Woburn - Wellington,Local Bus,3,38428488,Wellington,BUS42018-hbf48011-Weekday-02,14.278,R
+498,134-R-8,134,134,North Woburn - Wellington,Local Bus,3,38428504,Wellington via Veterans Senior Center,BUS42018-hbf48011-Weekday-02,15.7514,R
+499,136-F-1,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38429080,Wakefield Square,BUS42018-hbf48011-Weekday-02,4.7952,F
+500,136-F-2,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38429075,Reading Depot,BUS42018-hbf48011-Weekday-02,9.12273,F
+501,136-F-3,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38429047,Reading Depot,BUS42018-hbf48011-Weekday-02,11.3859,F
+502,136-R-1,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38429057,Oak Grove,BUS42018-hbf48011-Weekday-02,4.82173,R
+503,136-R-2,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38429058,Malden,BUS42018-hbf48011-Weekday-02,6.85619,R
+504,136-R-3,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38429048,Malden,BUS42018-hbf48011-Weekday-02,11.071,R
+505,137-F-1,137,137,Reading Depot - Malden Center via North Avenue,Local Bus,3,38429082,Reading Depot,BUS42018-hbf48011-Weekday-02,10.2384,F
+506,137-R-1,137,137,Reading Depot - Malden Center via North Avenue,Local Bus,3,38429083,Malden,BUS42018-hbf48011-Weekday-02,10.0325,R
+507,354-F-1,354,354,Burlington - Downtown Boston,Commuter Bus,3,38428614,Woburn via West Cummings (Express),BUS42018-hbf48011-Weekday-02,17.697,F
+508,354-F-2,354,354,Burlington - Downtown Boston,Commuter Bus,3,38428616,Woburn via Medford Square (Express),BUS42018-hbf48011-Weekday-02,18.3879,F
+509,354-F-3,354,354,Burlington - Downtown Boston,Commuter Bus,3,38428625,Woburn (Express),BUS42018-hbf48011-Weekday-02,16.4056,F
+510,354-F-4,354,354,Burlington - Downtown Boston,Commuter Bus,3,38428627,Burlington (Express),BUS42018-hbf48011-Weekday-02,18.3764,F
+511,354-R-1,354,354,Burlington - Downtown Boston,Commuter Bus,3,38428622,Boston via West Cummings (Express),BUS42018-hbf48011-Weekday-02,17.3488,R
+512,354-R-2,354,354,Burlington - Downtown Boston,Commuter Bus,3,38428624,Boston via Medford Square (Express),BUS42018-hbf48011-Weekday-02,17.7121,R
+513,354-R-3,354,354,Burlington - Downtown Boston,Commuter Bus,3,38428615,Boston (Express),BUS42018-hbf48011-Weekday-02,16.2705,R
+514,411-F-1,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38428583,Kennedy Dr,BUS42018-hbf48011-Weekday-02,3.2594,F
+515,411-F-2,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38428447,Jack Satter House,BUS42018-hbf48011-Weekday-02,10.1757,F
+516,411-R-1,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38428446,Malden,BUS42018-hbf48011-Weekday-02,3.24232,R
+517,411-R-2,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38428448,Malden,BUS42018-hbf48011-Weekday-02,11.4466,R
+518,430-F-1,430,430,Saugus Center - Malden Center,Local Bus,3,38428736,Square One Mall,BUS42018-hbf48011-Weekday-02,5.55168,F
+519,430-F-2,430,430,Saugus Center - Malden Center,Local Bus,3,38428560,Saugus Center,BUS42018-hbf48011-Weekday-02,7.56723,F
+520,430-F-3,430,430,Saugus Center - Malden Center,Local Bus,3,38428540,Saugus Center via Square One Mall,BUS42018-hbf48011-Weekday-02,9.19273,F
+521,430-R-1,430,430,Saugus Center - Malden Center,Local Bus,3,38428561,Malden,BUS42018-hbf48011-Weekday-02,9.0021,R
+522,430-R-2,430,430,Saugus Center - Malden Center,Local Bus,3,38428541,Malden via Square One Mall,BUS42018-hbf48011-Weekday-02,9.0021,R
+523,90-F-1,90,90,Davis - Wellington,Local Bus,3,38428750,Davis,BUS42018-hbf48011-Weekday-02,5.77264,F
+524,90-R-1,90,90,Davis - Wellington,Local Bus,3,38428749,Wellington,BUS42018-hbf48011-Weekday-02,5.78169,R
+525,94-F-1,94,94,Medford Square - Davis,Local Bus,3,38428305,Medford Square,BUS42018-hbf48011-Weekday-02,4.04121,F
+526,94-F-2,94,94,Medford Square - Davis,Local Bus,3,38428307,Medford Square,BUS42018-hbf48011-Weekday-02,5.40894,F
+527,94-R-1,94,94,Medford Square - Davis,Local Bus,3,38428306,Davis,BUS42018-hbf48011-Weekday-02,4.4818,R
+528,95-F-1,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38428699,Winthrop St & Brooks St via Medford Square,BUS42018-hbf48011-Weekday-02,2.13248,F
+529,95-F-2,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38428334,West Medford via High St,BUS42018-hbf48011-Weekday-02,3.18642,F
+530,95-F-3,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38428336,West Medford,BUS42018-hbf48011-Weekday-02,5.8142,F
+531,95-R-1,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38428697,Fellsway Garage via Winthrop St,BUS42018-hbf48011-Weekday-02,2.30596,R
+532,95-R-2,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38428358,Fellsway Garage via High St,BUS42018-hbf48011-Weekday-02,3.33199,R
+533,95-R-3,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38428335,Sullivan,BUS42018-hbf48011-Weekday-02,5.13668,R
+534,96-F-1,96,96,Medford Square - Harvard,Local Bus,3,38428313,Medford Square,BUS42018-hbf48011-Weekday-02,2.66272,F
+535,96-F-2,96,96,Medford Square - Harvard,Local Bus,3,38428311,Medford Square,BUS42018-hbf48011-Weekday-02,4.49663,F
+536,96-R-1,96,96,Medford Square - Harvard,Local Bus,3,38428323,Davis,BUS42018-hbf48011-Weekday-02,3.09557,R
+537,96-R-2,96,96,Medford Square - Harvard,Local Bus,3,38428310,Harvard,BUS42018-hbf48011-Weekday-02,4.58525,R
+538,97-F-1,97,97,Malden Center - Wellington,Local Bus,3,38428784,Malden,BUS42018-hbf48011-Weekday-02,4.37656,F
+539,97-R-1,97,97,Malden Center - Wellington,Local Bus,3,38428783,Wellington,BUS42018-hbf48011-Weekday-02,4.61452,R
+540,99-F-1,99,99,"Woodland Road, Stoneham - Wellington",Local Bus,3,38428817,Woodland Rd,BUS42018-hbf48011-Weekday-02,6.81999,F
+541,99-R-1,99,99,"Woodland Road, Stoneham - Wellington",Local Bus,3,38428641,Malden,BUS42018-hbf48011-Weekday-02,3.54798,R
+542,99-R-2,99,99,"Woodland Road, Stoneham - Wellington",Local Bus,3,38428815,Wellington,BUS42018-hbf48011-Weekday-02,6.40804,R
+543,100-F-2,100,100,Elm Street - Wellington,Local Bus,3,38442535,Elm St,BUS42018-hbg48011-Weekday-02,3.54186,F
+544,100-R-3,100,100,Elm Street - Wellington,Local Bus,3,38442540,Wellington,BUS42018-hbg48011-Weekday-02,3.55167,R
+545,101-F-2,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38442667,Winthrop St & Brooks St,BUS42018-hbg48011-Weekday-02,2.85284,F
+546,101-F-3,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38443430,Medford Square,BUS42018-hbg48011-Weekday-02,3.78419,F
+547,101-F-4,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38443605,Malden,BUS42018-hbg48011-Weekday-02,5.76775,F
+548,101-F-5,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38443618,Malden,BUS42018-hbg48011-Weekday-02,6.77904,F
+549,101-R-3,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38442626,Sullivan,BUS42018-hbg48011-Weekday-02,3.39354,R
+550,101-R-4,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38443551,Sullivan,BUS42018-hbg48011-Weekday-02,5.23445,R
+551,101-R-5,101,101,Malden Center - Sullivan via Winter Hill,Local Bus,3,38442636,Sullivan,BUS42018-hbg48011-Weekday-02,6.16561,R
+552,104-F-1,104,104,Malden Center - Sullivan via Ferry Street,Local Bus,3,38443660,Malden,BUS42018-hbg48011-Weekday-02,5.17194,F
+553,104-R-1,104,104,Malden Center - Sullivan via Ferry Street,Local Bus,3,38443657,Sullivan,BUS42018-hbg48011-Weekday-02,4.48401,R
+554,105-F-2,105,105,Malden Center - Sullivan via Newland Street Housing,Local Bus,3,38442640,Malden,BUS42018-hbg48011-Weekday-02,7.25021,F
+555,105-R-2,105,105,Malden Center - Sullivan via Newland Street Housing,Local Bus,3,38442641,Sullivan,BUS42018-hbg48011-Weekday-02,5.90234,R
+556,106-F-6,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38442629,Lebanon Loop,BUS42018-hbg48011-Weekday-02,2.31669,F
+557,106-F-7,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38442649,Lebanon Loop,BUS42018-hbg48011-Weekday-02,5.36533,F
+558,106-R-6,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38442652,Wellington,BUS42018-hbg48011-Weekday-02,5.24962,R
+559,106-R-7,106,106,"Lebanon Street, Malden - Wellington",Local Bus,3,38442650,Wellington,BUS42018-hbg48011-Weekday-02,6.04169,R
+560,108-F-5,108,108,Linden Square - Wellington,Local Bus,3,38443863,Linden Square,BUS42018-hbg48011-Weekday-02,6.28663,F
+561,108-R-4,108,108,Linden Square - Wellington,Local Bus,3,38444045,Malden,BUS42018-hbg48011-Weekday-02,2.80307,R
+562,108-R-5,108,108,Linden Square - Wellington,Local Bus,3,38443862,Wellington,BUS42018-hbg48011-Weekday-02,5.57155,R
+563,109-F-1,109,109,Linden Square - Sullivan,Local Bus,3,38443834,Glendale Square,BUS42018-hbg48011-Weekday-02,3.0553,F
+564,109-F-2,109,109,Linden Square - Sullivan,Local Bus,3,38443795,Linden Square,BUS42018-hbg48011-Weekday-02,5.15447,F
+565,109-R-1,109,109,Linden Square - Sullivan,Local Bus,3,38443747,Sullivan,BUS42018-hbg48011-Weekday-02,4.63051,R
+566,110-F-1,110,110,Wonderland - Wellington,Local Bus,3,38442741,Woodlawn,BUS42018-hbg48011-Weekday-02,3.15224,F
+567,110-F-2,110,110,Wonderland - Wellington,Local Bus,3,38442661,Broadway & Park,BUS42018-hbg48011-Weekday-02,4.32641,F
+568,110-F-3,110,110,Wonderland - Wellington,Local Bus,3,38442648,Wonderland,BUS42018-hbg48011-Weekday-02,5.74504,F
+569,110-R-1,110,110,Wonderland - Wellington,Local Bus,3,38442665,Wellington,BUS42018-hbg48011-Weekday-02,4.3244,R
+570,110-R-2,110,110,Wonderland - Wellington,Local Bus,3,38442645,Wellington,BUS42018-hbg48011-Weekday-02,5.83816,R
+571,111-F-1,111,111,"Everett, Revere, or Chelsea - Haymarket",Key Bus,3,38442559,Cary Square,BUS42018-hbg48011-Weekday-02,3.97756,F
+572,111-F-2,111,111,"Everett, Revere, or Chelsea - Haymarket",Key Bus,3,38442772,Woodlawn,BUS42018-hbg48011-Weekday-02,5.5313,F
+573,111-F-3,111,111,"Everett, Revere, or Chelsea - Haymarket",Key Bus,3,38442825,Broadway & Park,BUS42018-hbg48011-Weekday-02,6.62421,F
+574,111-R-1,111,111,"Everett, Revere, or Chelsea - Haymarket",Key Bus,3,38442773,Haymarket,BUS42018-hbg48011-Weekday-02,3.57204,R
+575,111-R-2,111,111,"Everett, Revere, or Chelsea - Haymarket",Key Bus,3,38442624,Haymarket,BUS42018-hbg48011-Weekday-02,4.03235,R
+576,111-R-3,111,111,"Everett, Revere, or Chelsea - Haymarket",Key Bus,3,38442774,Haymarket,BUS42018-hbg48011-Weekday-02,5.26145,R
+577,111-R-4,111,111,"Everett, Revere, or Chelsea - Haymarket",Key Bus,3,38442562,Haymarket,BUS42018-hbg48011-Weekday-02,6.43309,R
+578,112-F-1,112,112,Wellington - Wood Island,Local Bus,3,38443875,Wellington via Admiral's Hill & Market Basket,BUS42018-hbg48011-Weekday-02,7.41922,F
+579,112-F-2,112,112,Wellington - Wood Island,Local Bus,3,38443878,Wellington via Admiral's Hill & Market Basket,BUS42018-hbg48011-Weekday-02,9.06684,F
+580,112-R-1,112,112,Wellington - Wood Island,Local Bus,3,38443876,Wood Island via Market Basket & Admiral's Hill,BUS42018-hbg48011-Weekday-02,8.8096,R
+581,132-F-2,132,132,Redstone Shopping Center - Malden Center,Local Bus,3,38442644,Redstone,BUS42018-hbg48011-Weekday-02,7.21358,F
+582,132-R-2,132,132,Redstone Shopping Center - Malden Center,Local Bus,3,38442643,Malden,BUS42018-hbg48011-Weekday-02,5.99112,R
+583,134-F-7,134,134,North Woburn - Wellington,Local Bus,3,38442536,Medford Square,BUS42018-hbg48011-Weekday-02,3.03321,F
+584,134-F-8,134,134,North Woburn - Wellington,Local Bus,3,38442543,North Woburn,BUS42018-hbg48011-Weekday-02,11.889,F
+585,134-R-9,134,134,North Woburn - Wellington,Local Bus,3,38442538,Wellington,BUS42018-hbg48011-Weekday-02,2.92627,R
+586,134-R-10,134,134,North Woburn - Wellington,Local Bus,3,38442668,Wellington,BUS42018-hbg48011-Weekday-02,4.57616,R
+587,134-R-11,134,134,North Woburn - Wellington,Local Bus,3,38442542,Wellington,BUS42018-hbg48011-Weekday-02,11.9983,R
+588,136-F-4,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38442647,Wakefield Square,BUS42018-hbg48011-Weekday-02,7.05835,F
+589,136-F-5,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38442628,Reading Depot,BUS42018-hbg48011-Weekday-02,11.3859,F
+590,136-R-4,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38442646,Malden,BUS42018-hbg48011-Weekday-02,6.85619,R
+591,136-R-5,136,136,Reading Depot - Malden Center via Lowell Street,Local Bus,3,38442631,Malden,BUS42018-hbg48011-Weekday-02,11.071,R
+592,137-F-2,137,137,Reading Depot - Malden Center via North Avenue,Local Bus,3,38442630,Reading Depot,BUS42018-hbg48011-Weekday-02,10.2384,F
+593,137-R-2,137,137,Reading Depot - Malden Center via North Avenue,Local Bus,3,38442627,Malden,BUS42018-hbg48011-Weekday-02,10.0325,R
+594,325-F-1,325,325,Elm Street - Haymarket,Commuter Bus,3,38443076,Elm St Medford (Express),BUS42018-hbg48011-Weekday-02,6.10809,F
+595,325-F-2,325,325,Elm Street - Haymarket,Commuter Bus,3,38442612,Elm St Medford (Express),BUS42018-hbg48011-Weekday-02,7.05978,F
+596,325-F-3,325,325,Elm Street - Haymarket,Commuter Bus,3,38442616,Roosevelt Circle (Express),BUS42018-hbg48011-Weekday-02,7.56585,F
+597,325-F-4,325,325,Elm Street - Haymarket,Commuter Bus,3,38443129,Redstone via Medford (Express),BUS42018-hbg48011-Weekday-02,12.4276,F
+598,325-R-1,325,325,Elm Street - Haymarket,Commuter Bus,3,38442615,Haymarket (Express),BUS42018-hbg48011-Weekday-02,6.51783,R
+599,325-R-2,325,325,Elm Street - Haymarket,Commuter Bus,3,38442625,Haymarket (Express),BUS42018-hbg48011-Weekday-02,7.68284,R
+600,325-R-3,325,325,Elm Street - Haymarket,Commuter Bus,3,38443083,Haymarket (Express),BUS42018-hbg48011-Weekday-02,11.8323,R
+601,326-F-1,326,326,West Medford - Haymarket,Commuter Bus,3,38442623,Medford Square (Express),BUS42018-hbg48011-Weekday-02,5.36494,F
+602,326-F-2,326,326,West Medford - Haymarket,Commuter Bus,3,38443079,West Medford (Express),BUS42018-hbg48011-Weekday-02,6.92408,F
+603,326-F-3,326,326,West Medford - Haymarket,Commuter Bus,3,38442614,West Medford (Express),BUS42018-hbg48011-Weekday-02,7.53816,F
+604,326-R-1,326,326,West Medford - Haymarket,Commuter Bus,3,38442617,Haymarket (Express),BUS42018-hbg48011-Weekday-02,7.0101,R
+605,326-R-2,326,326,West Medford - Haymarket,Commuter Bus,3,38442622,Haymarket (Express),BUS42018-hbg48011-Weekday-02,7.62377,R
+606,352-F-1,352,352,North Burlington - Downtown Boston,Commuter Bus,3,38443139,Burlington (Express),BUS42018-hbg48011-Weekday-02,17.8858,F
+607,352-R-1,352,352,North Burlington - Downtown Boston,Commuter Bus,3,38442582,Boston (Express),BUS42018-hbg48011-Weekday-02,17.9658,R
+608,354-F-5,354,354,Burlington - Downtown Boston,Commuter Bus,3,38442685,Burlington (Express),BUS42018-hbg48011-Weekday-02,18.3764,F
+609,411-F-3,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38442635,Kennedy Dr,BUS42018-hbg48011-Weekday-02,3.2594,F
+610,411-F-4,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38442683,Jack Satter House,BUS42018-hbg48011-Weekday-02,10.1757,F
+611,411-R-3,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38442634,Malden,BUS42018-hbg48011-Weekday-02,3.24232,R
+612,411-R-4,411,411,"Jack Satter House, Revere - Malden Center",Local Bus,3,38442684,Malden,BUS42018-hbg48011-Weekday-02,11.4466,R
+613,430-F-4,430,430,Saugus Center - Malden Center,Local Bus,3,38443150,Saugus Center via Square One Mall,BUS42018-hbg48011-Weekday-02,9.19273,F
+614,430-F-5,430,430,Saugus Center - Malden Center,Local Bus,3,38443149,Saugus Center via Kennedy Dr & Square One Mall,BUS42018-hbg48011-Weekday-02,10.3033,F
+615,430-R-3,430,430,Saugus Center - Malden Center,Local Bus,3,38443151,Malden via Square One Mall,BUS42018-hbg48011-Weekday-02,9.0021,R
+616,430-R-4,430,430,Saugus Center - Malden Center,Local Bus,3,38443147,Malden via Square One Mall & Kennedy Dr,BUS42018-hbg48011-Weekday-02,10.1127,R
+617,89-F-1,89,89,Clarendon Hill or Davis - Sullivan,Local Bus,3,38443436,Davis,BUS42018-hbg48011-Weekday-02,3.54653,F
+618,89-F-2,89,89,Clarendon Hill or Davis - Sullivan,Local Bus,3,38443438,Clarendon Hill,BUS42018-hbg48011-Weekday-02,3.58541,F
+619,89-F-3,89,89,Clarendon Hill or Davis - Sullivan,Local Bus,3,38442528,Clarendon Hill via Davis,BUS42018-hbg48011-Weekday-02,4.39533,F
+620,89-R-1,89,89,Clarendon Hill or Davis - Sullivan,Local Bus,3,38443433,Sullivan,BUS42018-hbg48011-Weekday-02,2.87151,R
+621,89-R-2,89,89,Clarendon Hill or Davis - Sullivan,Local Bus,3,38442529,Sullivan,BUS42018-hbg48011-Weekday-02,3.11894,R
+622,89-R-3,89,89,Clarendon Hill or Davis - Sullivan,Local Bus,3,38443435,Sullivan,BUS42018-hbg48011-Weekday-02,3.32482,R
+623,8993-R-1,8993,89/93,Clarendon Hill - Haymarket,Supplemental Bus,3,38442558,Haymarket via Sullivan,BUS42018-hbg48011-Weekday-02,5.94363,R
+624,90-F-2,90,90,Davis - Wellington,Local Bus,3,38443847,Davis,BUS42018-hbg48011-Weekday-02,5.77264,F
+625,90-R-2,90,90,Davis - Wellington,Local Bus,3,38443848,Wellington,BUS42018-hbg48011-Weekday-02,5.78169,R
+626,91-F-1,91,91,"Sullivan - Central Square, Cambridge",Local Bus,3,38443911,Sullivan,BUS42018-hbg48011-Weekday-02,2.62611,F
+627,91-R-1,91,91,"Sullivan - Central Square, Cambridge",Local Bus,3,38443947,Central Square,BUS42018-hbg48011-Weekday-02,2.79596,R
+628,92-F-1,92,92,Assembly - Downtown Boston,Local Bus,3,38443288,Sullivan,BUS42018-hbg48011-Weekday-02,2.40933,F
+629,92-F-2,92,92,Assembly - Downtown Boston,Local Bus,3,38443201,Sullivan,BUS42018-hbg48011-Weekday-02,2.82644,F
+630,92-F-3,92,92,Assembly - Downtown Boston,Local Bus,3,38443200,Assembly via Sullivan,BUS42018-hbg48011-Weekday-02,3.86432,F
+631,92-R-1,92,92,Assembly - Downtown Boston,Local Bus,3,38443213,Downtown,BUS42018-hbg48011-Weekday-02,2.62129,R
+632,92-R-2,92,92,Assembly - Downtown Boston,Local Bus,3,38443224,Haymarket,BUS42018-hbg48011-Weekday-02,2.46118,R
+633,92-R-3,92,92,Assembly - Downtown Boston,Local Bus,3,38443202,Downtown,BUS42018-hbg48011-Weekday-02,3.79065,R
+634,93-F-1,93,93,Sullivan - Downtown Boston,Local Bus,3,38443227,Sullivan,BUS42018-hbg48011-Weekday-02,2.78894,F
+635,93-F-2,93,93,Sullivan - Downtown Boston,Local Bus,3,38443206,Sullivan,BUS42018-hbg48011-Weekday-02,3.20606,F
+636,93-F-3,93,93,Sullivan - Downtown Boston,Local Bus,3,38443223,Sullivan via Navy Yard,BUS42018-hbg48011-Weekday-02,3.85119,F
+637,93-R-1,93,93,Sullivan - Downtown Boston,Local Bus,3,38443258,Haymarket,BUS42018-hbg48011-Weekday-02,1.83308,R
+638,93-R-2,93,93,Sullivan - Downtown Boston,Local Bus,3,38443199,Downtown,BUS42018-hbg48011-Weekday-02,3.00467,R
+639,93-R-3,93,93,Sullivan - Downtown Boston,Local Bus,3,38443209,Haymarket,BUS42018-hbg48011-Weekday-02,2.84457,R
+640,93-R-4,93,93,Sullivan - Downtown Boston,Local Bus,3,38443236,Downtown via Navy Yard,BUS42018-hbg48011-Weekday-02,3.65709,R
+641,94-F-3,94,94,Medford Square - Davis,Local Bus,3,38442531,Medford Square,BUS42018-hbg48011-Weekday-02,4.04121,F
+642,94-R-2,94,94,Medford Square - Davis,Local Bus,3,38442530,Davis,BUS42018-hbg48011-Weekday-02,4.4818,R
+643,95-F-4,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38442750,Winthrop St & Brooks St via Medford Square,BUS42018-hbg48011-Weekday-02,2.13248,F
+644,95-F-5,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38442564,West Medford,BUS42018-hbg48011-Weekday-02,5.8142,F
+645,95-R-4,95,95,West Medford - Sullivan via Mystic Avenue,Local Bus,3,38442565,Sullivan,BUS42018-hbg48011-Weekday-02,5.13668,R
+646,96-F-3,96,96,Medford Square - Harvard,Local Bus,3,38442533,Medford Square,BUS42018-hbg48011-Weekday-02,4.49663,F
+647,96-R-3,96,96,Medford Square - Harvard,Local Bus,3,38442534,Harvard,BUS42018-hbg48011-Weekday-02,4.58525,R
+648,99-F-2,99,99,"Woodland Road, Stoneham - Wellington",Local Bus,3,38443851,Woodland Rd,BUS42018-hbg48011-Weekday-02,6.81999,F
+649,99-R-3,99,99,"Woodland Road, Stoneham - Wellington",Local Bus,3,38443852,Wellington,BUS42018-hbg48011-Weekday-02,6.40804,R
+650,114-F-1,114,114,Chelsea - Maverick,Community Bus,3,38406185,Market Basket,BUS42018-hbl48011-Weekday-02,2.72818,F
+651,114-R-1,114,114,Chelsea - Maverick,Community Bus,3,38406186,Maverick,BUS42018-hbl48011-Weekday-02,2.50074,R
+652,116-F-1,116,116,Wonderland - Maverick via Revere Street,Key Bus,3,38406500,Wonderland,BUS42018-hbl48011-Weekday-02,5.24848,F
+653,116-R-1,116,116,Wonderland - Maverick via Revere Street,Key Bus,3,38406608,Maverick,BUS42018-hbl48011-Weekday-02,5.36915,R
+654,116117-F-1,116117,116/117,Bellingham Square - Maverick,Supplemental Bus,3,38406509,Bellingham Square,BUS42018-hbl48011-Weekday-02,1.79021,F
+655,116117-R-1,116117,116/117,Bellingham Square - Maverick,Supplemental Bus,3,38406485,Maverick,BUS42018-hbl48011-Weekday-02,2.10803,R
+656,117-F-1,117,117,Wonderland - Maverick via Beach Street,Key Bus,3,38406498,Logan Airport Terminal C,BUS42018-hbl48011-Weekday-02,3.13759,F
+657,117-F-2,117,117,Wonderland - Maverick via Beach Street,Key Bus,3,38406501,Wonderland,BUS42018-hbl48011-Weekday-02,4.89505,F
+658,117-F-3,117,117,Wonderland - Maverick via Beach Street,Key Bus,3,38406878,Wonderland via Maverick,BUS42018-hbl48011-Weekday-02,7.11614,F
+659,117-R-1,117,117,Wonderland - Maverick via Beach Street,Key Bus,3,38406497,Haymarket via Maverick,BUS42018-hbl48011-Weekday-02,5.50017,R
+660,117-R-2,117,117,Wonderland - Maverick via Beach Street,Key Bus,3,38406607,Maverick,BUS42018-hbl48011-Weekday-02,5.10539,R
+661,117-R-3,117,117,Wonderland - Maverick via Beach Street,Key Bus,3,38406605,Haymarket via Maverick,BUS42018-hbl48011-Weekday-02,7.01392,R
+662,119-F-1,119,119,Northgate Shopping Center - Beachmont,Local Bus,3,38406208,Northgate,BUS42018-hbl48011-Weekday-02,5.06552,F
+663,119-F-2,119,119,Northgate Shopping Center - Beachmont,Local Bus,3,38406204,Northgate via Tomasello Way,BUS42018-hbl48011-Weekday-02,5.54941,F
+664,119-R-1,119,119,Northgate Shopping Center - Beachmont,Local Bus,3,38406207,Beachmont,BUS42018-hbl48011-Weekday-02,6.61293,R
+665,119-R-2,119,119,Northgate Shopping Center - Beachmont,Local Bus,3,38406203,Beachmont via Tomasello Way,BUS42018-hbl48011-Weekday-02,7.07444,R
+666,120-F-1,120,120,Orient Heights - Maverick,Local Bus,3,38406429,Orient Heights,BUS42018-hbl48011-Weekday-02,2.43983,F
+667,120-F-2,120,120,Orient Heights - Maverick,Local Bus,3,38406415,Orient Heights,BUS42018-hbl48011-Weekday-02,4.14823,F
+668,120-F-3,120,120,Orient Heights - Maverick,Local Bus,3,38406241,Orient Heights,BUS42018-hbl48011-Weekday-02,5.14495,F
+669,120-R-1,120,120,Orient Heights - Maverick,Local Bus,3,38406430,Maverick,BUS42018-hbl48011-Weekday-02,2.74279,R
+670,120-R-2,120,120,Orient Heights - Maverick,Local Bus,3,38406240,Maverick via Jeffries Point,BUS42018-hbl48011-Weekday-02,4.11101,R
+671,121-F-1,121,121,Wood Island - Maverick,Commuter Bus,3,38406299,Eagle Square,BUS42018-hbl48011-Weekday-02,1.21818,F
+672,121-F-2,121,121,Wood Island - Maverick,Commuter Bus,3,38406315,Wood Island,BUS42018-hbl48011-Weekday-02,1.59145,F
+673,121-R-1,121,121,Wood Island - Maverick,Commuter Bus,3,38406300,Maverick,BUS42018-hbl48011-Weekday-02,1.24498,R
+674,121-R-2,121,121,Wood Island - Maverick,Commuter Bus,3,38406314,Maverick,BUS42018-hbl48011-Weekday-02,1.67578,R
+675,424-F-1,424,424,Eastern Avenue & Essex Street - Haymarket or Wonderland,Commuter Bus,3,38405900,Eastern & Essex via Western Ave (Express),BUS42018-hbl48011-Weekday-02,12.2785,F
+676,424-R-1,424,424,Eastern Avenue & Essex Street - Haymarket or Wonderland,Commuter Bus,3,38405895,Wonderland,BUS42018-hbl48011-Weekday-02,8.10928,R
+677,426-F-1,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38406426,Central Square,BUS42018-hbl48011-Weekday-02,2.73535,F
+678,426-F-2,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38406432,Central Square,BUS42018-hbl48011-Weekday-02,3.95216,F
+679,426-F-3,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38405873,West Lynn via Cliftondale,BUS42018-hbl48011-Weekday-02,11.4118,F
+680,426-F-4,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38406178,Central Square,BUS42018-hbl48011-Weekday-02,5.53092,F
+681,426-F-5,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38405853,Central Square via Cliftondale,BUS42018-hbl48011-Weekday-02,13.6854,F
+682,426-F-6,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38406499,Central Square via Cliftondale,BUS42018-hbl48011-Weekday-02,13.8872,F
+683,426-R-1,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38406142,Haymarket via Cliftondale,BUS42018-hbl48011-Weekday-02,10.8774,R
+684,426-R-2,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38405842,Haymarket via Cliftondale,BUS42018-hbl48011-Weekday-02,12.0231,R
+685,426-R-3,426,426,"Central Square, Lynn - Haymarket or Wonderland via Cliftondale Square",Local Bus,3,38406133,Wonderland via Cliftondale,BUS42018-hbl48011-Weekday-02,8.51918,R
+686,428-F-1,428,428,Oaklandvale - Haymarket,Commuter Bus,3,38405874,Oaklandvale via Cliftondale (Express),BUS42018-hbl48011-Weekday-02,16.3054,F
+687,428-R-1,428,428,Oaklandvale - Haymarket,Commuter Bus,3,38406139,Haymarket via Cliftondale (Express),BUS42018-hbl48011-Weekday-02,15.7176,R
+688,429-F-1,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406417,Kings Lynn,BUS42018-hbl48011-Weekday-02,3.34542,F
+689,429-F-2,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406421,Kings Lynn,BUS42018-hbl48011-Weekday-02,4.05792,F
+690,429-F-3,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406159,Northgate Shopping Center,BUS42018-hbl48011-Weekday-02,12.6981,F
+691,429-F-4,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406162,Northgate Shopping Center via Square One Mall,BUS42018-hbl48011-Weekday-02,13.2584,F
+692,429-F-5,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406170,Northgate Shopping Center via Square One Mall,BUS42018-hbl48011-Weekday-02,13.4338,F
+693,429-R-1,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406427,Central Square,BUS42018-hbl48011-Weekday-02,3.03959,R
+694,429-R-2,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406424,Central Square,BUS42018-hbl48011-Weekday-02,2.66865,R
+695,429-R-3,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406144,Central Square,BUS42018-hbl48011-Weekday-02,13.6966,R
+696,429-R-4,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406156,Central Square via Square One Mall,BUS42018-hbl48011-Weekday-02,16.0509,R
+697,429-R-5,429,429,"Northgate Shopping Center - Central Square, Lynn",Local Bus,3,38406148,Central Square via Square One Mall,BUS42018-hbl48011-Weekday-02,15.3152,R
+698,434-F-1,434,434,"Main Street, Peabody - Haymarket via Goodwin Circle",Commuter Bus,3,38405955,Peabody Square via Western Ave & Goodwins Circle (Express),BUS42018-hbl48011-Weekday-02,18.1109,F
+699,434-R-1,434,434,"Main Street, Peabody - Haymarket via Goodwin Circle",Commuter Bus,3,38405956,Haymarket via Goodwins Circle & Western Ave (Express),BUS42018-hbl48011-Weekday-02,17.98,R
+700,435-F-1,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405979,Peabody Square via Pine Hill,BUS42018-hbl48011-Weekday-02,6.85225,F
+701,435-F-2,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405958,Liberty Tree Mall via North Shore Mall,BUS42018-hbl48011-Weekday-02,10.7084,F
+702,435-F-3,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405976,Liberty Tree Mall via Pine Hill & North Shore Mall,BUS42018-hbl48011-Weekday-02,11.3569,F
+703,435-F-4,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405957,Liberty Tree Mall via North Shore Mall,BUS42018-hbl48011-Weekday-02,11.3209,F
+704,435-F-5,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38406327,Danvers Square via Malls,BUS42018-hbl48011-Weekday-02,12.5703,F
+705,435-F-6,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405980,Liberty Tree Mall via Danvers,BUS42018-hbl48011-Weekday-02,14.9091,F
+706,435-R-1,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405977,Central Square,BUS42018-hbl48011-Weekday-02,7.26195,R
+707,435-R-2,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405978,Central Square via Pine Hill,BUS42018-hbl48011-Weekday-02,7.2971,R
+708,435-R-3,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405973,Central Square via Malls,BUS42018-hbl48011-Weekday-02,11.057,R
+709,435-R-4,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405966,Neptune Towers via Central Square,BUS42018-hbl48011-Weekday-02,12.2603,R
+710,435-R-5,435,435,"Liberty Tree Mall - Central Square, Lynn or Neptune Towers via Peabody Square",Local Bus,3,38405967,Neptune Towers via Pine Hill & Central Square,BUS42018-hbl48011-Weekday-02,12.2954,R
+711,436-F-1,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38406013,Goodwins Circle,BUS42018-hbl48011-Weekday-02,4.99392,F
+712,436-F-2,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38406422,Goodwins Circle,BUS42018-hbl48011-Weekday-02,5.70643,F
+713,436-F-3,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38406006,North Shore Mall via Lynnfield St,BUS42018-hbl48011-Weekday-02,11.2324,F
+714,436-F-4,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38405988,Liberty Tree via North Shore Mall & Lynnfield St,BUS42018-hbl48011-Weekday-02,12.0835,F
+715,436-R-1,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38406466,West Lynn Garage via Central Square,BUS42018-hbl48011-Weekday-02,3.21166,R
+716,436-R-2,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38406416,West Lynn Garage via Central Square,BUS42018-hbl48011-Weekday-02,4.35134,R
+717,436-R-3,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38406014,Neptune Towers via Central Square,BUS42018-hbl48011-Weekday-02,6.34726,R
+718,436-R-4,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38406010,Central Square via Lynnfield St,BUS42018-hbl48011-Weekday-02,14.3129,R
+719,436-R-5,436,436,"Liberty Tree Mall - Central Square, Lynn via Goodwin Circle",Local Bus,3,38405996,Central Square via Malls & Lynnfield St,BUS42018-hbl48011-Weekday-02,15.1721,R
+720,439-F-1,439,439,"Bass Point, Nahant - Central Square, Lynn",Commuter Bus,3,38406184,Nahant,BUS42018-hbl48011-Weekday-02,3.09241,F
+721,439-F-2,439,439,"Bass Point, Nahant - Central Square, Lynn",Commuter Bus,3,38406334,Nahant,BUS42018-hbl48011-Weekday-02,3.49442,F
+722,439-F-3,439,439,"Bass Point, Nahant - Central Square, Lynn",Commuter Bus,3,38406374,Nahant via Central Square,BUS42018-hbl48011-Weekday-02,7.53583,F
+723,439-R-1,439,439,"Bass Point, Nahant - Central Square, Lynn",Commuter Bus,3,38406183,Central Square,BUS42018-hbl48011-Weekday-02,7.56761,R
+724,439-R-2,439,439,"Bass Point, Nahant - Central Square, Lynn",Commuter Bus,3,38406405,Wonderland via Central Square,BUS42018-hbl48011-Weekday-02,11.8574,R
+725,441-F-1,441,441,Marblehead - Wonderland via Paradise Road,Local Bus,3,38406362,Vinnin Square via Central Square & Paradise Rd,BUS42018-hbl48011-Weekday-02,7.55891,F
+726,441-F-2,441,441,Marblehead - Wonderland via Paradise Road,Local Bus,3,38406473,Marblehead via Central Square & Paradise Rd,BUS42018-hbl48011-Weekday-02,9.11255,F
+727,441-F-3,441,441,Marblehead - Wonderland via Paradise Road,Local Bus,3,38406087,Marblehead via Central Square & Paradise Rd,BUS42018-hbl48011-Weekday-02,11.7546,F
+728,441-R-1,441,441,Marblehead - Wonderland via Paradise Road,Local Bus,3,38406077,Wonderland via Paradise Rd & Central Square,BUS42018-hbl48011-Weekday-02,7.68018,R
+729,441-R-2,441,441,Marblehead - Wonderland via Paradise Road,Local Bus,3,38406467,West Lynn via Paradise Rd & Central Square,BUS42018-hbl48011-Weekday-02,9.01628,R
+730,441-R-3,441,441,Marblehead - Wonderland via Paradise Road,Local Bus,3,38406051,Wonderland via Paradise Rd & Central Square,BUS42018-hbl48011-Weekday-02,12.0874,R
+731,441442-F-1,441442,441/442,"Central Square, Lynn - Wonderland",Local Bus,3,38406337,Central Square,BUS42018-hbl48011-Weekday-02,4.47798,F
+732,441442-R-1,441442,441/442,"Central Square, Lynn - Wonderland",Local Bus,3,38406368,Wonderland,BUS42018-hbl48011-Weekday-02,4.68901,R
+733,442-F-1,442,442,Marblehead - Wonderland via Humphrey Street,Local Bus,3,38406361,Vinnin Square via Central Square & Humphrey St,BUS42018-hbl48011-Weekday-02,8.64315,F
+734,442-F-2,442,442,Marblehead - Wonderland via Humphrey Street,Local Bus,3,38406472,Marblehead via Central Square & Humphrey St,BUS42018-hbl48011-Weekday-02,8.62287,F
+735,442-F-3,442,442,Marblehead - Wonderland via Humphrey Street,Local Bus,3,38406095,Marblehead via Central Square & Humphrey St,BUS42018-hbl48011-Weekday-02,11.2649,F
+736,442-R-1,442,442,Marblehead - Wonderland via Humphrey Street,Local Bus,3,38406082,Wonderland via Central Square & Humphrey St,BUS42018-hbl48011-Weekday-02,8.81329,R
+737,442-R-2,442,442,Marblehead - Wonderland via Humphrey Street,Local Bus,3,38406471,West Lynn via Central Square & Humphrey St,BUS42018-hbl48011-Weekday-02,8.57548,R
+738,442-R-3,442,442,Marblehead - Wonderland via Humphrey Street,Local Bus,3,38406061,Wonderland via Central Square & Humphrey St,BUS42018-hbl48011-Weekday-02,11.6466,R
+739,448-F-1,448,448,Marblehead - Downtown Crossing via Paradise Road,Commuter Bus,3,38406181,Marblehead via Paradise Rd & Central Square (Express),BUS42018-hbl48011-Weekday-02,20.6977,F
+740,448-F-2,448,448,Marblehead - Downtown Crossing via Paradise Road,Commuter Bus,3,38406108,Marblehead via Paradise Rd & Central Square (Express),BUS42018-hbl48011-Weekday-02,20.8323,F
+741,448-R-1,448,448,Marblehead - Downtown Crossing via Paradise Road,Commuter Bus,3,38406072,Downtown via Airport and Paradise Rd (Express),BUS42018-hbl48011-Weekday-02,20.5194,R
+742,449-F-1,449,449,Marblehead - Downtown Crossing via Humphrey Street,Commuter Bus,3,38406179,Marblehead via Humphrey St & Central Square (Express),BUS42018-hbl48011-Weekday-02,20.2081,F
+743,449-F-2,449,449,Marblehead - Downtown Crossing via Humphrey Street,Commuter Bus,3,38406107,Marblehead via Humphrey St & Central Square (Express),BUS42018-hbl48011-Weekday-02,20.3426,F
+744,449-R-1,449,449,Marblehead - Downtown Crossing via Humphrey Street,Commuter Bus,3,38406074,Downtown via Airport and Humphrey St (Express),BUS42018-hbl48011-Weekday-02,20.0786,R
+745,450-F-1,450,450,Salem Depot - Haymarket or Wonderland,Local Bus,3,38406476,Salem Depot,BUS42018-hbl48011-Weekday-02,6.74664,F
+746,450-F-2,450,450,Salem Depot - Haymarket or Wonderland,Local Bus,3,38405904,Salem Depot,BUS42018-hbl48011-Weekday-02,15.4042,F
+747,450-R-1,450,450,Salem Depot - Haymarket or Wonderland,Local Bus,3,38406470,West Lynn Garage,BUS42018-hbl48011-Weekday-02,6.44099,R
+748,450-R-2,450,450,Salem Depot - Haymarket or Wonderland,Local Bus,3,38405953,Wonderland,BUS42018-hbl48011-Weekday-02,11.0004,R
+749,450-R-3,450,450,Salem Depot - Haymarket or Wonderland,Local Bus,3,38405877,Haymarket,BUS42018-hbl48011-Weekday-02,14.9735,R
+750,451-F-1,451,451,North Beverly - Salem Depot,Commuter Bus,3,38406030,North Beverly via Tozer Rd,BUS42018-hbl48011-Weekday-02,7.24987,F
+751,451-F-2,451,451,North Beverly - Salem Depot,Commuter Bus,3,38406017,North Beverly via Cabot St,BUS42018-hbl48011-Weekday-02,7.45482,F
+752,451-R-1,451,451,North Beverly - Salem Depot,Commuter Bus,3,38406025,Salem Depot via Tozer Rd,BUS42018-hbl48011-Weekday-02,6.17488,R
+753,451-R-2,451,451,North Beverly - Salem Depot,Commuter Bus,3,38406022,Salem Depot via Cabot St,BUS42018-hbl48011-Weekday-02,6.38325,R
+754,455-F-1,455,455,Salem Depot - Wonderland,Local Bus,3,38406482,Salem Depot via Central Square,BUS42018-hbl48011-Weekday-02,8.38147,F
+755,455-F-2,455,455,Salem Depot - Wonderland,Local Bus,3,38405940,Salem Depot via Central Square,BUS42018-hbl48011-Weekday-02,12.6282,F
+756,455-R-1,455,455,Salem Depot - Wonderland,Local Bus,3,38405926,Wonderland,BUS42018-hbl48011-Weekday-02,6.16594,R
+757,455-R-2,455,455,Salem Depot - Wonderland,Local Bus,3,38406423,West Lynn via Central Square,BUS42018-hbl48011-Weekday-02,3.49637,R
+758,455-R-3,455,455,Salem Depot - Wonderland,Local Bus,3,38405927,Wonderland via Central Square,BUS42018-hbl48011-Weekday-02,13.274,R
+759,456-F-1,456,456,"Salem Depot - Central Square, Lynn",Local Bus,3,38406039,Salem Depot,BUS42018-hbl48011-Weekday-02,6.4141,F
+760,456-F-2,456,456,"Salem Depot - Central Square, Lynn",Local Bus,3,38406480,Salem Depot,BUS42018-hbl48011-Weekday-02,8.35006,F
+761,456-R-1,456,456,"Salem Depot - Central Square, Lynn",Local Bus,3,38406033,Central Square,BUS42018-hbl48011-Weekday-02,6.43812,R
+762,459-F-1,459,459,Salem Depot - Downtown Crossing,Commuter Bus,3,38406435,Salem Depot via Airport & Central Square (Express),BUS42018-hbl48011-Weekday-02,20.4591,F
+763,459-R-1,459,459,Salem Depot - Downtown Crossing,Commuter Bus,3,38406437,Downtown via Central Square & Airport (Express),BUS42018-hbl48011-Weekday-02,20.9346,R
+764,465-F-1,465,465,Danvers Square - Salem Depot,Local Bus,3,38406048,Danvers Square via Peabody Square & Malls,BUS42018-hbl48011-Weekday-02,7.50888,F
+765,465-F-2,465,465,Danvers Square - Salem Depot,Local Bus,3,38406046,Danvers Square via North & Margin,BUS42018-hbl48011-Weekday-02,3.8909,F
+766,465-R-1,465,465,Danvers Square - Salem Depot,Local Bus,3,38406045,Salem Depot via North & Margin,BUS42018-hbl48011-Weekday-02,4.33819,R
+767,465-R-2,465,465,Danvers Square - Salem Depot,Local Bus,3,38406049,Salem Depot via Malls & Peabody Square,BUS42018-hbl48011-Weekday-02,8.11804,R
+768,201-F-1,201,201,Fields Corner Loop via Neponset Ave,Local Bus,3,38303964,Keystone Apts via Neponset Ave & Puritan Mall,BUS42018-hbq48011-Weekday-02,2.5778,F
+769,201-F-2,201,201,Fields Corner Loop via Neponset Ave,Local Bus,3,38303915,Keystone Apts via Neponset Ave,BUS42018-hbq48011-Weekday-02,2.21705,F
+770,201-F-3,201,201,Fields Corner Loop via Neponset Ave,Local Bus,3,38303880,Adams & Gallivan via Neponset Ave,BUS42018-hbq48011-Weekday-02,2.30126,F
+771,201-R-3,201,201,Fields Corner Loop via Neponset Ave,Local Bus,3,38303879,Fields Corner via Adams St,BUS42018-hbq48011-Weekday-02,1.78042,R
+772,201-R-4,201,201,Fields Corner Loop via Neponset Ave,Local Bus,3,38303791,Fields Corner via Adams St,BUS42018-hbq48011-Weekday-02,2.47719,R
+773,202-F-5,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38303419,Hallet Square via Adams St,BUS42018-hbq48011-Weekday-02,2.33242,F
+774,202-F-6,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38303875,Keystone Apts via Adams St,BUS42018-hbq48011-Weekday-02,2.43068,F
+775,202-R-1,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38303795,Fields Corner via Neponset Ave,BUS42018-hbq48011-Weekday-02,2.45124,R
+776,202-R-2,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38303870,Fields Corner via Neponset Ave,BUS42018-hbq48011-Weekday-02,2.35298,R
+777,202-R-3,202,202,Fields Corner Loop via Adams Street,Local Bus,3,38303898,Fields Corner via Neponset Ave & Puritan Mall,BUS42018-hbq48011-Weekday-02,3.83739,R
+778,210-F-1,210,210,Quincy Center - Fields Corner,Local Bus,3,38303892,Quincy Center,BUS42018-hbq48011-Weekday-02,2.24617,F
+779,210-F-2,210,210,Quincy Center - Fields Corner,Local Bus,3,38304314,Quincy Center,BUS42018-hbq48011-Weekday-02,5.1768,F
+780,210-F-3,210,210,Quincy Center - Fields Corner,Local Bus,3,38304313,Braintree,BUS42018-hbq48011-Weekday-02,8.73974,F
+781,210-R-1,210,210,Quincy Center - Fields Corner,Local Bus,3,38303632,North Quincy,BUS42018-hbq48011-Weekday-02,2.24617,R
+782,210-R-2,210,210,Quincy Center - Fields Corner,Local Bus,3,38304320,Fields Corner,BUS42018-hbq48011-Weekday-02,5.26852,R
+783,211-F-1,211,211,Quincy Center - Squantum,Local Bus,3,38304362,Quincy Center,BUS42018-hbq48011-Weekday-02,6.35176,F
+784,211-R-1,211,211,Quincy Center - Squantum,Local Bus,3,38303787,Squantum,BUS42018-hbq48011-Weekday-02,2.75751,R
+785,211-R-2,211,211,Quincy Center - Squantum,Local Bus,3,38303790,Squantum,BUS42018-hbq48011-Weekday-02,2.60872,R
+786,211-R-3,211,211,Quincy Center - Squantum,Local Bus,3,38304348,Squantum,BUS42018-hbq48011-Weekday-02,5.26117,R
+787,211-R-4,211,211,Quincy Center - Squantum,Local Bus,3,38303789,Squantum,BUS42018-hbq48011-Weekday-02,5.82242,R
+788,212-F-1,212,212,Quincy Center - North Quincy,Commuter Bus,3,38304387,Quincy Center,BUS42018-hbq48011-Weekday-02,2.93615,F
+789,212-R-1,212,212,Quincy Center - North Quincy,Commuter Bus,3,38303786,North Quincy,BUS42018-hbq48011-Weekday-02,2.13306,R
+790,212-R-2,212,212,Quincy Center - North Quincy,Commuter Bus,3,38304392,North Quincy,BUS42018-hbq48011-Weekday-02,2.96057,R
+791,214-F-1,214,214,Germantown - Quincy Center,Local Bus,3,38304143,Germantown,BUS42018-hbq48011-Weekday-02,1.47351,F
+792,214-F-2,214,214,Germantown - Quincy Center,Local Bus,3,38304145,Germantown,BUS42018-hbq48011-Weekday-02,2.52753,F
+793,214-F-3,214,214,Germantown - Quincy Center,Local Bus,3,38304260,Germantown via McGrath,BUS42018-hbq48011-Weekday-02,3.33891,F
+794,214-F-4,214,214,Germantown - Quincy Center,Local Bus,3,38304236,Germantown via Coddington,BUS42018-hbq48011-Weekday-02,3.14506,F
+795,214-R-1,214,214,Germantown - Quincy Center,Local Bus,3,38304147,Quincy Center via Coddington,BUS42018-hbq48011-Weekday-02,3.15311,R
+796,214-R-2,214,214,Germantown - Quincy Center,Local Bus,3,38304159,Quincy Center via McGrath,BUS42018-hbq48011-Weekday-02,3.40537,R
+797,214216-F-1,214216,214/216,Houghs Neck - Quincy Center via Germantown,Local Bus,3,38304231,Houghs Neck via Germantown,BUS42018-hbq48011-Weekday-02,5.98577,F
+798,215-F-1,215,215,Quincy Center - Ashmont via West Quincy,Local Bus,3,38303784,Quincy Center,BUS42018-hbq48011-Weekday-02,3.46406,F
+799,215-F-2,215,215,Quincy Center - Ashmont via West Quincy,Local Bus,3,38303475,Quincy Center,BUS42018-hbq48011-Weekday-02,5.60068,F
+800,215-F-3,215,215,Quincy Center - Ashmont via West Quincy,Local Bus,3,38303428,Quincy Center,BUS42018-hbq48011-Weekday-02,6.71702,F
+801,215-R-1,215,215,Quincy Center - Ashmont via West Quincy,Local Bus,3,38303502,East Milton,BUS42018-hbq48011-Weekday-02,3.74064,R
+802,215-R-2,215,215,Quincy Center - Ashmont via West Quincy,Local Bus,3,38303474,North Quincy,BUS42018-hbq48011-Weekday-02,5.47141,R
+803,215-R-3,215,215,Quincy Center - Ashmont via West Quincy,Local Bus,3,38303429,Ashmont,BUS42018-hbq48011-Weekday-02,6.59063,R
+804,216-F-1,216,216,Houghs Neck - Quincy Center,Local Bus,3,38304142,Houghs Neck,BUS42018-hbq48011-Weekday-02,2.19697,F
+805,216-F-2,216,216,Houghs Neck - Quincy Center,Local Bus,3,38304146,Houghs Neck,BUS42018-hbq48011-Weekday-02,3.25099,F
+806,216-F-3,216,216,Houghs Neck - Quincy Center,Local Bus,3,38304235,Houghs Neck,BUS42018-hbq48011-Weekday-02,3.86852,F
+807,216-R-1,216,216,Houghs Neck - Quincy Center,Local Bus,3,38304183,Quincy Center,BUS42018-hbq48011-Weekday-02,3.87657,R
+808,217-F-1,217,217,Quincy Center - Ashmont via Wollaston,Commuter Bus,3,38303754,Quincy Center,BUS42018-hbq48011-Weekday-02,5.49382,F
+809,217-F-2,217,217,Quincy Center - Ashmont via Wollaston,Commuter Bus,3,38303758,Quincy Center via North Quincy,BUS42018-hbq48011-Weekday-02,8.53659,F
+810,217-F-3,217,217,Quincy Center - Ashmont via Wollaston,Commuter Bus,3,38303783,Quincy Center via North Quincy,BUS42018-hbq48011-Weekday-02,9.48108,F
+811,217-R-1,217,217,Quincy Center - Ashmont via Wollaston,Commuter Bus,3,38304006,Bryant Ave & Upton St,BUS42018-hbq48011-Weekday-02,3.29012,R
+812,217-R-2,217,217,Quincy Center - Ashmont via Wollaston,Commuter Bus,3,38303753,Ashmont,BUS42018-hbq48011-Weekday-02,5.58878,R
+813,217-R-3,217,217,Quincy Center - Ashmont via Wollaston,Commuter Bus,3,38304005,Ashmont,BUS42018-hbq48011-Weekday-02,7.12526,R
+814,220-F-1,220,220,Hingham Depot - Quincy Center,Local Bus,3,38303454,Hingham Depot,BUS42018-hbq48011-Weekday-02,7.69126,F
+815,220-F-2,220,220,Hingham Depot - Quincy Center,Local Bus,3,38303422,Hingham Depot via Center,BUS42018-hbq48011-Weekday-02,10.4353,F
+816,220-F-3,220,220,Hingham Depot - Quincy Center,Local Bus,3,38303525,Hingham Depot via Shipyard,BUS42018-hbq48011-Weekday-02,11.3487,F
+817,220-R-1,220,220,Hingham Depot - Quincy Center,Local Bus,3,38303423,Quincy Center,BUS42018-hbq48011-Weekday-02,7.559,R
+818,220-R-2,220,220,Hingham Depot - Quincy Center,Local Bus,3,38303562,Quincy Center via Shipyard,BUS42018-hbq48011-Weekday-02,8.45953,R
+819,221-F-1,221,221,Fort Point - Quincy Center,Commuter Bus,3,38303484,Fort Point via Des Moines Rd,BUS42018-hbq48011-Weekday-02,5.80052,F
+820,221-R-1,221,221,Fort Point - Quincy Center,Commuter Bus,3,38303485,Quincy Center via Des Moines Rd,BUS42018-hbq48011-Weekday-02,6.00805,R
+821,222-F-1,222,222,East Weymouth - Quincy Center,Local Bus,3,38303420,East Weymouth,BUS42018-hbq48011-Weekday-02,6.36305,F
+822,222-F-2,222,222,East Weymouth - Quincy Center,Local Bus,3,38303859,East Weymouth via Essex St,BUS42018-hbq48011-Weekday-02,7.09291,F
+823,222-F-3,222,222,East Weymouth - Quincy Center,Local Bus,3,38303452,Washington St & Pleasant St Weymouth,BUS42018-hbq48011-Weekday-02,7.73624,F
+824,222-R-1,222,222,East Weymouth - Quincy Center,Local Bus,3,38303453,Quincy Center,BUS42018-hbq48011-Weekday-02,7.21264,R
+825,222-R-2,222,222,East Weymouth - Quincy Center,Local Bus,3,38303421,Quincy Center,BUS42018-hbq48011-Weekday-02,7.44995,R
+826,222-R-3,222,222,East Weymouth - Quincy Center,Local Bus,3,38303864,Quincy Center via Essex St,BUS42018-hbq48011-Weekday-02,8.16505,R
+827,225-F-1,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304029,Quintree Mall via Shaw St,BUS42018-hbq48011-Weekday-02,2.89493,F
+828,225-F-2,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304031,Weymouth Landing via Quincy Ave,BUS42018-hbq48011-Weekday-02,5.15347,F
+829,225-F-3,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304007,Weymouth Landing via Shaw St,BUS42018-hbq48011-Weekday-02,5.40881,F
+830,225-F-4,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304015,Weymouth Landing,BUS42018-hbq48011-Weekday-02,5.46711,F
+831,225-F-5,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304018,Columbian Square via Shaw St,BUS42018-hbq48011-Weekday-02,7.7148,F
+832,225-F-6,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304009,Columbian Square,BUS42018-hbq48011-Weekday-02,7.7731,F
+833,225-R-1,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304040,Quincy Center via Shaw St,BUS42018-hbq48011-Weekday-02,2.16412,R
+834,225-R-2,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304012,Quincy Center via Quincy Ave,BUS42018-hbq48011-Weekday-02,3.64082,R
+835,225-R-3,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304016,Quincy Center via Shaw St,BUS42018-hbq48011-Weekday-02,3.89616,R
+836,225-R-4,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304010,Quincy Center,BUS42018-hbq48011-Weekday-02,3.95446,R
+837,225-R-5,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304008,Quincy Center via Shaw St,BUS42018-hbq48011-Weekday-02,7.98635,R
+838,225-R-6,225,225,Weymouth Landing or Columbian Square - Quincy Center,Local Bus,3,38304020,Quincy Center,BUS42018-hbq48011-Weekday-02,8.04464,R
+839,230-F-1,230,230,Montello Commuter Rail Station - Quincy Center,Local Bus,3,38304456,Montello,BUS42018-hbq48011-Weekday-02,7.80871,F
+840,230-F-2,230,230,Montello Commuter Rail Station - Quincy Center,Local Bus,3,38304405,Montello,BUS42018-hbq48011-Weekday-02,11.4287,F
+841,230-F-3,230,230,Montello Commuter Rail Station - Quincy Center,Local Bus,3,38304446,Montello via Holbrook Court,BUS42018-hbq48011-Weekday-02,11.9032,F
+842,230-R-1,230,230,Montello Commuter Rail Station - Quincy Center,Local Bus,3,38304413,Braintree,BUS42018-hbq48011-Weekday-02,7.80176,R
+843,230-R-2,230,230,Montello Commuter Rail Station - Quincy Center,Local Bus,3,38304408,Quincy Center,BUS42018-hbq48011-Weekday-02,11.4862,R
+844,230-R-3,230,230,Montello Commuter Rail Station - Quincy Center,Local Bus,3,38304406,Quincy Center via Holbrook Court,BUS42018-hbq48011-Weekday-02,11.9607,R
+845,236-F-1,236,236,South Shore Plaza - Quincy Center,Local Bus,3,38303495,Braintree,BUS42018-hbq48011-Weekday-02,4.67309,F
+846,236-F-2,236,236,South Shore Plaza - Quincy Center,Local Bus,3,38303440,South Shore Plaza,BUS42018-hbq48011-Weekday-02,7.18966,F
+847,236-R-1,236,236,South Shore Plaza - Quincy Center,Local Bus,3,38303496,Quincy Center,BUS42018-hbq48011-Weekday-02,4.74196,R
+848,236-R-2,236,236,South Shore Plaza - Quincy Center,Local Bus,3,38303441,Quincy Center,BUS42018-hbq48011-Weekday-02,7.33927,R
+849,238-F-1,238,238,Holbrook/Randolph Commuter Rail Station - Quincy Center,Local Bus,3,38303529,Crawford Square,BUS42018-hbq48011-Weekday-02,9.97311,F
+850,238-F-2,238,238,Holbrook/Randolph Commuter Rail Station - Quincy Center,Local Bus,3,38303426,Holbrook/Randolph,BUS42018-hbq48011-Weekday-02,10.8468,F
+851,238-F-3,238,238,Holbrook/Randolph Commuter Rail Station - Quincy Center,Local Bus,3,38303637,Avon Square,BUS42018-hbq48011-Weekday-02,12.1284,F
+852,238-R-1,238,238,Holbrook/Randolph Commuter Rail Station - Quincy Center,Local Bus,3,38303530,Quincy Center,BUS42018-hbq48011-Weekday-02,9.34388,R
+853,238-R-2,238,238,Holbrook/Randolph Commuter Rail Station - Quincy Center,Local Bus,3,38303439,Quincy Center,BUS42018-hbq48011-Weekday-02,10.2176,R
+854,240-F-1,240,240,Avon Square - Ashmont,Local Bus,3,38303769,Avon Square,BUS42018-hbq48011-Weekday-02,3.13993,F
+855,240-F-2,240,240,Avon Square - Ashmont,Local Bus,3,38303768,Holbrook/Randolph via Crawford Square,BUS42018-hbq48011-Weekday-02,3.81907,F
+856,240-F-3,240,240,Avon Square - Ashmont,Local Bus,3,38303763,Avon Square,BUS42018-hbq48011-Weekday-02,5.10072,F
+857,240-F-4,240,240,Avon Square - Ashmont,Local Bus,3,38303762,Crawford Square,BUS42018-hbq48011-Weekday-02,9.31596,F
+858,240-F-5,240,240,Avon Square - Ashmont,Local Bus,3,38303481,Holbrook/Randolph via Crawford Square,BUS42018-hbq48011-Weekday-02,10.3358,F
+859,240-F-6,240,240,Avon Square - Ashmont,Local Bus,3,38303430,Avon Square,BUS42018-hbq48011-Weekday-02,11.6175,F
+860,240-R-1,240,240,Avon Square - Ashmont,Local Bus,3,38303761,Quincy Center via North Randolph,BUS42018-hbq48011-Weekday-02,8.19138,R
+861,240-R-2,240,240,Avon Square - Ashmont,Local Bus,3,38303427,Quincy Center via North Randolph,BUS42018-hbq48011-Weekday-02,9.17599,R
+862,240-R-3,240,240,Avon Square - Ashmont,Local Bus,3,38303770,Quincy Center via North Randolph,BUS42018-hbq48011-Weekday-02,10.3677,R
+863,240-R-4,240,240,Avon Square - Ashmont,Local Bus,3,38303646,Ashmont,BUS42018-hbq48011-Weekday-02,9.34674,R
+864,240-R-5,240,240,Avon Square - Ashmont,Local Bus,3,38303479,Ashmont,BUS42018-hbq48011-Weekday-02,10.3314,R
+865,240-R-6,240,240,Avon Square - Ashmont,Local Bus,3,38303431,Ashmont,BUS42018-hbq48011-Weekday-02,11.5231,R
+866,245-F-1,245,245,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,Local Bus,3,38303510,Quincy Center via Brook Rd,BUS42018-hbq48011-Weekday-02,7.55863,F
+867,245-F-2,245,245,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,Local Bus,3,38303740,Quincy Center via Canton Ave,BUS42018-hbq48011-Weekday-02,7.77281,F
+868,245-F-3,245,245,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,Local Bus,3,38303684,Quincy Center,BUS42018-hbq48011-Weekday-02,8.03079,F
+869,245-F-4,245,245,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,Local Bus,3,38303584,Quincy Center via Brook Rd & Alleyne St,BUS42018-hbq48011-Weekday-02,8.13028,F
+870,245-R-1,245,245,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,Local Bus,3,38303788,Beale & Newport,BUS42018-hbq48011-Weekday-02,4.7681,R
+871,245-R-2,245,245,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,Local Bus,3,38303509,Mattapan via Brook Rd,BUS42018-hbq48011-Weekday-02,7.60271,R
+872,245-R-3,245,245,Quincy Center - Mattapan via Quarry Street & Edge Hill Road,Local Bus,3,38303583,Mattapan,BUS42018-hbq48011-Weekday-02,8.29,R
+873,16-F-9,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38184672,Forest Hills,BUS42018-hbs48sp1-Weekday-02,4.33907,F
+874,16-R-11,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38184664,Andrew,BUS42018-hbs48sp1-Weekday-02,4.25474,R
+875,28-F-6,28,28,Mattapan - Ruggles,Key Bus,3,38184996,Mattapan,BUS42018-hbs48sp1-Weekday-02,5.87599,F
+876,28-R-5,28,28,Mattapan - Ruggles,Key Bus,3,38184995,Ruggles,BUS42018-hbs48sp1-Weekday-02,5.70205,R
+877,39-F-5,39,39,Forest Hills - Back Bay Station,Key Bus,3,38185502,Forest Hills,BUS42018-hbs48sp1-Weekday-02,3.15264,F
+878,39-F-6,39,39,Forest Hills - Back Bay Station,Key Bus,3,38184654,Forest Hills,BUS42018-hbs48sp1-Weekday-02,4.97467,F
+879,39-R-5,39,39,Forest Hills - Back Bay Station,Key Bus,3,38185504,Longwood Ave,BUS42018-hbs48sp1-Weekday-02,3.3188,R
+880,39-R-6,39,39,Forest Hills - Back Bay Station,Key Bus,3,38184653,Back Bay,BUS42018-hbs48sp1-Weekday-02,5.18261,R
+881,741-F-1,741,SL1,Logan Airport - South Station,Key Bus,3,38183628,Logan Airport,BUS42018-hbs48sp1-Weekday-02,4.76982,F
+882,741-R-3,741,SL1,Logan Airport - South Station,Key Bus,3,38183643,South Station,BUS42018-hbs48sp1-Weekday-02,4.49701,R
+883,741-R-4,741,SL1,Logan Airport - South Station,Key Bus,3,38183636,South Station,BUS42018-hbs48sp1-Weekday-02,6.37892,R
+884,742-F-1,742,SL2,Design Center - South Station,Key Bus,3,38183690,Drydock,BUS42018-hbs48sp1-Weekday-02,2.24323,F
+885,742-F-2,742,SL2,Design Center - South Station,Key Bus,3,38183674,Drydock,BUS42018-hbs48sp1-Weekday-02,2.85588,F
+886,742-R-1,742,SL2,Design Center - South Station,Key Bus,3,38183675,South Station,BUS42018-hbs48sp1-Weekday-02,2.96831,R
+887,742-R-2,742,SL2,Design Center - South Station,Key Bus,3,38183793,South Station,BUS42018-hbs48sp1-Weekday-02,3.49259,R
+888,742-R-3,742,SL2,Design Center - South Station,Key Bus,3,38183691,South Station,BUS42018-hbs48sp1-Weekday-02,3.58095,R
+889,743-F-1,743,SL3,Chelsea - South Station,Key Bus,3,38185253,Chelsea,BUS42018-hbs48sp1-Weekday-02,7.18482,F
+890,743-R-1,743,SL3,Chelsea - South Station,Key Bus,3,38185257,South Station,BUS42018-hbs48sp1-Weekday-02,12.3991,R
+891,743-R-2,743,SL3,Chelsea - South Station,Key Bus,3,38185255,South Station,BUS42018-hbs48sp1-Weekday-02,14.2811,R
+892,746-F-1,746,,Silver Line Way - South Station,Key Bus,3,38183670,Silver Line Way,BUS42018-hbs48sp1-Weekday-02,1.64999,F
+893,746-R-1,746,,Silver Line Way - South Station,Key Bus,3,38183645,South Station,BUS42018-hbs48sp1-Weekday-02,2.35019,R
+894,749-F-1,749,SL5,Dudley - Downtown Crossing,Key Bus,3,38184169,Dudley,BUS42018-hbs48sp1-Weekday-02,2.41745,F
+895,749-R-1,749,SL5,Dudley - Downtown Crossing,Key Bus,3,38184168,Downtown,BUS42018-hbs48sp1-Weekday-02,2.2533,R
+896,751-F-3,751,SL4,Dudley - South Station,Key Bus,3,38184427,Dudley,BUS42018-hbs48sp1-Weekday-02,2.45995,F
+897,751-R-1,751,SL4,Dudley - South Station,Key Bus,3,38184426,South Station,BUS42018-hbs48sp1-Weekday-02,2.3671,R
+898,16-F-10,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38168324,Forest Hills,BUS42018-hbs48sw1-Weekday-02,4.33907,F
+899,16-R-12,16,16,Forest Hills - Andrew or UMass,Local Bus,3,38168316,Andrew,BUS42018-hbs48sw1-Weekday-02,4.25474,R
+900,28-F-7,28,28,Mattapan - Ruggles,Key Bus,3,38168648,Mattapan,BUS42018-hbs48sw1-Weekday-02,5.87599,F
+901,28-R-6,28,28,Mattapan - Ruggles,Key Bus,3,38168647,Ruggles,BUS42018-hbs48sw1-Weekday-02,5.70205,R
+902,39-F-7,39,39,Forest Hills - Back Bay Station,Key Bus,3,38169158,Forest Hills,BUS42018-hbs48sw1-Weekday-02,3.15264,F
+903,39-F-8,39,39,Forest Hills - Back Bay Station,Key Bus,3,38168306,Forest Hills,BUS42018-hbs48sw1-Weekday-02,4.97467,F
+904,39-R-7,39,39,Forest Hills - Back Bay Station,Key Bus,3,38169160,Longwood Ave,BUS42018-hbs48sw1-Weekday-02,3.3188,R
+905,39-R-8,39,39,Forest Hills - Back Bay Station,Key Bus,3,38168305,Back Bay,BUS42018-hbs48sw1-Weekday-02,5.18261,R
+906,741-F-2,741,SL1,Logan Airport - South Station,Key Bus,3,38167277,Logan Airport,BUS42018-hbs48sw1-Weekday-02,4.76982,F
+907,741-R-5,741,SL1,Logan Airport - South Station,Key Bus,3,38167292,South Station,BUS42018-hbs48sw1-Weekday-02,4.49701,R
+908,741-R-6,741,SL1,Logan Airport - South Station,Key Bus,3,38167285,South Station,BUS42018-hbs48sw1-Weekday-02,6.37892,R
+909,742-F-3,742,SL2,Design Center - South Station,Key Bus,3,38167339,Drydock,BUS42018-hbs48sw1-Weekday-02,2.24323,F
+910,742-F-4,742,SL2,Design Center - South Station,Key Bus,3,38167323,Drydock,BUS42018-hbs48sw1-Weekday-02,2.85588,F
+911,742-R-4,742,SL2,Design Center - South Station,Key Bus,3,38167324,South Station,BUS42018-hbs48sw1-Weekday-02,2.96831,R
+912,742-R-5,742,SL2,Design Center - South Station,Key Bus,3,38167442,South Station,BUS42018-hbs48sw1-Weekday-02,3.49259,R
+913,742-R-6,742,SL2,Design Center - South Station,Key Bus,3,38167340,South Station,BUS42018-hbs48sw1-Weekday-02,3.58095,R
+914,743-F-2,743,SL3,Chelsea - South Station,Key Bus,3,38168909,Chelsea,BUS42018-hbs48sw1-Weekday-02,7.18482,F
+915,743-R-3,743,SL3,Chelsea - South Station,Key Bus,3,38168913,South Station,BUS42018-hbs48sw1-Weekday-02,12.3991,R
+916,743-R-4,743,SL3,Chelsea - South Station,Key Bus,3,38168911,South Station,BUS42018-hbs48sw1-Weekday-02,14.2811,R
+917,746-F-2,746,,Silver Line Way - South Station,Key Bus,3,38167319,Silver Line Way,BUS42018-hbs48sw1-Weekday-02,1.64999,F
+918,746-R-2,746,,Silver Line Way - South Station,Key Bus,3,38167294,South Station,BUS42018-hbs48sw1-Weekday-02,2.35019,R
+919,749-F-2,749,SL5,Dudley - Downtown Crossing,Key Bus,3,38167821,Dudley,BUS42018-hbs48sw1-Weekday-02,2.41745,F
+920,749-R-2,749,SL5,Dudley - Downtown Crossing,Key Bus,3,38167820,Downtown,BUS42018-hbs48sw1-Weekday-02,2.2533,R
+921,751-F-4,751,SL4,Dudley - South Station,Key Bus,3,38168079,Dudley,BUS42018-hbs48sw1-Weekday-02,2.45995,F
+922,751-R-2,751,SL4,Dudley - South Station,Key Bus,3,38168078,South Station,BUS42018-hbs48sw1-Weekday-02,2.3671,R
+923,350-F-1,350,350,North Burlington - Alewife,Local Bus,3,38262815,Burlington Mall,BUS42018-hbt48011-Weekday-02,9.87919,F
+924,350-F-2,350,350,North Burlington - Alewife,Local Bus,3,38262868,Burlington,BUS42018-hbt48011-Weekday-02,8.7065,F
+925,350-F-3,350,350,North Burlington - Alewife,Local Bus,3,38262816,Burlington,BUS42018-hbt48011-Weekday-02,10.6246,F
+926,350-F-4,350,350,North Burlington - Alewife,Local Bus,3,38262813,Burlington via Mall Rd,BUS42018-hbt48011-Weekday-02,13.1062,F
+927,350-F-5,350,350,North Burlington - Alewife,Local Bus,3,38262818,Burlington via Mall,BUS42018-hbt48011-Weekday-02,13.9415,F
+928,350-R-1,350,350,North Burlington - Alewife,Local Bus,3,38262067,Arlington Center,BUS42018-hbt48011-Weekday-02,8.72103,R
+929,350-R-2,350,350,North Burlington - Alewife,Local Bus,3,38262812,Alewife,BUS42018-hbt48011-Weekday-02,10.6398,R
+930,350-R-3,350,350,North Burlington - Alewife,Local Bus,3,38262817,Alewife via Mall,BUS42018-hbt48011-Weekday-02,13.9053,R
+931,351-F-1,351,351,Oak Park/Bedford Woods - Alewife,Commuter Bus,3,38262875,Oak Park & Bedford Woods (Express),BUS42018-hbt48011-Weekday-02,21.8395,F
+932,351-R-1,351,351,Oak Park/Bedford Woods - Alewife,Commuter Bus,3,38262871,Alewife (Express),BUS42018-hbt48011-Weekday-02,21.2611,R
+933,62-F-1,62,62,Bedford VA Hospital - Alewife,Local Bus,3,38261507,Lexington Center,BUS42018-hbt48011-Weekday-02,6.68048,F
+934,62-F-2,62,62,Bedford VA Hospital - Alewife,Local Bus,3,38261487,Bedford Center,BUS42018-hbt48011-Weekday-02,10.8153,F
+935,62-F-3,62,62,Bedford VA Hospital - Alewife,Local Bus,3,38261489,Bedford VA,BUS42018-hbt48011-Weekday-02,12.3202,F
+936,62-R-1,62,62,Bedford VA Hospital - Alewife,Local Bus,3,38261500,Alewife,BUS42018-hbt48011-Weekday-02,6.37334,R
+937,62-R-2,62,62,Bedford VA Hospital - Alewife,Local Bus,3,38261488,Alewife,BUS42018-hbt48011-Weekday-02,11.0793,R
+938,62-R-3,62,62,Bedford VA Hospital - Alewife,Local Bus,3,38261490,Alewife,BUS42018-hbt48011-Weekday-02,12.1609,R
+939,64-F-1,64,64,Oak Square - University Park or Kendall/MIT,Local Bus,3,38261544,Faneuil Square,BUS42018-hbt48011-Weekday-02,4.21396,F
+940,64-F-2,64,64,Oak Square - University Park or Kendall/MIT,Local Bus,3,38261530,Oak Square,BUS42018-hbt48011-Weekday-02,5.02807,F
+941,64-F-3,64,64,Oak Square - University Park or Kendall/MIT,Local Bus,3,38261521,Oak Square,BUS42018-hbt48011-Weekday-02,6.02694,F
+942,64-R-1,64,64,Oak Square - University Park or Kendall/MIT,Local Bus,3,38261528,University Park,BUS42018-hbt48011-Weekday-02,5.41646,R
+943,64-R-2,64,64,Oak Square - University Park or Kendall/MIT,Local Bus,3,38261522,Kendall/MIT,BUS42018-hbt48011-Weekday-02,6.35871,R
+944,67-F-1,67,67,Turkey Hill - Alewife,Local Bus,3,38261591,Turkey Hill via Arlington Center,BUS42018-hbt48011-Weekday-02,4.4554,F
+945,67-R-1,67,67,Turkey Hill - Alewife,Local Bus,3,38261592,Alewife via Arlington Center,BUS42018-hbt48011-Weekday-02,4.62136,R
+946,68-F-1,68,68,Harvard - Kendall/MIT,Local Bus,3,38261638,Harvard,BUS42018-hbt48011-Weekday-02,2.11874,F
+947,68-R-1,68,68,Harvard - Kendall/MIT,Local Bus,3,38261637,Kendall/MIT,BUS42018-hbt48011-Weekday-02,2.23113,R
+948,69-F-1,69,69,Harvard - Lechmere,Local Bus,3,38261676,Harvard,BUS42018-hbt48011-Weekday-02,2.35729,F
+949,69-R-1,69,69,Harvard - Lechmere,Local Bus,3,38261682,Lechmere,BUS42018-hbt48011-Weekday-02,1.71451,R
+950,69-R-2,69,69,Harvard - Lechmere,Local Bus,3,38261675,Lechmere,BUS42018-hbt48011-Weekday-02,2.35882,R
+951,70-F-1,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261832,Watertown Square,BUS42018-hbt48011-Weekday-02,4.19277,F
+952,70-F-2,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38262910,Waltham Center,BUS42018-hbt48011-Weekday-02,7.26309,F
+953,70-F-3,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261789,Waltham Center,BUS42018-hbt48011-Weekday-02,7.59691,F
+954,70-F-4,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261785,Market Place Dr,BUS42018-hbt48011-Weekday-02,9.84486,F
+955,70-F-5,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261783,Cedarwood,BUS42018-hbt48011-Weekday-02,9.46555,F
+956,70-R-1,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261880,Central Square,BUS42018-hbt48011-Weekday-02,7.67322,R
+957,70-R-2,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261792,University Park,BUS42018-hbt48011-Weekday-02,7.82311,R
+958,70-R-3,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261784,University Park,BUS42018-hbt48011-Weekday-02,9.80217,R
+959,70-R-4,70,70,"Cedarwood - Central Square, Cambridge",Local Bus,3,38261780,University Park,BUS42018-hbt48011-Weekday-02,9.87124,R
+960,70A-F-1,70A,70A,"North Waltham - Central Square, Cambridge",Local Bus,3,38261781,North Waltham,BUS42018-hbt48011-Weekday-02,11.3031,F
+961,70A-F-2,70A,70A,"North Waltham - Central Square, Cambridge",Local Bus,3,38261803,North Waltham,BUS42018-hbt48011-Weekday-02,14.1466,F
+962,70A-R-1,70A,70A,"North Waltham - Central Square, Cambridge",Local Bus,3,38261802,University Park,BUS42018-hbt48011-Weekday-02,11.544,R
+963,70A-R-2,70A,70A,"North Waltham - Central Square, Cambridge",Local Bus,3,38261782,University Park,BUS42018-hbt48011-Weekday-02,14.4702,R
+964,72-F-1,72,72,Huron Avenue - Harvard,Local Bus,3,38263027,Huron Ave,BUS42018-hbt48011-Weekday-02,2.17593,F
+965,72-R-1,72,72,Huron Avenue - Harvard,Local Bus,3,38261930,Cambridge St & Felton St,BUS42018-hbt48011-Weekday-02,2.34577,R
+966,72-R-2,72,72,Huron Avenue - Harvard,Local Bus,3,38263028,Harvard,BUS42018-hbt48011-Weekday-02,2.29149,R
+967,73-R-1,73,73,Waverley Square - Harvard,Key Bus,3,38263117,Harvard,BUS42018-hbt48011-Weekday-02,2.71905,R
+968,74-F-1,74,74,Belmont Center - Harvard via Concord Avenue,Local Bus,3,38261931,Belmont Center,BUS42018-hbt48011-Weekday-02,4.33517,F
+969,74-R-1,74,74,Belmont Center - Harvard via Concord Avenue,Local Bus,3,38261933,Harvard,BUS42018-hbt48011-Weekday-02,4.44421,R
+970,75-F-1,75,75,Belmont Center - Harvard via Fresh Pond Parkway,Local Bus,3,38261935,Belmont Center,BUS42018-hbt48011-Weekday-02,4.631,F
+971,75-R-1,75,75,Belmont Center - Harvard via Fresh Pond Parkway,Local Bus,3,38261934,Harvard,BUS42018-hbt48011-Weekday-02,4.71611,R
+972,76-F-1,76,76,Lincoln Lab/Hanscom Air Force Base - Alewife,Local Bus,3,38261998,Five Forks via Lexington Center,BUS42018-hbt48011-Weekday-02,9.15972,F
+973,76-F-2,76,76,Lincoln Lab/Hanscom Air Force Base - Alewife,Local Bus,3,38262004,Hanscom Civil Airport & Lincoln Lab,BUS42018-hbt48011-Weekday-02,11.7329,F
+974,76-F-3,76,76,Lincoln Lab/Hanscom Air Force Base - Alewife,Local Bus,3,38261994,Hanscom Civil Airport & Lincoln Lab,BUS42018-hbt48011-Weekday-02,16.0481,F
+975,76-R-1,76,76,Lincoln Lab/Hanscom Air Force Base - Alewife,Local Bus,3,38261995,Alewife,BUS42018-hbt48011-Weekday-02,9.0998,R
+976,76-R-2,76,76,Lincoln Lab/Hanscom Air Force Base - Alewife,Local Bus,3,38262005,Alewife,BUS42018-hbt48011-Weekday-02,11.7851,R
+977,76-R-3,76,76,Lincoln Lab/Hanscom Air Force Base - Alewife,Local Bus,3,38261996,Alewife,BUS42018-hbt48011-Weekday-02,16.1002,R
+978,77-F-1,77,77,Arlington Heights - Harvard,Key Bus,3,38262057,Arlington Heights,BUS42018-hbt48011-Weekday-02,5.41428,F
+979,77-R-1,77,77,Arlington Heights - Harvard,Key Bus,3,38261499,Harvard,BUS42018-hbt48011-Weekday-02,5.58173,R
+980,78-F-1,78,78,Arlmont Village - Harvard,Local Bus,3,38262297,Arlington Heights,BUS42018-hbt48011-Weekday-02,6.0361,F
+981,78-F-2,78,78,Arlmont Village - Harvard,Local Bus,3,38261963,Arlmont Village,BUS42018-hbt48011-Weekday-02,7.8778,F
+982,78-R-1,78,78,Arlmont Village - Harvard,Local Bus,3,38262298,Harvard,BUS42018-hbt48011-Weekday-02,5.94583,R
+983,78-R-2,78,78,Arlmont Village - Harvard,Local Bus,3,38261951,Harvard,BUS42018-hbt48011-Weekday-02,6.94414,R
+984,79-F-1,79,79,Arlington Heights - Alewife,Local Bus,3,38262363,Arlington Heights,BUS42018-hbt48011-Weekday-02,3.836,F
+985,79-R-1,79,79,Arlington Heights - Alewife,Local Bus,3,38262418,Alewife,BUS42018-hbt48011-Weekday-02,3.36792,R
+986,79-R-2,79,79,Arlington Heights - Alewife,Local Bus,3,38262364,Alewife,BUS42018-hbt48011-Weekday-02,3.86739,R
+987,80-F-1,80,80,Arlington Center - Lechmere,Local Bus,3,38262421,Arlington Center,BUS42018-hbt48011-Weekday-02,6.1438,F
+988,80-R-1,80,80,Arlington Center - Lechmere,Local Bus,3,38262422,Lechmere,BUS42018-hbt48011-Weekday-02,5.94042,R
+989,83-F-1,83,83,"Rindge Avenue - Central Square, Cambridge",Local Bus,3,38262499,Rindge Ave,BUS42018-hbt48011-Weekday-02,2.37484,F
+990,83-F-2,83,83,"Rindge Avenue - Central Square, Cambridge",Local Bus,3,38261532,Rindge Ave,BUS42018-hbt48011-Weekday-02,3.4405,F
+991,83-R-1,83,83,"Rindge Avenue - Central Square, Cambridge",Local Bus,3,38261531,Central Square,BUS42018-hbt48011-Weekday-02,3.42398,R
+992,84-F-1,84,84,Arlmont Village - Alewife,Commuter Bus,3,38261503,Arlmont Village,BUS42018-hbt48011-Weekday-02,3.28004,F
+993,84-R-1,84,84,Arlmont Village - Alewife,Commuter Bus,3,38261502,Alewife,BUS42018-hbt48011-Weekday-02,4.20765,R
+994,85-F-1,85,85,Spring Hill - Kendall/MIT,Local Bus,3,38262582,Spring Hill,BUS42018-hbt48011-Weekday-02,2.24475,F
+995,85-R-1,85,85,Spring Hill - Kendall/MIT,Local Bus,3,38262584,Kendall/MIT,BUS42018-hbt48011-Weekday-02,2.37882,R
+996,86-F-1,86,86,Sullivan - Reservoir,Local Bus,3,38262920,Sullivan,BUS42018-hbt48011-Weekday-02,6.59284,F
+997,86-R-1,86,86,Sullivan - Reservoir,Local Bus,3,38262919,Reservoir,BUS42018-hbt48011-Weekday-02,6.77693,R
+998,87-F-1,87,87,Clarendon Hill or Arlington Center - Lechmere via Somerville Avenue,Local Bus,3,38262638,Clarendon Hill,BUS42018-hbt48011-Weekday-02,4.49978,F
+999,87-F-2,87,87,Clarendon Hill or Arlington Center - Lechmere via Somerville Avenue,Local Bus,3,38262627,Arlington Center,BUS42018-hbt48011-Weekday-02,5.6046,F
+1000,87-R-1,87,87,Clarendon Hill or Arlington Center - Lechmere via Somerville Avenue,Local Bus,3,38262644,Lechmere,BUS42018-hbt48011-Weekday-02,3.84598,R
+1001,87-R-2,87,87,Clarendon Hill or Arlington Center - Lechmere via Somerville Avenue,Local Bus,3,38262629,Lechmere,BUS42018-hbt48011-Weekday-02,4.95079,R
+1002,88-F-1,88,88,Clarendon Hill - Lechmere via Highland Avenue,Local Bus,3,38262700,Clarendon Hill,BUS42018-hbt48011-Weekday-02,2.269,F
+1003,88-F-2,88,88,Clarendon Hill - Lechmere via Highland Avenue,Local Bus,3,38262628,Clarendon Hill,BUS42018-hbt48011-Weekday-02,4.046,F
+1004,88-R-1,88,88,Clarendon Hill - Lechmere via Highland Avenue,Local Bus,3,38262761,Davis,BUS42018-hbt48011-Weekday-02,1.18858,R
+1005,88-R-2,88,88,Clarendon Hill - Lechmere via Highland Avenue,Local Bus,3,38262626,Lechmere,BUS42018-hbt48011-Weekday-02,3.97079,R
+1006,71-F-1,71,71,Watertown Square - Harvard,Key Bus,3,38270465,Watertown Square,BUS42018-htt48011-Weekday-02,3.62172,F
+1007,71-F-2,71,71,Watertown Square - Harvard,Key Bus,3,38270468,Watertown Square,BUS42018-htt48011-Weekday-02,3.96464,F
+1008,71-R-1,71,71,Watertown Square - Harvard,Key Bus,3,38270467,Harvard,BUS42018-htt48011-Weekday-02,3.61902,R
+1009,71-R-2,71,71,Watertown Square - Harvard,Key Bus,3,38270466,Harvard,BUS42018-htt48011-Weekday-02,4.17963,R
+1010,73-F-1,73,73,Waverley Square - Harvard,Key Bus,3,38271276,Waverley,BUS42018-htt48011-Weekday-02,3.97043,F
+1011,73-F-2,73,73,Waverley Square - Harvard,Key Bus,3,38270502,Waverley,BUS42018-htt48011-Weekday-02,4.31335,F
+1012,73-R-2,73,73,Waverley Square - Harvard,Key Bus,3,38270497,Harvard,BUS42018-htt48011-Weekday-02,3.96774,R
+1013,73-R-3,73,73,Waverley Square - Harvard,Key Bus,3,38270499,Harvard,BUS42018-htt48011-Weekday-02,4.52834,R
+1014,77-F-2,77,77,Arlington Heights - Harvard,Key Bus,3,38270470,North Cambridge,BUS42018-htt48011-Weekday-02,1.75328,F
+1015,77-R-2,77,77,Arlington Heights - Harvard,Key Bus,3,38270464,Harvard,BUS42018-htt48011-Weekday-02,1.76012,R
+1016,Boat-F1-F-1,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-1215-Long-Weekday,Hingham,Boat-F1-Weekday,10.0107,F
+1017,Boat-F1-F-2,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-0800-Long-Weekday,Hull,Boat-F1-Weekday,8.67753,F
+1018,Boat-F1-F-3,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-0650-Rowes-Weekday,Hingham,Boat-F1-Weekday,10.2409,F
+1019,Boat-F1-F-4,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-1300-Long-Weekday,Hingham via Hull,Boat-F1-Weekday,12.1597,F
+1020,Boat-F1-F-5,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-0910-Long-Weekday,Hingham via Logan Airport,Boat-F1-Weekday,10.505,F
+1021,Boat-F1-F-6,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-0625-Long-Weekday,Hull via Logan Airport,Boat-F1-Weekday,8.96339,F
+1022,Boat-F1-F-7,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-1100-Long-Weekday,Hingham via Logan Airport & Hull,Boat-F1-Weekday,12.4456,F
+1023,Boat-F1-R-1,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-1400-Hingham-Weekday,Boston-Long Wharf,Boat-F1-Weekday,10.0107,R
+1024,Boat-F1-R-2,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-0600-Hingham-Weekday,Boston-Rowes Wharf,Boat-F1-Weekday,10.2409,R
+1025,Boat-F1-R-3,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-0730-Hull-Weekday,Boston-Long Wharf,Boat-F1-Weekday,8.67753,R
+1026,Boat-F1-R-4,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-0540-Hingham-Weekday,Boston-Long Wharf via Hull,Boat-F1-Weekday,12.1597,R
+1027,Boat-F1-R-5,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-1000-Hingham-Weekday,Boston-Long Wharf via Logan Airport,Boat-F1-Weekday,10.505,R
+1028,Boat-F1-R-6,Boat-F1,,Hingham/Hull Ferry,Ferry,4,Boat-F1-1300-Hingham-Weekday,Boston-Long Wharf via Hull & Logan Airport,Boat-F1-Weekday,12.4456,R
+1029,Boat-F4-F-1,Boat-F4,,Charlestown Ferry,Ferry,4,Boat-F4-0630-Long-Weekday,Charlestown Navy Yard,Boat-F4-Weekday,1.23757,F
+1030,Boat-F4-R-1,Boat-F4,,Charlestown Ferry,Ferry,4,Boat-F4-0645-Charlestown-Weekday,Boston-Long Wharf,Boat-F4-Weekday,1.23757,R
+1031,CR-Fairmount-F-1,CR-Fairmount,,Fairmount Line,Commuter Rail,2,CR-Weekday-Fall-18-751,Readville,CR-Weekday-Fairmount-Fall-18,9.18267,F
+1032,CR-Fairmount-R-1,CR-Fairmount,,Fairmount Line,Commuter Rail,2,CR-Weekday-Fall-18-750,South Station,CR-Weekday-Fairmount-Fall-18,9.18267,R
+1033,CR-Fitchburg-F-1,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-401,Wachusett,CR-Weekday-Fitchburg-Fall-18,53.5021,F
+1034,CR-Fitchburg-F-2,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-491,Littleton/Rte 495,CR-Weekday-Fitchburg-Fall-18,30.0462,F
+1035,CR-Fitchburg-F-3,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-493,Littleton/Rte 495,CR-Weekday-Fitchburg-Fall-18,30.0462,F
+1036,CR-Fitchburg-F-4,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-421,Wachusett,CR-Weekday-Fitchburg-Fall-18,53.5021,F
+1037,CR-Fitchburg-F-5,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-409,Wachusett,CR-Weekday-Fitchburg-Fall-18,53.5021,F
+1038,CR-Fitchburg-F-6,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-403,Wachusett,CR-Weekday-Fitchburg-Fall-18,53.5021,F
+1039,CR-Fitchburg-F-7,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-419,Wachusett,CR-Weekday-Fitchburg-Fall-18,53.5021,F
+1040,CR-Fitchburg-F-8,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-423,Wachusett,CR-Weekday-Fitchburg-Fall-18,53.5021,F
+1041,CR-Fitchburg-R-1,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-404,North Station,CR-Weekday-Fitchburg-Fall-18,53.5021,R
+1042,CR-Fitchburg-R-2,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-408,North Station,CR-Weekday-Fitchburg-Fall-18,53.5021,R
+1043,CR-Fitchburg-R-3,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-494,North Station,CR-Weekday-Fitchburg-Fall-18,30.0462,R
+1044,CR-Fitchburg-R-4,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-492,North Station,CR-Weekday-Fitchburg-Fall-18,30.0462,R
+1045,CR-Fitchburg-R-5,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-416,North Station,CR-Weekday-Fitchburg-Fall-18,53.5021,R
+1046,CR-Fitchburg-R-6,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-406,North Station,CR-Weekday-Fitchburg-Fall-18,53.5021,R
+1047,CR-Fitchburg-R-7,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-400,North Station,CR-Weekday-Fitchburg-Fall-18,53.5021,R
+1048,CR-Fitchburg-R-8,CR-Fitchburg,,Fitchburg Line,Commuter Rail,2,CR-Weekday-Fall-18-402,North Station,CR-Weekday-Fitchburg-Fall-18,53.5021,R
+1049,CR-Franklin-F-1,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-701,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1050,CR-Franklin-F-2,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-741,Walpole,CR-Weekday-Franklin-Fall-18,19.2861,F
+1051,CR-Franklin-F-3,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-715,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1052,CR-Franklin-F-4,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-743,Norwood Central,CR-Weekday-Franklin-Fall-18,14.9815,F
+1053,CR-Franklin-F-5,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-719,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1054,CR-Franklin-F-6,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-703,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1055,CR-Franklin-F-7,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-721,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1056,CR-Franklin-F-8,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-745,Walpole,CR-Weekday-Franklin-Fall-18,19.2861,F
+1057,CR-Franklin-F-9,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-705,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1058,CR-Franklin-F-10,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-707,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1059,CR-Franklin-F-11,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-709,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1060,CR-Franklin-F-12,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-729,Forge Park/495,CR-Weekday-Franklin-Fall-18,30.3739,F
+1061,CR-Franklin-R-1,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-744,South Station,CR-Weekday-Franklin-Fall-18,14.9815,R
+1062,CR-Franklin-R-2,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-706,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1063,CR-Franklin-R-3,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-742,South Station,CR-Weekday-Franklin-Fall-18,14.9815,R
+1064,CR-Franklin-R-4,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-722,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1065,CR-Franklin-R-5,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-740,South Station,CR-Weekday-Franklin-Fall-18,19.2861,R
+1066,CR-Franklin-R-6,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-720,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1067,CR-Franklin-R-7,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-718,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1068,CR-Franklin-R-8,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-730,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1069,CR-Franklin-R-9,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-724,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1070,CR-Franklin-R-10,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-708,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1071,CR-Franklin-R-11,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-700,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1072,CR-Franklin-R-12,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-726,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1073,CR-Franklin-R-13,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-712,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1074,CR-Franklin-R-14,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-702,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1075,CR-Franklin-R-15,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-704,South Station,CR-Weekday-Franklin-Fall-18,30.3739,R
+1076,CR-Franklin-R-16,CR-Franklin,,Franklin Line,Commuter Rail,2,CR-Weekday-Fall-18-790,South Station,CR-Weekday-Franklin-Fall-18,29.9086,R
+1077,CR-Greenbush-F-1,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-071,Greenbush,CR-Weekday-Greenbush-Fall-18,27.7252,F
+1078,CR-Greenbush-F-2,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-081,Greenbush,CR-Weekday-Greenbush-Fall-18,27.7252,F
+1079,CR-Greenbush-F-3,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-073,Greenbush,CR-Weekday-Greenbush-Fall-18,27.7286,F
+1080,CR-Greenbush-F-4,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-085,Greenbush,CR-Weekday-Greenbush-Fall-18,27.7286,F
+1081,CR-Greenbush-R-1,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-088,South Station,CR-Weekday-Greenbush-Fall-18,27.7252,R
+1082,CR-Greenbush-R-2,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-072,South Station,CR-Weekday-Greenbush-Fall-18,27.7301,R
+1083,CR-Greenbush-R-3,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-074,South Station,CR-Weekday-Greenbush-Fall-18,27.7286,R
+1084,CR-Greenbush-R-4,CR-Greenbush,,Greenbush Line,Commuter Rail,2,CR-Weekday-Fall-18-070,South Station,CR-Weekday-Greenbush-Fall-18,27.7335,R
+1085,CR-Haverhill-F-1,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-289,Reading,CR-Weekday-Haverhill-Fall-18,12.0068,F
+1086,CR-Haverhill-F-2,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-285,Reading,CR-Weekday-Haverhill-Fall-18,12.0068,F
+1087,CR-Haverhill-F-3,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-215,Haverhill,CR-Weekday-Haverhill-Fall-18,32.905,F
+1088,CR-Haverhill-F-4,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-221,Haverhill,CR-Weekday-Haverhill-Fall-18,46.6475,F
+1089,CR-Haverhill-F-5,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-201,Haverhill,CR-Weekday-Haverhill-Fall-18,32.905,F
+1090,CR-Haverhill-R-1,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-206,North Station,CR-Weekday-Haverhill-Fall-18,33.2956,R
+1091,CR-Haverhill-R-2,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-286,North Station,CR-Weekday-Haverhill-Fall-18,12.0068,R
+1092,CR-Haverhill-R-3,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-208,North Station,CR-Weekday-Haverhill-Fall-18,33.2956,R
+1093,CR-Haverhill-R-4,CR-Haverhill,,Haverhill Line,Commuter Rail,2,CR-Weekday-Fall-18-200,North Station,CR-Weekday-Haverhill-Fall-18,32.905,R
+1094,CR-Kingston-F-1,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-033,Kingston,CR-Weekday-Kingston-Fall-18,35.1977,F
+1095,CR-Kingston-F-2,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-063,Plymouth,CR-Weekday-Kingston-Fall-18,35.701,F
+1096,CR-Kingston-F-3,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-065,Plymouth,CR-Weekday-Kingston-Fall-18,38.5651,F
+1097,CR-Kingston-F-4,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-041,Kingston,CR-Weekday-Kingston-Fall-18,35.1977,F
+1098,CR-Kingston-F-5,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-047,Kingston,CR-Weekday-Kingston-Fall-18,35.1895,F
+1099,CR-Kingston-F-6,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-061,Kingston,CR-Weekday-Kingston-Fall-18,39.06,F
+1100,CR-Kingston-R-1,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-034,South Station,CR-Weekday-Kingston-Fall-18,35.1977,R
+1101,CR-Kingston-R-2,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-032,South Station,CR-Weekday-Kingston-Fall-18,35.2027,R
+1102,CR-Kingston-R-3,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-036,South Station,CR-Weekday-Kingston-Fall-18,35.2027,R
+1103,CR-Kingston-R-4,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-064,South Station,CR-Weekday-Kingston-Fall-18,39.0683,R
+1104,CR-Kingston-R-5,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-062,South Station,CR-Weekday-Kingston-Fall-18,35.7059,R
+1105,CR-Kingston-R-6,CR-Kingston,,Kingston/Plymouth Line,Commuter Rail,2,CR-Weekday-Fall-18-060,South Station,CR-Weekday-Kingston-Fall-18,38.5651,R
+1106,CR-Lowell-F-1,CR-Lowell,,Lowell Line,Commuter Rail,2,CR-Weekday-Fall-18-391,Lowell,CR-Weekday-Lowell-Fall-18,25.3176,F
+1107,CR-Lowell-F-2,CR-Lowell,,Lowell Line,Commuter Rail,2,CR-Weekday-Fall-18-303,Lowell,CR-Weekday-Lowell-Fall-18,25.3176,F
+1108,CR-Lowell-F-3,CR-Lowell,,Lowell Line,Commuter Rail,2,CR-Weekday-Fall-18-301,Lowell,CR-Weekday-Lowell-Fall-18,25.3176,F
+1109,CR-Lowell-F-4,CR-Lowell,,Lowell Line,Commuter Rail,2,CR-Weekday-Fall-18-305,Lowell,CR-Weekday-Lowell-Fall-18,25.3176,F
+1110,CR-Lowell-R-1,CR-Lowell,,Lowell Line,Commuter Rail,2,CR-Weekday-Fall-18-310,North Station,CR-Weekday-Lowell-Fall-18,25.3176,R
+1111,CR-Lowell-R-2,CR-Lowell,,Lowell Line,Commuter Rail,2,CR-Weekday-Fall-18-300,North Station,CR-Weekday-Lowell-Fall-18,25.3176,R
+1112,CR-Lowell-R-3,CR-Lowell,,Lowell Line,Commuter Rail,2,CR-Weekday-Fall-18-330,North Station,CR-Weekday-Lowell-Fall-18,25.3176,R
+1113,CR-Middleborough-F-1,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-005,Middleborough/Lakeville,CR-Weekday-Middleborough-Fall-18,35.6149,F
+1114,CR-Middleborough-F-2,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-007,Middleborough/Lakeville,CR-Weekday-Middleborough-Fall-18,35.6067,F
+1115,CR-Middleborough-F-3,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-017,Middleborough/Lakeville,CR-Weekday-Middleborough-Fall-18,35.6149,F
+1116,CR-Middleborough-F-4,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-003,Middleborough/Lakeville,CR-Weekday-Middleborough-Fall-18,35.6067,F
+1117,CR-Middleborough-R-1,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-018,South Station,CR-Weekday-Middleborough-Fall-18,35.6149,R
+1118,CR-Middleborough-R-2,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-004,South Station,CR-Weekday-Middleborough-Fall-18,35.6149,R
+1119,CR-Middleborough-R-3,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-002,South Station,CR-Weekday-Middleborough-Fall-18,35.6198,R
+1120,CR-Middleborough-R-4,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-016,South Station,CR-Weekday-Middleborough-Fall-18,35.6149,R
+1121,CR-Middleborough-R-5,CR-Middleborough,,Middleborough/Lakeville Line,Commuter Rail,2,CR-Weekday-Fall-18-006,South Station,CR-Weekday-Middleborough-Fall-18,35.6198,R
+1122,CR-Needham-F-1,CR-Needham,,Needham Line,Commuter Rail,2,CR-Weekday-Fall-18-603,Needham Heights,CR-Weekday-Needham-Fall-18,13.8707,F
+1123,CR-Needham-F-2,CR-Needham,,Needham Line,Commuter Rail,2,CR-Weekday-Fall-18-601,Needham Heights,CR-Weekday-Needham-Fall-18,13.8707,F
+1124,CR-Needham-F-3,CR-Needham,,Needham Line,Commuter Rail,2,CR-Weekday-Fall-18-607,Needham Heights,CR-Weekday-Needham-Fall-18,13.8707,F
+1125,CR-Needham-R-1,CR-Needham,,Needham Line,Commuter Rail,2,CR-Weekday-Fall-18-618,South Station,CR-Weekday-Needham-Fall-18,13.8707,R
+1126,CR-Needham-R-2,CR-Needham,,Needham Line,Commuter Rail,2,CR-Weekday-Fall-18-620,South Station,CR-Weekday-Needham-Fall-18,13.8707,R
+1127,CR-Needham-R-3,CR-Needham,,Needham Line,Commuter Rail,2,CR-Weekday-Fall-18-616,South Station,CR-Weekday-Needham-Fall-18,13.8707,R
+1128,CR-Needham-R-4,CR-Needham,,Needham Line,Commuter Rail,2,CR-Weekday-Fall-18-600,South Station,CR-Weekday-Needham-Fall-18,13.8707,R
+1129,CR-Newburyport-F-1,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-193,Beverly,CR-Weekday-Newburyport-Fall-18,18.293,F
+1130,CR-Newburyport-F-2,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-191,Beverly,CR-Weekday-Newburyport-Fall-18,18.293,F
+1131,CR-Newburyport-F-3,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-153,Newburyport,CR-Weekday-Newburyport-Fall-18,36.1933,F
+1132,CR-Newburyport-F-4,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-167,Newburyport,CR-Weekday-Newburyport-Fall-18,36.1933,F
+1133,CR-Newburyport-F-5,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-117,Rockport,CR-Weekday-Newburyport-Fall-18,35.3243,F
+1134,CR-Newburyport-F-6,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-155,Newburyport,CR-Weekday-Newburyport-Fall-18,36.1933,F
+1135,CR-Newburyport-F-7,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-101,Rockport,CR-Weekday-Newburyport-Fall-18,35.3243,F
+1136,CR-Newburyport-F-8,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-105,Rockport,CR-Weekday-Newburyport-Fall-18,35.3243,F
+1137,CR-Newburyport-F-9,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-157,Newburyport,CR-Weekday-Newburyport-Fall-18,36.1933,F
+1138,CR-Newburyport-F-10,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-103,Rockport,CR-Weekday-Newburyport-Fall-18,35.3243,F
+1139,CR-Newburyport-F-11,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-113,Rockport,CR-Weekday-Newburyport-Fall-18,35.3243,F
+1140,CR-Newburyport-R-1,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-194,North Station,CR-Weekday-Newburyport-Fall-18,18.3296,R
+1141,CR-Newburyport-R-2,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-192,North Station,CR-Weekday-Newburyport-Fall-18,18.3296,R
+1142,CR-Newburyport-R-3,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-174,North Station,CR-Weekday-Newburyport-Fall-18,36.1933,R
+1143,CR-Newburyport-R-4,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-152,North Station,CR-Weekday-Newburyport-Fall-18,36.1933,R
+1144,CR-Newburyport-R-5,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-104,North Station,CR-Weekday-Newburyport-Fall-18,35.3243,R
+1145,CR-Newburyport-R-6,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-162,North Station,CR-Weekday-Newburyport-Fall-18,36.1933,R
+1146,CR-Newburyport-R-7,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-106,North Station,CR-Weekday-Newburyport-Fall-18,35.3243,R
+1147,CR-Newburyport-R-8,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-150,North Station,CR-Weekday-Newburyport-Fall-18,36.1933,R
+1148,CR-Newburyport-R-9,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-108,North Station,CR-Weekday-Newburyport-Fall-18,35.3243,R
+1149,CR-Newburyport-R-10,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-100,North Station,CR-Weekday-Newburyport-Fall-18,35.3243,R
+1150,CR-Newburyport-R-11,CR-Newburyport,,Newburyport/Rockport Line,Commuter Rail,2,CR-Weekday-Fall-18-102,North Station,CR-Weekday-Newburyport-Fall-18,35.3243,R
+1151,CR-Providence-F-1,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-8801,Wickford Junction,CR-Weekday-Providence-Fall-18,19.6474,F
+1152,CR-Providence-F-2,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-903,Stoughton,CR-Weekday-Providence-Fall-18,18.9482,F
+1153,CR-Providence-F-3,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-915,Stoughton,CR-Weekday-Providence-Fall-18,18.9482,F
+1154,CR-Providence-F-4,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-909,Stoughton,CR-Weekday-Providence-Fall-18,18.9482,F
+1155,CR-Providence-F-5,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-819,Providence,CR-Weekday-Providence-Fall-18,43.3648,F
+1156,CR-Providence-F-6,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-813,Providence,CR-Weekday-Providence-Fall-18,43.3648,F
+1157,CR-Providence-F-7,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-801,Wickford Junction,CR-Weekday-Providence-Fall-18,63.0122,F
+1158,CR-Providence-F-8,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-803,Providence,CR-Weekday-Providence-Fall-18,43.3648,F
+1159,CR-Providence-F-9,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-817,Wickford Junction,CR-Weekday-Providence-Fall-18,63.0122,F
+1160,CR-Providence-F-10,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-809,Providence,CR-Weekday-Providence-Fall-18,43.3648,F
+1161,CR-Providence-F-11,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-811,Wickford Junction,CR-Weekday-Providence-Fall-18,63.0122,F
+1162,CR-Providence-F-12,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-805,Wickford Junction,CR-Weekday-Providence-Fall-18,63.0122,F
+1163,CR-Providence-F-13,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-829,Wickford Junction,CR-Weekday-Providence-Fall-18,63.0122,F
+1164,CR-Providence-R-1,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-922,South Station,CR-Weekday-Providence-Fall-18,18.9482,R
+1165,CR-Providence-R-2,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-914,South Station,CR-Weekday-Providence-Fall-18,18.9482,R
+1166,CR-Providence-R-3,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-908,South Station,CR-Weekday-Providence-Fall-18,18.9482,R
+1167,CR-Providence-R-4,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-900,South Station,CR-Weekday-Providence-Fall-18,18.9482,R
+1168,CR-Providence-R-5,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-904,South Station,CR-Weekday-Providence-Fall-18,18.9482,R
+1169,CR-Providence-R-6,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-842,South Station,CR-Weekday-Providence-Fall-18,37.1496,R
+1170,CR-Providence-R-7,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-804,South Station,CR-Weekday-Providence-Fall-18,43.3648,R
+1171,CR-Providence-R-8,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-808,South Station,CR-Weekday-Providence-Fall-18,63.0122,R
+1172,CR-Providence-R-9,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-810,South Station,CR-Weekday-Providence-Fall-18,43.3648,R
+1173,CR-Providence-R-10,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-820,South Station,CR-Weekday-Providence-Fall-18,43.3648,R
+1174,CR-Providence-R-11,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-830,South Station,CR-Weekday-Providence-Fall-18,63.0122,R
+1175,CR-Providence-R-12,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-800,South Station,CR-Weekday-Providence-Fall-18,43.3648,R
+1176,CR-Providence-R-13,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-822,South Station,CR-Weekday-Providence-Fall-18,63.0122,R
+1177,CR-Providence-R-14,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-806,South Station,CR-Weekday-Providence-Fall-18,63.0122,R
+1178,CR-Providence-R-15,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-832,South Station,CR-Weekday-Providence-Fall-18,63.0122,R
+1179,CR-Providence-R-16,CR-Providence,,Providence/Stoughton Line,Commuter Rail,2,CR-Weekday-Fall-18-802,South Station,CR-Weekday-Providence-Fall-18,63.0122,R
+1180,CR-Worcester-F-1,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-551,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1181,CR-Worcester-F-2,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-583,Framingham,CR-Weekday-Worcester-Fall-18,21.6055,F
+1182,CR-Worcester-F-3,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-507,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1183,CR-Worcester-F-4,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-587,Framingham,CR-Weekday-Worcester-Fall-18,21.6055,F
+1184,CR-Worcester-F-5,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-503,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1185,CR-Worcester-F-6,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-589,Ashland,CR-Weekday-Worcester-Fall-18,25.2379,F
+1186,CR-Worcester-F-7,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-519,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1187,CR-Worcester-F-8,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-591,Framingham,CR-Weekday-Worcester-Fall-18,21.6055,F
+1188,CR-Worcester-F-9,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-505,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1189,CR-Worcester-F-10,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-509,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1190,CR-Worcester-F-11,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-501,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1191,CR-Worcester-F-12,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-511,Worcester,CR-Weekday-Worcester-Fall-18,44.42,F
+1192,CR-Worcester-R-1,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-552,South Station,CR-Weekday-Worcester-Fall-18,44.42,R
+1193,CR-Worcester-R-2,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-592,South Station,CR-Weekday-Worcester-Fall-18,21.6055,R
+1194,CR-Worcester-R-3,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-504,South Station,CR-Weekday-Worcester-Fall-18,44.42,R
+1195,CR-Worcester-R-4,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-522,South Station,CR-Weekday-Worcester-Fall-18,44.42,R
+1196,CR-Worcester-R-5,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-502,South Station,CR-Weekday-Worcester-Fall-18,44.42,R
+1197,CR-Worcester-R-6,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-582,South Station,CR-Weekday-Worcester-Fall-18,21.6055,R
+1198,CR-Worcester-R-7,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-590,South Station,CR-Weekday-Worcester-Fall-18,27.5336,R
+1199,CR-Worcester-R-8,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-510,South Station,CR-Weekday-Worcester-Fall-18,44.42,R
+1200,CR-Worcester-R-9,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-536,South Station,CR-Weekday-Worcester-Fall-18,44.42,R
+1201,CR-Worcester-R-10,CR-Worcester,,Framingham/Worcester Line,Commuter Rail,2,CR-Weekday-Fall-18-500,South Station,CR-Weekday-Worcester-Fall-18,44.42,R
+1202,Green-B-F-1,Green-B,B,Green Line B,Rapid Transit,0,38091538,Boston College,LRV42018-hlb48011-Weekday-01,6.00013,F
+1203,Green-B-R-1,Green-B,B,Green Line B,Rapid Transit,0,38091432,Park Street,LRV42018-hlb48011-Weekday-01,6.16825,R
+1204,Green-C-F-1,Green-C,C,Green Line C,Rapid Transit,0,38091452,Cleveland Circle,LRV42018-hlb48011-Weekday-01,5.60721,F
+1205,Green-C-F-2,Green-C,C,Green Line C,Rapid Transit,0,38091450,Cleveland Circle,LRV42018-hlb48011-Weekday-01,6.55807,F
+1206,Green-C-R-1,Green-C,C,Green Line C,Rapid Transit,0,38091441,North Station,LRV42018-hlb48011-Weekday-01,5.60721,R
+1207,Green-C-R-2,Green-C,C,Green Line C,Rapid Transit,0,38091440,Lechmere,LRV42018-hlb48011-Weekday-01,6.4632,R
+1208,Green-D-F-1,Green-D,D,Green Line D,Rapid Transit,0,38092059,Reservoir,LRV42018-hlb48011-Weekday-01,7.08318,F
+1209,Green-D-F-2,Green-D,D,Green Line D,Rapid Transit,0,38091781,Riverside,LRV42018-hlb48011-Weekday-01,11.9141,F
+1210,Green-D-R-1,Green-D,D,Green Line D,Rapid Transit,0,38092045,Government Center,LRV42018-hlb48011-Weekday-01,5.62676,R
+1211,Green-D-R-2,Green-D,D,Green Line D,Rapid Transit,0,38092048,Lechmere,LRV42018-hlb48011-Weekday-01,6.98831,R
+1212,Green-D-R-3,Green-D,D,Green Line D,Rapid Transit,0,38091424,Government Center,LRV42018-hlb48011-Weekday-01,11.9141,R
+1213,Green-E-F-1,Green-E,E,Green Line E,Rapid Transit,0,38091790,Heath Street,LRV42018-hlb48011-Weekday-01,3.79119,F
+1214,Green-E-F-2,Green-E,E,Green Line E,Rapid Transit,0,38091474,Heath Street,LRV42018-hlb48011-Weekday-01,5.24761,F
+1215,Green-E-R-1,Green-E,E,Green Line E,Rapid Transit,0,38091793,Lechmere,LRV42018-hlb48011-Weekday-01,5.15274,R
+1216,Mattapan-F-1,Mattapan,,Mattapan Trolley,Rapid Transit,0,38099581,Mattapan,LRV42018-hlm48011-Weekday-01,2.42227,F
+1217,Mattapan-R-1,Mattapan,,Mattapan Trolley,Rapid Transit,0,38099579,Ashmont,LRV42018-hlm48011-Weekday-01,2.52248,R
+1218,716-F-1,716,716,Cobbs Corner - Mattapan,Local Bus,3,38590622,Cobbs Corner Canton,PRIV42018-hpa48011-Weekday-01,15.1161,F
+1219,716-R-1,716,716,Cobbs Corner - Mattapan,Local Bus,3,38590617,Mattapan,PRIV42018-hpa48011-Weekday-01,14.9078,R
+1220,710-F-1,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590662,Meadow Glen Mall,PRIV42018-hpj48011-Weekday-01,0.709396,F
+1221,710-F-2,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590663,Highland & Doonan via Meadow Glen Mall,PRIV42018-hpj48011-Weekday-01,4.87347,F
+1222,710-F-3,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590660,Highland & Doonan via Meadow Glen Mall,PRIV42018-hpj48011-Weekday-01,5.58287,F
+1223,710-F-4,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590655,Highland & Doonan,PRIV42018-hpj48011-Weekday-01,5.97166,F
+1224,710-F-5,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590654,Highland & Doonan via Meadow Glen Mall,PRIV42018-hpj48011-Weekday-01,6.68421,F
+1225,710-R-1,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590657,Super Stop & Shop via Meadow Glen Mall,PRIV42018-hpj48011-Weekday-01,5.55375,R
+1226,710-R-2,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590652,Wellington,PRIV42018-hpj48011-Weekday-01,5.8356,R
+1227,710-R-3,710,710,"North Medford - Medford Square, Meadow Glen Mall, or Wellington",Local Bus,3,38590670,Wellington via Meadow Glen Mall,PRIV42018-hpj48011-Weekday-01,6.54815,R
+1228,714-F-1,714,714,"Pemberton Point, Hull - Hingham",Local Bus,3,38590692,Pemberton Point via Washington Boulevard,PRIV42018-hpj48011-Weekday-01,7.58526,F
+1229,714-F-2,714,714,"Pemberton Point, Hull - Hingham",Local Bus,3,38590676,Pemberton Point Hull,PRIV42018-hpj48011-Weekday-01,8.50172,F
+1230,714-F-3,714,714,"Pemberton Point, Hull - Hingham",Local Bus,3,38590675,Pemberton Point via Hull Medical Center,PRIV42018-hpj48011-Weekday-01,9.75156,F
+1231,714-R-1,714,714,"Pemberton Point, Hull - Hingham",Local Bus,3,38590678,Station Street via Washington Boulevard,PRIV42018-hpj48011-Weekday-01,8.13497,R
+1232,714-R-2,714,714,"Pemberton Point, Hull - Hingham",Local Bus,3,38590686,Station Street Hingham,PRIV42018-hpj48011-Weekday-01,8.76042,R
+1233,714-R-3,714,714,"Pemberton Point, Hull - Hingham",Local Bus,3,38590677,Station Street via Hull Medical Center,PRIV42018-hpj48011-Weekday-01,10.0103,R
+1234,712-F-1,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589826,Winthrop Beach,PRIV42018-hpp48011-Weekday-01,2.86474,F
+1235,712-F-2,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589825,Winthrop Beach,PRIV42018-hpp48011-Weekday-01,3.11196,F
+1236,712-F-3,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589821,Point Shirley,PRIV42018-hpp48011-Weekday-01,4.48377,F
+1237,712-F-4,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589767,Point Shirley,PRIV42018-hpp48011-Weekday-01,4.73098,F
+1238,712-R-1,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589769,Orient Heights,PRIV42018-hpp48011-Weekday-01,2.86959,R
+1239,712-R-2,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589768,Orient Heights,PRIV42018-hpp48011-Weekday-01,3.11681,R
+1240,712-R-3,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589823,Orient Heights,PRIV42018-hpp48011-Weekday-01,4.51324,R
+1241,712-R-4,712,712,"Point Shirley, Winthrop - Orient Heights via Revere Street",Local Bus,3,38589820,Orient Heights,PRIV42018-hpp48011-Weekday-01,4.76046,R
+1242,713-F-1,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589880,Winthrop Beach,PRIV42018-hpp48011-Weekday-01,2.87736,F
+1243,713-F-2,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589866,Winthrop Beach,PRIV42018-hpp48011-Weekday-01,3.12458,F
+1244,713-F-3,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589863,Point Shirley,PRIV42018-hpp48011-Weekday-01,4.52101,F
+1245,713-F-4,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589861,Point Shirley,PRIV42018-hpp48011-Weekday-01,4.76823,F
+1246,713-R-1,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589828,Orient Heights,PRIV42018-hpp48011-Weekday-01,2.90199,R
+1247,713-R-2,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589813,Orient Heights,PRIV42018-hpp48011-Weekday-01,3.1492,R
+1248,713-R-3,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589743,Orient Heights,PRIV42018-hpp48011-Weekday-01,4.8467,R
+1249,713-R-4,713,713,"Point Shirley, Winthrop - Orient Heights via Winthrop Center",Local Bus,3,38589739,Orient Heights,PRIV42018-hpp48011-Weekday-01,5.09392,R
+1250,Blue-F-1,Blue,,Blue Line,Rapid Transit,1,38078730,Bowdoin,RTL42018-hmb48011-Weekday-01,3.85364,F
+1251,Blue-F-2,Blue,,Blue Line,Rapid Transit,1,38078722,Bowdoin,RTL42018-hmb48011-Weekday-01,5.95655,F
+1252,Blue-R-1,Blue,,Blue Line,Rapid Transit,1,38078723,Wonderland,RTL42018-hmb48011-Weekday-01,5.98855,R
+1253,Orange-F-1,Orange,,Orange Line,Rapid Transit,1,37940075,Forest Hills,RTL42018-hmo48011-Weekday-01,8.60047,F
+1254,Orange-F-2,Orange,,Orange Line,Rapid Transit,1,37940080,Forest Hills,RTL42018-hmo48011-Weekday-01,11.0705,F
+1255,Orange-R-1,Orange,,Orange Line,Rapid Transit,1,37940074,Oak Grove,RTL42018-hmo48011-Weekday-01,11.0705,R
+1256,Red-F-1,Red,,Red Line,Rapid Transit,1,38066187,Ashmont,RTL42018-hms48011-Weekday-01,11.8057,F
+1257,Red-F-2,Red,,Red Line,Rapid Transit,1,38066293,Braintree,RTL42018-hms48011-Weekday-01,17.7971,F
+1258,Red-R-1,Red,,Red Line,Rapid Transit,1,38066721,Alewife,RTL42018-hms48011-Weekday-01,8.9828,R
+1259,Red-R-2,Red,,Red Line,Rapid Transit,1,38066166,Alewife,RTL42018-hms48011-Weekday-01,11.8976,R
+1260,Red-R-3,Red,,Red Line,Rapid Transit,1,38066345,Alewife,RTL42018-hms48011-Weekday-01,17.7971,R
