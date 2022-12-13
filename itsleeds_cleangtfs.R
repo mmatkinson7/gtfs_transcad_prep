@@ -7,7 +7,7 @@ library(readr)
 
 #https://github.com/ITSLeeds/UK2GTFS/tree/0ecf4243a211aaa0520c948716612592867e03f5
 setwd("J:/My Drive/gtfs_to_transcad")
-out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\Nov11_Sandbox\\mbta2018_102418_20221108"
+out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\mbta2018_102418_20221207"
 dates <- c("20181024")
 
 
