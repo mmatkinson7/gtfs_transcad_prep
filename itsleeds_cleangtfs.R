@@ -1,3 +1,18 @@
+
+##### README #####
+# This file is intended to replicate part of the ITS Leeds UK2GTFS package for 
+# cleaning GTFS zip files in Massachusetts in support of TDM23.
+# Functions are very similar, just lightly edited to meet more of our needs
+# regarding MBTA RECAP GTFS files.
+# 
+# Resident Metaphysician: Margaret Atkinson (matkinson@ctps.org)
+#
+# Note: This file is used before the ipynb file that consolidates the routes
+#       and trips in the GTFS files prior to importing the GTFS into TransCAD.
+#       Run this first! (then python, then transcad tool)
+
+##### LIBRARIES #####
+
 #install.packages("remotes") # If you do not already have the remotes package
 #remotes::install_github("ITSleeds/UK2GTFS")
 library(UK2GTFS)
@@ -6,10 +21,16 @@ library(lubridate)
 library(readr)
 
 #https://github.com/ITSLeeds/UK2GTFS/tree/0ecf4243a211aaa0520c948716612592867e03f5
-setwd("J:/My Drive/gtfs_to_transcad")
-out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\mbta2018_102418_20221207"
-dates <- c("20181024")
 
+##### INPUTS #####
+
+setwd("J:/Shared drives/TMD_TSA/Model/networks/Transit/gtfs/bnrd/gtfs_zip")
+gtfs_zip = "/gtfs_bnrd_100422.zip"
+
+out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\bnrd"
+dates <- c() #MBTA 2019: dates <- c("20181024")
+
+##### FUNCTIONS #####
 
 gtfs_read2 <- function(path){
   checkmate::assert_file_exists(path)
@@ -159,13 +180,12 @@ gtfs_read2 <- function(path){
   if(length(message_log) > 0){
     message(paste(message_log, collapse = " "))
   }
-  
+
   return(gtfs)
 }
 
 
-mbta18 <- gtfs_read2(paste0(getwd(),"/GTFS_Recap_-_Fall_2018.zip"))
-problems(mbta18$stops)
+
 
 gtfs_clean2 <- function(gtfs) {
   # 1 Remove stops with no locations
@@ -183,44 +203,56 @@ gtfs_clean2 <- function(gtfs) {
   
   # filter out problematic stops from multiple files
   gtfs$stops$parent_station <-unlist(lapply(gtfs$stops$parent_station, 
-                                             function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
-  gtfs$transfers$from_stop_id <-unlist(lapply(gtfs$transfers$from_stop_id, 
-                                               function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
-  gtfs$transfers$to_stop_id <-unlist(lapply(gtfs$transfers$to_stop_id, 
-                                             function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
-  gtfs$pathways$from_stop_id <-unlist(lapply(gtfs$pathways$from_stop_id, 
-                                              function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
-  gtfs$pathways$to_stop_id <-unlist(lapply(gtfs$pathways$to_stop_id, 
                                             function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
-  gtfs$transfers <- gtfs$transfers %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
-  gtfs$pathways <- gtfs$pathways %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
+  for (x in c('transfers','pathways')){
+    if (x %in% names(gtfs)) {
+      gtfs[[x,exact=TRUE]]['from_stop_id'] <-unlist(lapply(gtfs[[x,exact=TRUE]]['from_stop_id'], 
+                                                           function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
+      gtfs[[x,exact=TRUE]]['to_stop_id'] <-unlist(lapply(gtfs[[x,exact=TRUE]]['to_stop_id'], 
+                                                         function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
+      gtfs[[x]] <- gtfs[[x]] %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
+    }
+  }
+  
   
   # remove shape_dist_traveled field - inconsistent, incorrect, and causes error. Not needed.
   gtfs$stop_times <- gtfs$stop_times %>% select(-shape_dist_traveled)
   
-  # choose only weekday schedules in all three calendar tables
-  gtfs$calendar_attributes <- gtfs$calendar_attributes %>% 
-    filter(service_description == "Weekday schedule" &
-             service_schedule_name == "Weekday" &
-             service_schedule_type == "Weekday")
   
-  gtfs$calendar <- gtfs$calendar %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
-  gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
   
-
-  # if want to filter out dates too: 
-  gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(date %in% dates)
-  drops <- gtfs$calendar_dates %>% 
-    filter(exception_type == 2) %>% 
-    select(service_id)
+  if ('calendar_attributes' %in% names(gtfs)) {
+    
+    # choose only weekday schedules in all three calendar tables
+    gtfs$calendar_attributes <- gtfs$calendar_attributes %>% 
+      filter(service_description == "Weekday schedule" &
+               service_schedule_name == "Weekday" &
+               service_schedule_type == "Weekday")
+    
+    gtfs$calendar <- gtfs$calendar %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
+  }
   
-  if (length(dates) == 1){
-    gtfs$calendar <- gtfs$calendar %>% 
-      filter(!((start_date > dates | end_date < dates) & (grepl("BUS",service_id)))) %>%
-      filter(!(service_id %in% drops))
+  
+  if ('calendar_dates' %in% names(gtfs)) {
+    gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(service_id %in% gtfs$calendar$service_id)
+    
+    if (length(dates) > 0){
+      # if want to filter out dates too: 
+      gtfs$calendar_dates <- gtfs$calendar_dates %>% filter(date %in% dates)
       
-    gtfs$calendar$start_date <- dates
-    gtfs$calendar$end_date <- dates
+      drops <- gtfs$calendar_dates %>% 
+        filter(exception_type == 2) %>% 
+        select(service_id)
+      
+      if (length(dates) == 1){
+        gtfs$calendar <- gtfs$calendar %>% 
+          filter(!((start_date > dates | end_date < dates) & (grepl("BUS",service_id)))) %>%
+          filter(!(service_id %in% drops))
+        
+        gtfs$calendar$start_date <- dates
+        gtfs$calendar$end_date <- dates
+      }
+      
+    }
   }
   
   #filter out trips for cleanliness
@@ -229,34 +261,37 @@ gtfs_clean2 <- function(gtfs) {
   return(gtfs)
 }
 
-mbta18_clean <- gtfs_clean2(mbta18)
 
 
-write.table(mbta18_clean$stop_times, file=paste0(out_folder,"/stop_times.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$stops, file=paste0(out_folder,"/stops.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$agency, file=paste0(out_folder,"/agency.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$routes, file=paste0(out_folder,"/routes.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$trips, file=paste0(out_folder,"/trips.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$calendar, file=paste0(out_folder,"/calendar.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$calendar_dates, file=paste0(out_folder,"/calendar_dates.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$shapes, file=paste0(out_folder,"/shapes.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$transfers, file=paste0(out_folder,"/transfers.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$levels, file=paste0(out_folder,"/levels.txt"),na="",sep=",",row.names = FALSE)
+write_gtfs <- function(gtfs) {
+  # write out mandatory files
+  mandatory_files = c('routes','trips','stops','stop_times','calendar','agency')
+  
+  for (x in mandatory_files) {
+    write.table(gtfs[[x]], file=paste0(out_folder,"\\",x,".txt"),na="",sep=",",row.names = FALSE)
+  }
+  
+  # write out non-mandatory files (optional but in mbta)
+  optional_files = c('calendar_dates','shapes','transfers','levels','facilities_properties','lines',
+                     'multi_route_trips','pathways','route_patterns','facilities','directions',
+                     'calendar attributes')
+  for (x in optional_files){
+    if (x %in% names(gtfs)){
+      write.table(gtfs[[x]], file=paste0(out_folder,"\\",x,".txt"),na="",sep=",",row.names = FALSE)
+    }
+  }
+}
 
-write.table(mbta18_clean$facilities_properties, 
-            file=paste0(out_folder,"/facilities_properties.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$lines, 
-            file=paste0(out_folder,"/lines.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$multi_route_trips, 
-            file=paste0(out_folder,"/multi_route_trips.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$pathways, 
-            file=paste0(out_folder,"/pathways.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$route_patterns, 
-            file=paste0(out_folder,"/route_patterns.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$facilities, 
-            file=paste0(out_folder,"/facilities.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$directions, 
-            file=paste0(out_folder,"/directions.txt"),na="",sep=",",row.names = FALSE)
-write.table(mbta18_clean$calendar_attributes, 
-            file=paste0(out_folder,"/calendar_attributes.txt"),na="",sep=",",row.names = FALSE)
+
+
+##### RUN #####
+
+redGTFS <- gtfs_read2(paste0(getwd(),gtfs_zip))
+problems(redGTFS$stops)
+
+cleanGTFS <- gtfs_clean2(redGTFS)
+
+write_gtfs(cleanGTFS)
+
+
 
