@@ -24,11 +24,11 @@ library(readr)
 
 ##### INPUTS #####
 
-setwd("J:/Shared drives/TMD_TSA/Model/networks/Transit/gtfs/bnrd/gtfs_zip")
-gtfs_zip = "/gtfs_bnrd_100422.zip"
+setwd("J:/Shared drives/TMD_TSA/Model/networks/Transit/gtfs/cata_2019")
+gtfs_zip = "/gtfs_zip/gtfs.zip"
 
-out_folder <- "C:\\Users\\matkinson.AD\\Downloads\\bnrd"
-dates <- c() #MBTA 2019: dates <- c("20181024")
+out_folder <- paste0(getwd(),"/1_gtfs_r")
+dates <- c("20181024") #MBTA 2019: dates <- c("20181024")
 
 ##### FUNCTIONS #####
 
@@ -206,9 +206,9 @@ gtfs_clean2 <- function(gtfs) {
                                             function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
   for (x in c('transfers','pathways')){
     if (x %in% names(gtfs)) {
-      gtfs[[x,exact=TRUE]]['from_stop_id'] <-unlist(lapply(gtfs[[x,exact=TRUE]]['from_stop_id'], 
+      gtfs[[x]]$from_stop_id <-unlist(lapply(gtfs[[x,exact=TRUE]]['from_stop_id'], 
                                                            function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
-      gtfs[[x,exact=TRUE]]['to_stop_id'] <-unlist(lapply(gtfs[[x,exact=TRUE]]['to_stop_id'], 
+      gtfs[[x]]$to_stop_id <-unlist(lapply(gtfs[[x,exact=TRUE]]['to_stop_id'], 
                                                          function(x) ifelse(x %in% gtfs$stops$stop_id, x, NA)))
       gtfs[[x]] <- gtfs[[x]] %>% filter(!is.na(to_stop_id) & !is.na(from_stop_id))
     }
@@ -217,18 +217,9 @@ gtfs_clean2 <- function(gtfs) {
   
   # remove shape_dist_traveled field - inconsistent, incorrect, and causes error. Not needed.
   gtfs$stop_times <- gtfs$stop_times %>% select(-shape_dist_traveled)
-  
-  
-  
+  gtfs$calendar <- gtfs$calendar %>% filter(monday+tuesday+wednesday+thursday+friday > 3)
   if ('calendar_attributes' %in% names(gtfs)) {
-    
-    # choose only weekday schedules in all three calendar tables
-    gtfs$calendar_attributes <- gtfs$calendar_attributes %>% 
-      filter(service_description == "Weekday schedule" &
-               service_schedule_name == "Weekday" &
-               service_schedule_type == "Weekday")
-    
-    gtfs$calendar <- gtfs$calendar %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
+    gtfs$calendar_attributes <- gtfs$calendar_attributes %>% filter(service_id %in% gtfs$calendar$service_id)
   }
   
   
@@ -274,7 +265,7 @@ write_gtfs <- function(gtfs) {
   # write out non-mandatory files (optional but in mbta)
   optional_files = c('calendar_dates','shapes','transfers','levels','facilities_properties','lines',
                      'multi_route_trips','pathways','route_patterns','facilities','directions',
-                     'calendar attributes')
+                     'calendar_attributes')
   for (x in optional_files){
     if (x %in% names(gtfs)){
       write.table(gtfs[[x]], file=paste0(out_folder,"\\",x,".txt"),na="",sep=",",row.names = FALSE)
