@@ -24,11 +24,11 @@ library(readr)
 
 ##### INPUTS #####
 
-setwd("J:/Shared drives/TMD_TSA/Model/networks/Transit/gtfs/cata_2019")
+setwd("J:/Shared drives/TMD_TSA/Model/networks/Transit/gtfs/bnrd")
 gtfs_zip = "/gtfs_zip/gtfs.zip"
 
 out_folder <- paste0(getwd(),"/1_gtfs_r")
-dates <- c("20181024") #MBTA 2019: dates <- c("20181024")
+dates <- c() #MBTA 2019: dates <- c("20181024") & BAT, CATA
 
 ##### FUNCTIONS #####
 
@@ -218,8 +218,14 @@ gtfs_clean2 <- function(gtfs) {
   # remove shape_dist_traveled field - inconsistent, incorrect, and causes error. Not needed.
   gtfs$stop_times <- gtfs$stop_times %>% select(-shape_dist_traveled)
   gtfs$calendar <- gtfs$calendar %>% filter(monday+tuesday+wednesday+thursday+friday > 3)
+  
   if ('calendar_attributes' %in% names(gtfs)) {
     gtfs$calendar_attributes <- gtfs$calendar_attributes %>% filter(service_id %in% gtfs$calendar$service_id)
+    
+    # this clause is specifically for the MBTA
+    gtfs$calendar_attributes <- gtfs$calendar_attributes %>% filter(!(grepl("no school",service_description)))
+    gtfs$calendar <- gtfs$calendar %>% filter(service_id %in% gtfs$calendar_attributes$service_id)
+   
   }
   
   
